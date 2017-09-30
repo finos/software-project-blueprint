@@ -12,7 +12,7 @@ Legal blueprint for new Foundation-hosted projects.
   | `{yyyy}`                    | The year you started working on the code.                         |
   | `{name of copyright owner}` | The copyright owner of the code (typically you or your employer). |
 
-3. Open the `NOTICE` file in a text editor and [add attributions if required by your code's dependencies](https://symphonyoss.atlassian.net/wiki/display/FM/License+Categories).
+3. Open the `NOTICE` file in a text editor and either remove the `{any attributions required by your dependencies}` token, or [add attributions if required by your code's dependencies](https://symphonyoss.atlassian.net/wiki/display/FM/License+Categories).
 4. Add the [Apache license header to all of your source files](https://symphonyoss.atlassian.net/wiki/display/FM/Legal+Requirements#LegalRequirements-Sourcecodelicenseheaders).
 5. Commit all of your changes.
 
