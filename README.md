@@ -6,11 +6,11 @@ Legal blueprint for new Foundation-hosted projects.
 1. Copy the `LICENSE`, `LICENSE.spdx`, and `NOTICE` files, as well as the entire `.github` directory, to your own repository (do _not_ copy this `README.md` file, unless you don't have one).
 2. Search and replace the following tokens in the newly copied files:
 
-  | Token                     | Replace with                                                      |
-  | ------------------------- | ----------------------------------------------------------------- |
-  | {project name}            | The name of the GitHub repository the project resides in.         |
-  | {yyyy}                    | The year you started working on the code.                         |
-  | {name of copyright owner} | The copyright owner of the code (typically you or your employer). |
+  | Token                       | Replace with                                                      |
+  | --------------------------- | ----------------------------------------------------------------- |
+  | `{project name}`            | The name of the GitHub repository the project resides in.         |
+  | `{yyyy}`                    | The year you started working on the code.                         |
+  | `{name of copyright owner}` | The copyright owner of the code (typically you or your employer). |
 
 3. Commit all your changes
 
