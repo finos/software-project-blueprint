@@ -1,3 +1,3 @@
-<iframe width="1024px" height="768px" src="https://symphonyoss.atlassian.net/wiki/spaces/FM/pages/126648367/Community+Code+of+Conduct"></iframe>
+# Code of Conduct for {project name}
 
-From [https://symphonyoss.atlassian.net/wiki/spaces/FM/pages/126648367/Community+Code+of+Conduct](https://symphonyoss.atlassian.net/wiki/spaces/FM/pages/126648367/Community+Code+of+Conduct)
+Please see the [Community Code of Conduct on the Foundation wiki](https://symphonyoss.atlassian.net/wiki/spaces/FM/pages/126648367/Community+Code+of+Conduct").
