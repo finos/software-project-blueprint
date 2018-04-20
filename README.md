@@ -1,5 +1,5 @@
 # project-blueprint
-Legal blueprint for new Foundation-hosted projects.
+Legal blueprint for new [FINOS](https://www.finos.org/)-hosted projects.
 
 ## How to use this repository
 
@@ -8,17 +8,18 @@ Legal blueprint for new Foundation-hosted projects.
 
   | Token                       | Replace with                                                      |
   | --------------------------- | ----------------------------------------------------------------- |
+  | `{program name}`            | The name of the GitHub organization the project resides in.       |
   | `{project name}`            | The name of the GitHub repository the project resides in.         |
   | `{yyyy}`                    | The year you started working on the code.                         |
   | `{name of copyright owner}` | The copyright owner of the code (typically you or your employer). |
 
 3. Open the `NOTICE` file in a text editor and either remove the `{any attributions required by your dependencies}` token, or [add attributions if required by your code's dependencies](https://symphonyoss.atlassian.net/wiki/display/FM/License+Categories).
-4. Add the [Apache license header to all of your source files](https://symphonyoss.atlassian.net/wiki/display/FM/Legal+Requirements#LegalRequirements-Sourcecodelicenseheaders).
+4. Add the Apache license header to all of your source files.
 5. Commit all of your changes.
 
 ## License
 
-Copyright © 2017 Symphony Software Foundation
+Copyright © 2017 FINOS
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
