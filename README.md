@@ -2,12 +2,12 @@
 
 # project-blueprint
 
-Legal blueprint for new [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) hosted projects.
+Project blueprint for new [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) hosted GitHub repositories.
 
-## How to use this repository
+## How to use this blueprint
 
-1. Clone this repository locally
-2. Copy the `LICENSE`, `LICENSE.spdx`, and `NOTICE` files, as well as the entire `.github` directory, to your repository (do _not_ copy this `README.md` file).
+1. Clone this repository locally (`git clone https://github.com/finos/project-blueprint.git`)
+2. Copy the `LICENSE`, `LICENSE.spdx`, and `NOTICE` files, as well as the entire `.github` directory, to your own repository (do _not_ copy this `README.md` file).
 3. Copy the `README.template.md` file to your repository, and rename it to `README.md`.
 4. Search and replace the following tokens in the newly copied files:
 
@@ -19,8 +19,9 @@ Legal blueprint for new [Fintech Open Source Foundation (FINOS)](https://www.fin
   | `{name of copyright owner}` | The copyright owner of the code (typically you or your employer). |
 
 5. Open the `NOTICE` file in a text editor and either remove the `{any attributions required by your dependencies}` token, or [add attributions if required by your code's dependencies](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530255/License+Categories).
-6. Add the [Apache license header to all of your source files](https://www.apache.org/licenses/LICENSE-2.0.html#apply).
-7. Commit all of your changes.
+6. Open the `README.md` file in a text editor and complete the content as appropriate for your project.
+7. Add the [Apache license header to all of your source files](https://www.apache.org/licenses/LICENSE-2.0.html#apply).
+8. Commit all of your changes.
 
 ## License
 
