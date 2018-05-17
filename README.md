@@ -11,14 +11,15 @@ Project blueprint for new [Fintech Open Source Foundation (FINOS)](https://www.f
 3. Copy the `README.template.md` file to your repository, and rename it to `README.md`.
 4. Search and replace the following tokens in the newly copied files:
 
-  | Token                       | Replace with                                                      |
-  | --------------------------- | ----------------------------------------------------------------- |
-  | `{program name}`            | The name of the GitHub organization the project resides in.       |
-  | `{project name}`            | The name of the GitHub repository the project resides in.         |
-  | `{yyyy}`                    | The year you started working on the code.                         |
-  | `{name of copyright owner}` | The copyright owner of the code (typically you or your employer). |
+  | Token                        | Replace with                                                      |
+  | ---------------------------- | ----------------------------------------------------------------- |
+  | `{program name}`             | The name of the GitHub organization the project resides in.       |
+  | `{project name}`             | The name of the GitHub repository the project resides in.         |
+  | `{yyyy}`                     | The year you started working on the code.                         |
+  | `{name of copyright owner}`  | The copyright owner of the code (typically you or your employer). |
+  | `{email of copyright owner}` | The email address of the copyright owner of the code (if known).  |
 
-5. Open the `NOTICE` file in a text editor and either remove the `{any attributions required by your dependencies}` token, or [add attributions if required by your code's dependencies](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530255/License+Categories).
+5. Open the `NOTICE` file in a text editor and either remove the `{Other notices, as necessary}` token, or [add attributions if required by your code's dependencies](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530255/License+Categories).
 6. Open the `README.md` file in a text editor and complete the content as appropriate for your project.
 7. Add the [Apache license header to all of your source files](https://www.apache.org/licenses/LICENSE-2.0.html#apply).
 8. Commit all of your changes.
