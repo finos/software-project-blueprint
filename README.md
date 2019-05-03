@@ -26,7 +26,7 @@ Project blueprint for new [Fintech Open Source Foundation (FINOS)](https://www.f
 
 ## License
 
-Copyright 2017 Fintech Open Source Foundation
+Copyright 2019 Fintech Open Source Foundation
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
