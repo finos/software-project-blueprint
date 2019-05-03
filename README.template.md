@@ -44,6 +44,11 @@ npm test
 5. Push to the branch (`git push origin feature/fooBar`)
 6. Create a new Pull Request
 
+*NOTE:* Commits and pull requests to FINOS repositories will only be accepted from those contributors with an active, executed Individual Contributor License Agreement (ICLA) with FINOS OR who are covered under an existing and active Corporate Contribution License Agreement (CCLA) executed with FINOS. Commits from individuals not covered under an ICLA or CCLA will be flagged and blocked by the FINOS Clabot tool. Please note that some CCLAs require individuals/employeees to be explicitly named on the CCLA.
+
+*Need an ICLA? Unsure if you are covered under an existing CCLA? Email [help@finos.org](mailto:help@finos.org)*
+
+
 ## License
 
 Copyright {yyyy} {name of copyright owner}
