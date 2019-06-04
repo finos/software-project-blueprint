@@ -1,5 +1,4 @@
 # Contributing to {project name}
-:+1: First off, thanks for taking the time to contribute! :+1:
 
 # Contributor License Agreement (CLA)
 A CLA is a document that specifies how a project is allowed to use your
@@ -37,7 +36,7 @@ To make review of PRs easier, please:
  * For documentation contributions, follow the general structure, language, and tone of the [existing docs](https://github.com/{program name}/{project name}/wiki).
  * Keep commits small and cohesive - if you have multiple contributions, please submit them as independent commits (and ideally as independent PRs too).
  * Reference issue #s if your PR has anything to do with an issue (even if it doesn't address it).
- * Minimise non-functional changes (e.g. whitespace shenanigans).
+ * Minimise non-functional changes (e.g. whitespace).
  * Ensure all new files include a header comment block containing the [Apache License v2.0 and your copyright information](http://www.apache.org/licenses/LICENSE-2.0#apply).
  * If necessary (e.g. due to 3rd party dependency licensing requirements), update the [NOTICE file](https://github.com/{program name}/{project name}/blob/master/NOTICE) with any new attribution or other notices
 
