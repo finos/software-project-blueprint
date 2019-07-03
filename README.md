@@ -16,6 +16,7 @@ Project blueprint for new [Fintech Open Source Foundation (FINOS)](https://www.f
   | `{program name}`             | The name of the GitHub organization the project resides in.       |
   | `{project name}`             | The name of the GitHub repository the project resides in.         |
   | `{yyyy}`                     | The year you started working on the code.                         |
+  | `{current_year}`             | The current year.                                                 |
   | `{name of copyright owner}`  | The copyright owner of the code (typically you or your employer). |
   | `{email of copyright owner}` | The email address of the copyright owner of the code (if known).  |
 
