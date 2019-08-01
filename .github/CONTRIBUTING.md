@@ -14,7 +14,7 @@ Commits and pull requests to FINOS repositories will only be accepted from those
 
 As a result, PRs submitted to the {project name} project cannot be accepted until you have a CLA in place with the Foundation.
 
-Need an ICLA? Unsure if you are covered under an existing CCLA? Email help@finos.org
+Need an ICLA? Unsure if you are covered under an existing CCLA? Email [help@finos.org](mailto:help@finos.org?subject=CLA)
 
 # Contributing Issues
 
