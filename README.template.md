@@ -35,6 +35,14 @@ make install
 npm test
 ```
 
+## Roadmap
+
+List the roadmap steps; alternatively link the Confluence Wiki page where the project roadmap is published.
+
+1. Item 1
+2. Item 2
+3. ....
+
 ## Contributing
 
 1. Fork it (<https://github.com/{program name}/{project name}/fork>)
