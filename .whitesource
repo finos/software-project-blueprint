@@ -1,7 +1,6 @@
 {
   "scanSettings": {
-    "configMode": "EXTERNAL",
-    "configExternalURL" : "https://raw.githubusercontent.com/finos/{github repository name}/master/finos-whitesource-agent.config"
+    "configMode": "LOCAL"
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure"
