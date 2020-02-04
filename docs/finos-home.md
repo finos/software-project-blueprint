@@ -1,6 +1,6 @@
 ---
 id: finos-home
-title: ODP Home
+title: Home
 ---
 
 # Example Header
