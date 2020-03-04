@@ -1,5 +1,4 @@
 CONTRIBUTING_PATH=docs/contributing.md
-ls
 cp ./.github/CONTRIBUTING.md $CONTRIBUTING_PATH
 echo '---
 id: contributing
