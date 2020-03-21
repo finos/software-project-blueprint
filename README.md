@@ -1,6 +1,8 @@
 <img align="right" width="40%" src="https://www.finos.org/hubfs/FINOS/finos-logo/FINOS_Icon_Wordmark_Name_RGB_horizontal.png">
 
 # project-blueprint
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffinos%2Fproject-blueprint.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffinos%2Fproject-blueprint?ref=badge_shield)
+
 
 Project blueprint for new [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) hosted GitHub repositories.
 
@@ -32,3 +34,6 @@ Copyright 2019 Fintech Open Source Foundation
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 SPDX-License-Identifier: [Apache-2.0](https://spdx.org/licenses/Apache-2.0)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffinos%2Fproject-blueprint.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffinos%2Fproject-blueprint?ref=badge_large)
