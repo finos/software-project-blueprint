@@ -2,8 +2,7 @@
   "docs": {
     "Docusaurus": ["notes-2018-07-25"],
     "First Category": ["notes-2018-07-25"],
-    "Second Category": ["notes-2018-07-25"],
-    { href: 'https://www.finos.org/privacy-policy', label: 'FINOS Privacy Policy' }
+    "Second Category": ["notes-2018-07-25"]
   },
   "docs-other": {
     "First Category": ["notes-2018-07-25", "notes-2018-07-25"]
