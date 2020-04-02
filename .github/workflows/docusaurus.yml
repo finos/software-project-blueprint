@@ -8,6 +8,7 @@ on:
   push:
     branches:
       - master
+      - docusaurus-migration
     paths:
       - '.github/workflows/docusaurus.yml'
       - 'docs/**'
@@ -57,11 +58,12 @@ jobs:
         if [ "$GIT_USERNAME" == "finos" ] && [ "${{github.event_name }}" == "push" ]
         then GIT_USERNAME="finos-admin"
         elif [ "$GIT_USERNAME" == "finos" ] && [ "${{github.event_name }}" == "pull_request" ]
-        then echo "Skipping publishing, as it's coming from a PR"; exit 0
+        then echo "Skipping publish, as this is a PR, not a Push event" ; exit 0
         fi
         # Configure git client
         echo "Git repo - $REPO"
         echo "Git user - $GIT_USERNAME"
+        echo "Event name - ${{github.event_name }}"
         git config --global user.email "$GIT_USERNAME@users.noreply.github.com"
         git config --global user.name "$GIT_USERNAME"
         echo "machine github.com login $GIT_USERNAME password $GITHUB_TOKEN" > ~/.netrc
@@ -69,8 +71,11 @@ jobs:
         GIT_USER=$GIT_USERNAME npm run publish-gh-pages --prefix website
 
 # TODO Getting 403 as described on https://github.com/danger/danger-js/issues/918
-# - name: Add comment to PR
-#   if: github.event_name == 'pull_request'
-#   uses: unsplash/comment-on-pr@master
-#   with:
-#     msg: "Website preview available at https://${{ github.actor }}.github.io/${{ env.REPO_NAME }}"
+#     - name: Add comment to PR
+#       if: github.event_name == 'pull_request'
+#       uses: unsplash/comment-on-pr@master
+#       with:
+#         msg: "Website preview available at https://${{ github.actor }}.github.io/${{ env.REPO_NAME }}"
+#     - name: Comment backup step
+#       if: failure()
+#       run: echo "Could not add comment, see error above"
