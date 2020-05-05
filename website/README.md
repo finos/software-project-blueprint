@@ -10,19 +10,27 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 
 # Get Started in 5 Minutes
 
-1. Make sure all the dependencies for the website are installed:
-
+1. Ensure NodeJS is installed
 ```sh
-# Install dependencies
-$ yarn
+$ node -v
+$ npm -v
 ```
 
-2. Run your dev server:
+2. Install and run Docusaurus locally
 
 ```sh
-# Start the site
-$ yarn start
+$ git clone git@github.com:<your fork>/{project name}.git
+$ cd {project name}
+
+# Download dependencies
+$ yarn --cwd website install
+
+# Generate contributing.md page
+./scripts/build-contribute-page.sh
+
+$ yarn --cwd website start
 ```
+This will open a browser on http://localhost:3300
 
 ## Directory Structure
 
@@ -68,23 +76,6 @@ Edit me...
 
 For more information about docs, click [here](https://docusaurus.io/docs/en/navigation)
 
-## Editing an existing blog post
-
-Edit blog posts by navigating to `website/blog` and editing the corresponding post:
-
-`website/blog/post-to-be-edited.md`
-
-```markdown
----
-id: post-needs-edit
-title: This Blog Post Needs To Be Edited
----
-
-Edit me...
-```
-
-For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)
-
 # Adding Content
 
 ## Adding a new docs page to an existing sidebar
@@ -117,37 +108,6 @@ My new content here..
 ```
 
 For more information about adding new docs, click [here](https://docusaurus.io/docs/en/navigation)
-
-## Adding a new blog post
-
-1. Make sure there is a header link to your blog in `website/siteConfig.js`:
-
-`website/siteConfig.js`
-
-```javascript
-headerLinks: [
-    ...
-    { blog: true, label: 'Blog' },
-    ...
-]
-```
-
-2. Create the blog post with the format `YYYY-MM-DD-My-Blog-Post-Title.md` in `website/blog`:
-
-`website/blog/2018-05-21-New-Blog-Post.md`
-
-```markdown
----
-author: Frank Li
-authorURL: https://twitter.com/foobarbaz
-authorFBID: 503283835
-title: New Blog Post
----
-
-Lorem Ipsum...
-```
-
-For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)
 
 ## Adding items to your site's top navigation bar
 
