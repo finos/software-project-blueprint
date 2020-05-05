@@ -37,18 +37,14 @@ This will open a browser on http://localhost:3300
 Your project file structure should look something like this
 
 ```
-my-docusaurus/
+/
   docs/
-    doc-1.md
-    doc-2.md
-    doc-3.md
+    home.md
+    roadmap.md
+    team.md
   website/
-    blog/
-      2016-3-11-oldest-post.md
-      2017-10-24-newest-post.md
-    core/
-    node_modules/
-    pages/
+    pages/en
+      index.js
     static/
       css/
       img/
@@ -57,7 +53,14 @@ my-docusaurus/
     siteConfig.js
 ```
 
-# Editing Content
+# Editing pages
+This website only includes one page, the `index.js`, which serves the `/` root path of the website.
+
+You can edit contents there, feel free to check other index pages to take inspiration:
+- [FDC3](http://fdc3.org/) - https://github.com/finos/FDC3/blob/master/website/pages/en/index.js
+- [Financial Objects](https://fo.finos.org/) - https://github.com/finos/finos-fo/blob/master/website/pages/en/index.js
+
+# Editing docs contents
 
 ## Editing an existing docs page
 
