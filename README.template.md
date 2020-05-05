@@ -1,6 +1,5 @@
-Badges go here (see [shields.io](https://shields.io/), for examples).
-
 [![FINOS - Incubating](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-incubating.svg)](https://finosfoundation.atlassian.net/wiki/display/FINOS/Incubating)
+![Docusaurus-website-build](https://github.com/finos/{project name}/workflows/Docusaurus-website-build/badge.svg)
 
 # {project name}
 
@@ -45,7 +44,7 @@ List the roadmap steps; alternatively link the Confluence Wiki page where the pr
 
 ## Contributing
 
-1. Fork it (<https://github.com/{program name}/{project name}/fork>)
+1. Fork it (<https://github.com/finos/{project name}/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Read our [contribution guidelines](.github/CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
 4. Commit your changes (`git commit -am 'Add some fooBar'`)
