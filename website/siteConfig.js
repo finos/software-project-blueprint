@@ -23,7 +23,6 @@ const siteConfig = {
     {href: 'https://github.com/finos/project-blueprint', label: 'GitHub'},
     {blog: false}
   ],
-  users,
 
   // Update icon files with program/project logos
   headerIcon: 'img/favicon/favicon-finos.ico',   
