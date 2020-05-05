@@ -1,5 +1,5 @@
 [![FINOS - Incubating](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-incubating.svg)](https://finosfoundation.atlassian.net/wiki/display/FINOS/Incubating)
-![Docusaurus-website-build](https://github.com/finos/{project name}/workflows/Docusaurus-website-build/badge.svg)
+![website build](https://github.com/finos/{project name}/workflows/Docusaurus-website-build/badge.svg)
 
 # {project name}
 
