@@ -40,52 +40,36 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('')}>
+            <a href={this.docUrl('home')}>
               Getting Started
             </a>
-            <a href={this.docUrl('')}>
-              Why Project Blueprint
+            <a href={this.docUrl('team')}>
+              Team
             </a>
-            <a href={this.docUrl('')}>
-              Use Cases
+            <a href={this.docUrl('roadmap')}>
+              Roadmap
             </a>
           </div>
           <div>
-            <h5>Community</h5>
+            <h5>FINOS</h5>
             <a
               href="https://www.finos.org/"
               target="_blank"
               rel="noreferrer noopener">
-              FINOS
+              FINOS Website
             </a>
             <a
-              href="https://www.finos.org/"
+              href="https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook"
               target="_blank"
               rel="noreferrer noopener">
-              Project Blueprint Wiki
+              Community Handbook
             </a>
             <a
-              href="https://www.finos.org/"
+              href="https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530783/Community+Governance"
               target="_blank"
               rel="noreferrer noopener">
-              Google Groups
+              Community Governance
             </a>            
-            {/* <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
-            </a>
-            <a
-              href="http://stackoverflow.com/questions/tagged/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Stack Overflow
-            </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter
-            </a> */}
           </div>
           <div>
             <h5>More</h5>
@@ -109,6 +93,13 @@ class Footer extends React.Component {
                 </a>
               </div>
             )}
+            <div className="social">
+              <a
+                href={`https://www.linkedin.com/company/finosfoundation`}
+                className="linkedin-follow-button">
+                FINOS on LinkedIn
+              </a>
+            </div>
           </div>
         </section>
         <section className="finos finosBanner">

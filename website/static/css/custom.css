@@ -35,16 +35,6 @@ header.postHeader:empty + article h1 {
   max-width: 220px;
 }
 
-
-
-.productShowcaseSection .logos img {
-  width: 200px;
-}
-
-.showcaseSection .logos img {
-  width: 250px;
-}
-
 .showcase {
   align-items: center;
   display: flex;
@@ -53,21 +43,10 @@ header.postHeader:empty + article h1 {
   padding: 20px;
 }
 
-.showcase img {
-  width: 250px;
-  max-height: 150px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .finos {
   padding-top: 30px; /* CHANGED 14 MAY 2019 */
   padding-bottom: 30px;
   text-align: center;
-}
-
-.userShowcase p {
-  max-width: 60%;
 }
 
 /* CSS added 14 May 2019 */
@@ -135,23 +114,6 @@ body {
   color:  #0086bf;  /* DO NOT CHANGE - THIS IS THE TITLE UNDER THE ICONS IN THE 3RD BLOCK - SHOULD STAY FINOS BLUE */
 }
 
-
-.featureShowcaseSection .logos img {
-  width: 200px;
-  
-}
-
-.featureShowcaseSection h2{
-  color: #0033A0; /* CHANGE THIS TO PRIMARY PROJECT COLOR */
-  font-size: 30px;
-}
-
-.featureShowcaseSection {
-  background-color: #F7F7F7; /* CHANGE THIS TO PRIMARY PROJECT COLOR */
-  padding-top: 10px;
-  padding-bottom: 40px;
-}
-
 .surveyBanner {
   background-color: #F7F7F7; /* CHANGE THIS TO PRIMARY PROJECT COLOR */
   padding-top: 10px;
@@ -165,10 +127,6 @@ body {
 .CTA-image {
   width: 200px;
   flex: none;
-}
-
-.productShowcaseSection h2{
-  color: #0033A0; /* CHANGE THIS TO PRIMARY PROJECT COLOR */
 }
 
 

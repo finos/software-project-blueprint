@@ -10,37 +10,41 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 
 # Get Started in 5 Minutes
 
-1. Make sure all the dependencies for the website are installed:
-
+1. Ensure NodeJS is installed
 ```sh
-# Install dependencies
-$ yarn
+$ node -v
+$ npm -v
 ```
 
-2. Run your dev server:
+2. Install and run Docusaurus locally
 
 ```sh
-# Start the site
-$ yarn start
+$ git clone git@github.com:<your fork>/{project name}.git
+$ cd {project name}
+
+# Download dependencies
+$ yarn --cwd website install
+
+# Generate contributing.md page
+./scripts/build-contribute-page.sh
+
+$ yarn --cwd website start
 ```
+This will open a browser on http://localhost:3300
 
 ## Directory Structure
 
 Your project file structure should look something like this
 
 ```
-my-docusaurus/
+/
   docs/
-    doc-1.md
-    doc-2.md
-    doc-3.md
+    home.md
+    roadmap.md
+    team.md
   website/
-    blog/
-      2016-3-11-oldest-post.md
-      2017-10-24-newest-post.md
-    core/
-    node_modules/
-    pages/
+    pages/en
+      index.js
     static/
       css/
       img/
@@ -49,7 +53,14 @@ my-docusaurus/
     siteConfig.js
 ```
 
-# Editing Content
+# Editing pages
+This website only includes one page, the `index.js`, which serves the `/` root path of the website.
+
+You can edit contents there, feel free to check other index pages to take inspiration:
+- [FDC3](http://fdc3.org/) - https://github.com/finos/FDC3/blob/master/website/pages/en/index.js
+- [Financial Objects](https://fo.finos.org/) - https://github.com/finos/finos-fo/blob/master/website/pages/en/index.js
+
+# Editing docs contents
 
 ## Editing an existing docs page
 
@@ -67,23 +78,6 @@ Edit me...
 ```
 
 For more information about docs, click [here](https://docusaurus.io/docs/en/navigation)
-
-## Editing an existing blog post
-
-Edit blog posts by navigating to `website/blog` and editing the corresponding post:
-
-`website/blog/post-to-be-edited.md`
-
-```markdown
----
-id: post-needs-edit
-title: This Blog Post Needs To Be Edited
----
-
-Edit me...
-```
-
-For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)
 
 # Adding Content
 
@@ -117,37 +111,6 @@ My new content here..
 ```
 
 For more information about adding new docs, click [here](https://docusaurus.io/docs/en/navigation)
-
-## Adding a new blog post
-
-1. Make sure there is a header link to your blog in `website/siteConfig.js`:
-
-`website/siteConfig.js`
-
-```javascript
-headerLinks: [
-    ...
-    { blog: true, label: 'Blog' },
-    ...
-]
-```
-
-2. Create the blog post with the format `YYYY-MM-DD-My-Blog-Post-Title.md` in `website/blog`:
-
-`website/blog/2018-05-21-New-Blog-Post.md`
-
-```markdown
----
-author: Frank Li
-authorURL: https://twitter.com/foobarbaz
-authorFBID: 503283835
-title: New Blog Post
----
-
-Lorem Ipsum...
-```
-
-For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)
 
 ## Adding items to your site's top navigation bar
 

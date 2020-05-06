@@ -13,7 +13,6 @@ Project blueprint for new [Fintech Open Source Foundation (FINOS)](https://www.f
 
   | Token                        | Replace with                                                      |
   | ---------------------------- | ----------------------------------------------------------------- |
-  | `{program name}`             | The name of the GitHub organization the project resides in.       |
   | `{project name}`             | The name of the GitHub repository the project resides in.         |
   | `{yyyy}`                     | The year you started working on the code.                         |
   | `{current_year}`             | The current year.                                                 |
