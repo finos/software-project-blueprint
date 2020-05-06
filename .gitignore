@@ -1,13 +1,15 @@
 .DS_Store
 
-node_modules
-
-lib/core/metadata.js
-lib/core/MetadataBlog.js
-
-website/translated_docs
+# Docusaurus generated folders
+website/translated_docs/
 website/build/
-website/yarn.lock
+website/i18n/
+
+# Yarn build
+website/node_modules/
+
+# Generated docs
+docs/contributing.md
+
+# We use YARN
 website/package-lock.json
-website/node_modules
-website/i18n/*
