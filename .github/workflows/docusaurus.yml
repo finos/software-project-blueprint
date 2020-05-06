@@ -68,7 +68,7 @@ jobs:
         git config --global user.name "$GIT_USERNAME"
         echo "machine github.com login $GIT_USERNAME password $GITHUB_TOKEN" > ~/.netrc
         # Run docusaurus-publish
-        GIT_USER=$GIT_USERNAME npm run publish-gh-pages --prefix website
+        GIT_USER="finos-admin" npm run publish-gh-pages --prefix website
     - name: Create comment
       if: github.event_name == 'pull_request' && !contains(github.repository, 'finos/')
       uses: peter-evans/create-or-update-comment@v1
