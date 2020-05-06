@@ -97,7 +97,7 @@ class Footer extends React.Component {
               <a
                 href={`https://www.linkedin.com/company/finosfoundation`}
                 className="linkedin-follow-button">
-                FINOS on LinkedIN
+                FINOS on LinkedIn
               </a>
             </div>
           </div>
