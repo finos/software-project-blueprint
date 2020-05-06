@@ -6,13 +6,18 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
+// Replace 'project-blueprint' with {project name}
+const projectName = 'project-blueprint'
+// Replace 'FINOS' with {name of copyright owner}
+const copyrightOwner = 'FINOS'
+
 const siteConfig = {
-  title: 'FINOS {project name}',
-  tagline: 'FINOS {project name}',
-  url: 'https://finos.github.io/{project name}',
-  baseUrl: '/{project name}/',
-  projectName: '{project name}',
-  repoUrl: 'https://github.com/finos/{project name}',
+  title: `FINOS ${projectName}`,
+  tagline: `FINOS ${projectName}`,
+  url: `https://finos.github.io/${projectName}`,
+  baseUrl: `/${projectName}/`,
+  projectName: projectName,
+  repoUrl: `https://github.com/finos/${projectName}`,
   organizationName: 'FINOS',
 
   // Header menu
@@ -20,7 +25,7 @@ const siteConfig = {
     {doc: 'home', label: 'Docs'},
     {doc: 'roadmap', label: 'Roadmap'},
     {doc: 'team', label: 'Team'},
-    {href: 'https://github.com/finos/project-blueprint', label: 'GitHub'},
+    {href: `https://github.com/finos/${projectName}`, label: 'GitHub'},
     {blog: false}
   ],
 
@@ -35,7 +40,7 @@ const siteConfig = {
   },
 
   // Change the copyright info with correct program/project names */
-  copyright: `Copyright © ${new Date().getFullYear()} {project name} - {name of copyright owner}`,
+  copyright: `Copyright © ${new Date().getFullYear()} ${projectName} - ${copyrightOwner}`,
 
   highlight: {
     theme: 'default',
