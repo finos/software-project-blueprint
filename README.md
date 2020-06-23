@@ -2,14 +2,15 @@
 
 # project-blueprint
 
-Project blueprint for new [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) hosted GitHub repositories.
+Project blueprint is a GitHub repository template for all [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) hosted GitHub repositories, contributed and maintained by FINOS as part of the [Open Developer Platform (ODP)](https://odp.finos.org) initiative.
 
 ## How to use this blueprint
 
-1. Clone this repository locally (`git clone https://github.com/finos/project-blueprint.git`)
-2. Copy the `LICENSE`, `LICENSE.spdx`, and `NOTICE` files, as well as the entire `.github` directory, to your own repository (do _not_ copy this `README.md` file).
-3. Copy the `README.template.md` file to your repository, and rename it to `README.md`.
-4. Search and replace the following tokens in the newly copied files:
+1. Read the docs on [ODP website](https://odp.finos.org/docs/project-collaboration#finos-project-blueprint)
+2. Clone this repository locally (`git clone https://github.com/finos/project-blueprint.git`)
+3. Copy the `LICENSE`, `LICENSE.spdx`, and `NOTICE` files, as well as the entire `.github` directory, to your own repository (do _not_ copy this `README.md` file).
+4. Copy the `README.template.md` file to your repository, and rename it to `README.md`.
+5. Search and replace the following tokens in the newly copied files:
 
   | Token                        | Replace with                                                      |
   | ---------------------------- | ----------------------------------------------------------------- |
