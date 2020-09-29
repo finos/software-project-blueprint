@@ -1,4 +1,4 @@
-# [Project Name] Charter
+# {project name} Charter
 
 This Project Charter establishes the terms under which this FINOS Project will operate. By Joining the Project or any Working Group, each Participant agrees to be bound by the terms of this Charter and the policies listed in Section 1.2.
 
