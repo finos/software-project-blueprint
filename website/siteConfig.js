@@ -7,17 +7,19 @@
 // site configuration options.
 
 // Replace 'project-blueprint' with {project name}
-const projectName = 'project-blueprint'
+const projectName = 'Project Blueprint'
+// Replace 'project-blueprint' with {project name}
+const projectSlug = 'project-blueprint'
 // Replace 'FINOS' with {name of copyright owner}
 const copyrightOwner = 'FINOS'
 
 const siteConfig = {
   title: `FINOS ${projectName}`,
   tagline: `FINOS ${projectName}`,
-  url: `https://finos.github.io/${projectName}`,
-  baseUrl: `/${projectName}/`,
-  projectName: projectName,
-  repoUrl: `https://github.com/finos/${projectName}`,
+  url: `https://finos.github.io/${projectSlug}`,
+  baseUrl: `/${projectSlug}/`,
+  projectName: projectSlug,
+  repoUrl: `https://github.com/finos/${projectSlug}`,
   organizationName: 'FINOS',
 
   // Header menu
@@ -25,7 +27,7 @@ const siteConfig = {
     {doc: 'home', label: 'Docs'},
     {doc: 'roadmap', label: 'Roadmap'},
     {doc: 'team', label: 'Team'},
-    {href: `https://github.com/finos/${projectName}`, label: 'GitHub'},
+    {href: `https://github.com/finos/${projectSlug}`, label: 'GitHub'},
     {blog: false}
   ],
 

@@ -3,5 +3,5 @@ DataLicense: CC0-1.0
 Creator: {name of copyright owner}
 PackageName: {project name}
 PackageOriginator: {name of copyright owner}
-PackageHomePage: https://github.com/finos/{project name}
+PackageHomePage: https://github.com/finos/{project slug}
 PackageLicenseDeclared: Apache-2.0
