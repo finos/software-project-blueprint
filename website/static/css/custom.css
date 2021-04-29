@@ -22,7 +22,6 @@
 @media only screen and (min-width: 1500px) {
 }
 
-
 header.postHeader:empty {
     display: none;
   }
@@ -34,8 +33,6 @@ header.postHeader:empty + article h1 {
 .imageAlignTop .blockImage {
   max-width: 220px;
 }
-
-
 
 .productShowcaseSection .logos img {
   width: 200px;
@@ -88,7 +85,6 @@ header.postHeader:empty + article h1 {
 
 }
 
-
 body {
   color: #333333;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
@@ -105,10 +101,9 @@ body {
 }
 
 .homeContainer {
-  background-image: url("../img/2020_ODP_Hero.png"); /* CHANGE THIS TO BACKGROUND LOGO PNG - THIS IS A SEMI-TRANSPARENT DOUBLE RENDERING OF THE LOGO ICON */
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #b42f3d; /* CHANGE THIS TO PRIMARY PROJECT COLOR */
+  background-color: #00b5e2; /* CHANGE THIS TO PRIMARY PROJECT COLOR */
 }
 
 .homeContainer h2{
@@ -135,14 +130,13 @@ body {
   color:  #0086bf;  /* DO NOT CHANGE - THIS IS THE TITLE UNDER THE ICONS IN THE 3RD BLOCK - SHOULD STAY FINOS BLUE */
 }
 
-
 .featureShowcaseSection .logos img {
   width: 200px;
   
 }
 
 .featureShowcaseSection h2{
-  color: #b42f3d; /* CHANGE THIS TO PRIMARY PROJECT COLOR */
+  color: #00b5e2; /* CHANGE THIS TO PRIMARY PROJECT COLOR */
   font-size: 30px;
 }
 
@@ -171,7 +165,6 @@ body {
   color: #0033A0; /* CHANGE THIS TO PRIMARY PROJECT COLOR */
 }
 
-
 .finosBanner {
   background-color: #0086bf; /* DO NOT CHANGE - THIS IS THE FINOS BANNER BACKGROUND - SHOULD STAY FINOS BLUE */
   margin: 0 auto;
@@ -198,10 +191,6 @@ article iframe {
 .nav-footer .sitemap{
   margin: 0 auto 1em;
 }
-
-
-
-
 
 .row--center h2{
   color: #ffffff;
