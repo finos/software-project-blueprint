@@ -24,7 +24,6 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-
 .hero.hero--primary {
   background-color: #00b5e2;
 /*  background-image: url('/img/odp-background1-red.png'); /* CHANGE THIS TO BACKGROUND LOGO PNG - THIS IS A SEMI-TRANSPARENT DOUBLE RENDERING OF THE LOGO ICON */
@@ -40,9 +39,6 @@
 .button.button--secondary.button--outline:not(.button--active):not(:hover) {
   color: white;
 }
-
-
-
 
 .row--center h2{
   color: #00b5e2;
