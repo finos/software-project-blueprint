@@ -26,8 +26,8 @@
 
 
 .hero.hero--primary {
-  background-color: #B42F3D;
-  background-image: url('/img/odp-background1-red.png'); /* CHANGE THIS TO BACKGROUND LOGO PNG - THIS IS A SEMI-TRANSPARENT DOUBLE RENDERING OF THE LOGO ICON */
+  background-color: #00b5e2;
+/*  background-image: url('/img/odp-background1-red.png'); /* CHANGE THIS TO BACKGROUND LOGO PNG - THIS IS A SEMI-TRANSPARENT DOUBLE RENDERING OF THE LOGO ICON */
   background-repeat: no-repeat;
   background-size: cover;
 

@@ -4,7 +4,7 @@ module.exports = {
   tagline: 'Delivering Docusaurus microsites for the Fintech Open Source Foundation',
   url: 'https://blueprint.finos.org',
   baseUrl: '/',
-  favicon: 'img/favicon/favicon-odp.ico',
+  favicon: 'img/favicon/favicon-finos.ico',
   projectName: 'software-project-blueprint',
   organizationName: 'finos',
   scripts: ['https://buttons.github.io/buttons.js'],
