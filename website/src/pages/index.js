@@ -45,7 +45,7 @@ const features = [
     imageUrl: '/img/intro/Collaboration.svg',
     description: (
       <>
-        ODP delivers automated compliance, security and quality checks that enable open source collaboration in financial services and other regulated industries.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a nunc quis ligula venenatis maximus ac hendrerit urna. In diam enim, facilisis vitae mattis et, mattis non magna. Nullam condimentum in dui nec molestie. Nunc faucibus, erat sit amet tincidunt egestas, est enim rutrum massa, non sagittis est tortor a diam. Duis rhoncus interdum dolor eget posuere. Vestibulum aliquam vitae augue commodo pretium. Curabitur vel eros velit. Cras nisl ex, commodo eget massa vel, iaculis sodales nunc.
       </>
     ),
   },
@@ -54,7 +54,7 @@ const features = [
     imageUrl: '/img/intro/Bank.svg',
     description: (
       <>
-        Bringing financial services firms together to identify successful solutions across finacial services engineering to collaboratively build a FINOS reference architecture.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a nunc quis ligula venenatis maximus ac hendrerit urna. In diam enim, facilisis vitae mattis et, mattis non magna. Nullam condimentum in dui nec molestie. Nunc faucibus, erat sit amet tincidunt egestas, est enim rutrum massa, non sagittis est tortor a diam. Duis rhoncus interdum dolor eget posuere. Vestibulum aliquam vitae augue commodo pretium. Curabitur vel eros velit. Cras nisl ex, commodo eget massa vel, iaculis sodales nunc.
       </>
     ),
   },
@@ -63,25 +63,16 @@ const features = [
     imageUrl: '/img/intro/TechCommunication.svg',
     description: (
       <>
-        Bringing technology vendors and banks together to accelerate open source development in finance by integrating solutions into the Open Developer Platform.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a nunc quis ligula venenatis maximus ac hendrerit urna. In diam enim, facilisis vitae mattis et, mattis non magna. Nullam condimentum in dui nec molestie. Nunc faucibus, erat sit amet tincidunt egestas, est enim rutrum massa, non sagittis est tortor a diam. Duis rhoncus interdum dolor eget posuere. Vestibulum aliquam vitae augue commodo pretium. Curabitur vel eros velit. Cras nisl ex, commodo eget massa vel, iaculis sodales nunc.
       </>
     )
   },
-  // {
-  //   title: <>Teach collaboration best practices</>,
-  //   imageUrl: '/img/intro/ConnectingTeaching.svg',
-  //   description: (
-  //     <>
-  //       Teach collaboration best practices
-  //     </>
-  //   )
-  // },
   {
     title: <>Accelerating Your Open Source Delivery Pipeline</>,
     imageUrl: '/img/intro/Success.svg',
     description: (
       <>
-        ODP provides a reference architecture that accelerates the pipeline delivery of open source projects by leveraging the FINOS Open Developer Platform.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a nunc quis ligula venenatis maximus ac hendrerit urna. In diam enim, facilisis vitae mattis et, mattis non magna. Nullam condimentum in dui nec molestie. Nunc faucibus, erat sit amet tincidunt egestas, est enim rutrum massa, non sagittis est tortor a diam. Duis rhoncus interdum dolor eget posuere. Vestibulum aliquam vitae augue commodo pretium. Curabitur vel eros velit. Cras nisl ex, commodo eget massa vel, iaculis sodales nunc.
       </>
     )
   }

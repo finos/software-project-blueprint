@@ -7,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #b42f3d;
+  --ifm-color-primary: #00b5e2;
   --ifm-color-primary-dark: #0079ac;
   --ifm-color-primary-darker: #0072a2;
   --ifm-color-primary-darkest: #005e86;
@@ -45,7 +45,7 @@
 
 
 .row--center h2{
-  color: #b42f3d;
+  color: #00b5e2;
   font-size: 30px;
   text-align: center;
   margin-left: 0;
