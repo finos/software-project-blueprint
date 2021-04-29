@@ -1,0 +1,116 @@
+{
+  "/-deb": {
+    "component": "component---site-src-pages-index-jsc-4-f-f99",
+    "config": "config---5-e-9-4f3"
+  },
+  "/__docusaurus/debug-3d6": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/config-914": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/content-c28": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-3cf": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/__docusaurus/debug/metadata-31b": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/__docusaurus/debug/registry-0da": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/__docusaurus/debug/routes-244": {
+    "component": "component---theme-debug-routes-946-699"
+  },
+  "/docs-d34": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/contributing-68b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-contributingecf-2a9"
+  },
+  "/docs/development-infrastructure/code-validation/bithound-9b3": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-code-validation-bithound-482-566"
+  },
+  "/docs/development-infrastructure/code-validation/codeclimate-baf": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-code-validation-codeclimate-3-b-7-1e5"
+  },
+  "/docs/development-infrastructure/code-validation/coverityscan-61b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-code-validation-coverityscane-76-e85"
+  },
+  "/docs/development-infrastructure/code-validation/intro-53e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-code-validation-introf-50-e2b"
+  },
+  "/docs/development-infrastructure/code-validation/nodesecurity-310": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-code-validation-nodesecurityd-12-4f0"
+  },
+  "/docs/development-infrastructure/code-validation/sonarcloud-556": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-code-validation-sonarcloud-1-ea-40d"
+  },
+  "/docs/development-infrastructure/code-validation/whitesource-88f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-code-validation-whitesourcead-2-0cb"
+  },
+  "/docs/development-infrastructure/continuous-delivery-705": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-continuous-delivery-20-f-9b2"
+  },
+  "/docs/development-infrastructure/continuous-integration/clojure-c04": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-continuous-integration-clojure-84-d-1e1"
+  },
+  "/docs/development-infrastructure/continuous-integration/csharp-84c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-continuous-integration-csharp-393-688"
+  },
+  "/docs/development-infrastructure/continuous-integration/intro-b73": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-continuous-integration-intro-96-f-980"
+  },
+  "/docs/development-infrastructure/continuous-integration/java-894": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-continuous-integration-javac-67-b8a"
+  },
+  "/docs/development-infrastructure/continuous-integration/javascript-e7c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-continuous-integration-javascriptc-7-f-ff9"
+  },
+  "/docs/development-infrastructure/continuous-integration/python-a16": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-continuous-integration-python-98-b-a3a"
+  },
+  "/docs/development-infrastructure/project-documentation-8f6": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-development-infrastructure-project-documentation-7-e-6-46c"
+  },
+  "/docs/finos-maintainers-cheatsheet-6e5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-finos-maintainers-cheatsheetae-8-117"
+  },
+  "/docs/project-collaboration-442": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-project-collaborationdee-531"
+  },
+  "/docs/roadmap-a1a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-roadmapf-87-806"
+  },
+  "/docs/team-811": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-teamdcf-bf1"
+  },
+  "/docs/what-is-odp-7e1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-what-is-odpcbd-272"
+  }
+}

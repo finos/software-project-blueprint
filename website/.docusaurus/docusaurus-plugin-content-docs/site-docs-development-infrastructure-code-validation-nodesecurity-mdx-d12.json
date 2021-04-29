@@ -1,0 +1,18 @@
+{
+  "id": "development-infrastructure/code-validation/nodesecurity",
+  "isDocsHomePage": false,
+  "title": "Node Security",
+  "description": "| | |",
+  "source": "@site/../docs/development-infrastructure/code-validation/nodesecurity.mdx",
+  "permalink": "/docs/development-infrastructure/code-validation/nodesecurity",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/nodesecurity.mdx",
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Coverity Scan",
+    "permalink": "/docs/development-infrastructure/code-validation/coverityscan"
+  },
+  "next": {
+    "title": "Sonar Cloud",
+    "permalink": "/docs/development-infrastructure/code-validation/sonarcloud"
+  }
+}

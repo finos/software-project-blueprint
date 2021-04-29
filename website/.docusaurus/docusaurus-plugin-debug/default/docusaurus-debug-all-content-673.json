@@ -1,0 +1,725 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "versionEditUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs",
+          "versionEditUrlLocalized": "https://github.com/finos/open-developer-platform/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/jamesmcleod/Projects/FINOS/software-project-blueprint/website/sidebars.js",
+          "contentPath": "/Users/jamesmcleod/Projects/FINOS/software-project-blueprint/docs",
+          "contentPathLocalized": "/Users/jamesmcleod/Projects/FINOS/software-project-blueprint/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "what-is-odp",
+          "sidebars": {
+            "mainSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "what-is-odp"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "project-collaboration"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "finos-maintainers-cheatsheet"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Development Infrastructure",
+                "items": [
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Continuous Integration",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "development-infrastructure/continuous-integration/intro"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development-infrastructure/continuous-integration/clojure"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development-infrastructure/continuous-integration/csharp"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development-infrastructure/continuous-integration/java"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development-infrastructure/continuous-integration/javascript"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development-infrastructure/continuous-integration/python"
+                      }
+                    ]
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Code Validations",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "development-infrastructure/code-validation/intro"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development-infrastructure/code-validation/bithound"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development-infrastructure/code-validation/codeclimate"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development-infrastructure/code-validation/coverityscan"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development-infrastructure/code-validation/nodesecurity"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development-infrastructure/code-validation/sonarcloud"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development-infrastructure/code-validation/whitesource"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "doc",
+                    "id": "development-infrastructure/project-documentation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "development-infrastructure/continuous-delivery"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "About ODP",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "contributing"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "team"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "roadmap"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/contributing": "mainSidebar",
+            "/docs/development-infrastructure/code-validation/bithound": "mainSidebar",
+            "/docs/development-infrastructure/code-validation/codeclimate": "mainSidebar",
+            "/docs/development-infrastructure/code-validation/coverityscan": "mainSidebar",
+            "/docs/development-infrastructure/code-validation/intro": "mainSidebar",
+            "/docs/development-infrastructure/code-validation/nodesecurity": "mainSidebar",
+            "/docs/development-infrastructure/code-validation/sonarcloud": "mainSidebar",
+            "/docs/development-infrastructure/code-validation/whitesource": "mainSidebar",
+            "/docs/development-infrastructure/continuous-delivery": "mainSidebar",
+            "/docs/development-infrastructure/continuous-integration/clojure": "mainSidebar",
+            "/docs/development-infrastructure/continuous-integration/csharp": "mainSidebar",
+            "/docs/development-infrastructure/continuous-integration/intro": "mainSidebar",
+            "/docs/development-infrastructure/continuous-integration/java": "mainSidebar",
+            "/docs/development-infrastructure/continuous-integration/javascript": "mainSidebar",
+            "/docs/development-infrastructure/continuous-integration/python": "mainSidebar",
+            "/docs/development-infrastructure/project-documentation": "mainSidebar",
+            "/docs/finos-maintainers-cheatsheet": "mainSidebar",
+            "/docs/project-collaboration": "mainSidebar",
+            "/docs/roadmap": "mainSidebar",
+            "/docs/team": "mainSidebar",
+            "/docs/what-is-odp": "mainSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "contributing",
+              "id": "contributing",
+              "isDocsHomePage": false,
+              "title": "Contributing",
+              "description": "THIS IS A DEV / TEST PAGE ONLY",
+              "source": "@site/../docs/contributing.md",
+              "sourceDirName": ".",
+              "slug": "/contributing",
+              "permalink": "/docs/contributing",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/contributing.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "contributing",
+                "title": "Contributing"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Continuous Delivery",
+                "permalink": "/docs/development-infrastructure/continuous-delivery"
+              },
+              "next": {
+                "title": "Project Team",
+                "permalink": "/docs/team"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/code-validation/bithound",
+              "id": "development-infrastructure/code-validation/bithound",
+              "isDocsHomePage": false,
+              "title": "Bithound",
+              "description": "| | |",
+              "source": "@site/../docs/development-infrastructure/code-validation/bithound.mdx",
+              "sourceDirName": "development-infrastructure/code-validation",
+              "slug": "/development-infrastructure/code-validation/bithound",
+              "permalink": "/docs/development-infrastructure/code-validation/bithound",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/bithound.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "bithound",
+                "title": "Bithound"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Code Validation",
+                "permalink": "/docs/development-infrastructure/code-validation/intro"
+              },
+              "next": {
+                "title": "Code Climate",
+                "permalink": "/docs/development-infrastructure/code-validation/codeclimate"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/code-validation/codeclimate",
+              "id": "development-infrastructure/code-validation/codeclimate",
+              "isDocsHomePage": false,
+              "title": "Code Climate",
+              "description": "| | |",
+              "source": "@site/../docs/development-infrastructure/code-validation/codeclimate.mdx",
+              "sourceDirName": "development-infrastructure/code-validation",
+              "slug": "/development-infrastructure/code-validation/codeclimate",
+              "permalink": "/docs/development-infrastructure/code-validation/codeclimate",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/codeclimate.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "codeclimate",
+                "title": "Code Climate"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Bithound",
+                "permalink": "/docs/development-infrastructure/code-validation/bithound"
+              },
+              "next": {
+                "title": "Coverity Scan",
+                "permalink": "/docs/development-infrastructure/code-validation/coverityscan"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/code-validation/coverityscan",
+              "id": "development-infrastructure/code-validation/coverityscan",
+              "isDocsHomePage": false,
+              "title": "Coverity Scan",
+              "description": "| | |",
+              "source": "@site/../docs/development-infrastructure/code-validation/coverityscan.mdx",
+              "sourceDirName": "development-infrastructure/code-validation",
+              "slug": "/development-infrastructure/code-validation/coverityscan",
+              "permalink": "/docs/development-infrastructure/code-validation/coverityscan",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/coverityscan.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "coverityscan",
+                "title": "Coverity Scan"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Code Climate",
+                "permalink": "/docs/development-infrastructure/code-validation/codeclimate"
+              },
+              "next": {
+                "title": "Node Security",
+                "permalink": "/docs/development-infrastructure/code-validation/nodesecurity"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/code-validation/intro",
+              "id": "development-infrastructure/code-validation/intro",
+              "isDocsHomePage": false,
+              "title": "Code Validation",
+              "description": "In order to assess Security, Quality and Legal compliance of software hosted by the Foundation, project leads and committers can configure integrations with third-party systems that are provided by the Foundation; the result of these processes can be published in the project's documentation to improve the final consumer experience and when requesting activation.",
+              "source": "@site/../docs/development-infrastructure/code-validation/intro.md",
+              "sourceDirName": "development-infrastructure/code-validation",
+              "slug": "/development-infrastructure/code-validation/intro",
+              "permalink": "/docs/development-infrastructure/code-validation/intro",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/intro.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "intro",
+                "title": "Code Validation"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Python",
+                "permalink": "/docs/development-infrastructure/continuous-integration/python"
+              },
+              "next": {
+                "title": "Bithound",
+                "permalink": "/docs/development-infrastructure/code-validation/bithound"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/code-validation/nodesecurity",
+              "id": "development-infrastructure/code-validation/nodesecurity",
+              "isDocsHomePage": false,
+              "title": "Node Security",
+              "description": "| | |",
+              "source": "@site/../docs/development-infrastructure/code-validation/nodesecurity.mdx",
+              "sourceDirName": "development-infrastructure/code-validation",
+              "slug": "/development-infrastructure/code-validation/nodesecurity",
+              "permalink": "/docs/development-infrastructure/code-validation/nodesecurity",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/nodesecurity.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "nodesecurity",
+                "title": "Node Security"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Coverity Scan",
+                "permalink": "/docs/development-infrastructure/code-validation/coverityscan"
+              },
+              "next": {
+                "title": "Sonar Cloud",
+                "permalink": "/docs/development-infrastructure/code-validation/sonarcloud"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/code-validation/sonarcloud",
+              "id": "development-infrastructure/code-validation/sonarcloud",
+              "isDocsHomePage": false,
+              "title": "Sonar Cloud",
+              "description": "| | |",
+              "source": "@site/../docs/development-infrastructure/code-validation/sonarcloud.mdx",
+              "sourceDirName": "development-infrastructure/code-validation",
+              "slug": "/development-infrastructure/code-validation/sonarcloud",
+              "permalink": "/docs/development-infrastructure/code-validation/sonarcloud",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/sonarcloud.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "sonarcloud",
+                "title": "Sonar Cloud"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Node Security",
+                "permalink": "/docs/development-infrastructure/code-validation/nodesecurity"
+              },
+              "next": {
+                "title": "Whitesource",
+                "permalink": "/docs/development-infrastructure/code-validation/whitesource"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/code-validation/whitesource",
+              "id": "development-infrastructure/code-validation/whitesource",
+              "isDocsHomePage": false,
+              "title": "Whitesource",
+              "description": "| | |",
+              "source": "@site/../docs/development-infrastructure/code-validation/whitesource.mdx",
+              "sourceDirName": "development-infrastructure/code-validation",
+              "slug": "/development-infrastructure/code-validation/whitesource",
+              "permalink": "/docs/development-infrastructure/code-validation/whitesource",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/whitesource.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "whitesource",
+                "title": "Whitesource"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Sonar Cloud",
+                "permalink": "/docs/development-infrastructure/code-validation/sonarcloud"
+              },
+              "next": {
+                "title": "Project Documentation",
+                "permalink": "/docs/development-infrastructure/project-documentation"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/continuous-delivery",
+              "id": "development-infrastructure/continuous-delivery",
+              "isDocsHomePage": false,
+              "title": "Continuous Delivery",
+              "description": "Continuous Delivery (CD - read the definition given by Martin Fowler) allows project leads and committers to configure automated processes to build and deploy their software. FINOS provides a dedicated OpenShift Online instance that can be used for this purpose.",
+              "source": "@site/../docs/development-infrastructure/continuous-delivery.mdx",
+              "sourceDirName": "development-infrastructure",
+              "slug": "/development-infrastructure/continuous-delivery",
+              "permalink": "/docs/development-infrastructure/continuous-delivery",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-delivery.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "continuous-delivery",
+                "title": "Continuous Delivery"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Project Documentation",
+                "permalink": "/docs/development-infrastructure/project-documentation"
+              },
+              "next": {
+                "title": "Contributing",
+                "permalink": "/docs/contributing"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/continuous-integration/clojure",
+              "id": "development-infrastructure/continuous-integration/clojure",
+              "isDocsHomePage": false,
+              "title": "Clojure",
+              "description": "Clojure is a dialect of the Lisp programming language that runs on the Java virtual machine, Common Language Runtime, and JavaScript engines; the Foundation hosts some Clojure projects that can be browsed as examples.",
+              "source": "@site/../docs/development-infrastructure/continuous-integration/clojure.md",
+              "sourceDirName": "development-infrastructure/continuous-integration",
+              "slug": "/development-infrastructure/continuous-integration/clojure",
+              "permalink": "/docs/development-infrastructure/continuous-integration/clojure",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/clojure.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "clojure",
+                "title": "Clojure"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Continuous Integration",
+                "permalink": "/docs/development-infrastructure/continuous-integration/intro"
+              },
+              "next": {
+                "title": "C#",
+                "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/continuous-integration/csharp",
+              "id": "development-infrastructure/continuous-integration/csharp",
+              "isDocsHomePage": false,
+              "title": "C#",
+              "description": "C# is an object-oriented language that runs on the .NET Framework; feel free to browse the Foundation hosted projects written in C#.",
+              "source": "@site/../docs/development-infrastructure/continuous-integration/csharp.mdx",
+              "sourceDirName": "development-infrastructure/continuous-integration",
+              "slug": "/development-infrastructure/continuous-integration/csharp",
+              "permalink": "/docs/development-infrastructure/continuous-integration/csharp",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/csharp.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "csharp",
+                "title": "C#"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Clojure",
+                "permalink": "/docs/development-infrastructure/continuous-integration/clojure"
+              },
+              "next": {
+                "title": "Java",
+                "permalink": "/docs/development-infrastructure/continuous-integration/java"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/continuous-integration/intro",
+              "id": "development-infrastructure/continuous-integration/intro",
+              "isDocsHomePage": false,
+              "title": "Continuous Integration",
+              "description": "Continuous Integration (CI) allows developers to run different type of validation processes automatically at commit / merge time, in order to identify problems earlier.  As a result, configuring CI is inherently language and eco-system specific (see the Release and deployment section below).",
+              "source": "@site/../docs/development-infrastructure/continuous-integration/intro.mdx",
+              "sourceDirName": "development-infrastructure/continuous-integration",
+              "slug": "/development-infrastructure/continuous-integration/intro",
+              "permalink": "/docs/development-infrastructure/continuous-integration/intro",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/intro.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "intro",
+                "title": "Continuous Integration"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "FINOS Maintainers Cheatsheet",
+                "permalink": "/docs/finos-maintainers-cheatsheet"
+              },
+              "next": {
+                "title": "Clojure",
+                "permalink": "/docs/development-infrastructure/continuous-integration/clojure"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/continuous-integration/java",
+              "id": "development-infrastructure/continuous-integration/java",
+              "isDocsHomePage": false,
+              "title": "Java",
+              "description": "The Foundation hosts several Java projects and provides a good level of support for building, testing and releasing Java code.",
+              "source": "@site/../docs/development-infrastructure/continuous-integration/java.mdx",
+              "sourceDirName": "development-infrastructure/continuous-integration",
+              "slug": "/development-infrastructure/continuous-integration/java",
+              "permalink": "/docs/development-infrastructure/continuous-integration/java",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/java.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "java",
+                "title": "Java"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "C#",
+                "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
+              },
+              "next": {
+                "title": "Javascript",
+                "permalink": "/docs/development-infrastructure/continuous-integration/javascript"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/continuous-integration/javascript",
+              "id": "development-infrastructure/continuous-integration/javascript",
+              "isDocsHomePage": false,
+              "title": "Javascript",
+              "description": "In the last decade, Javascript (JS) has been increasingly used for backend software development, especially since the first appearance of Node.js.  Listed below are some of the most common processes that are involved in a Javascript project lifecycle in several JS ecosystems/platforms, and how they interact with the project infrastructure provided by the Foundation.",
+              "source": "@site/../docs/development-infrastructure/continuous-integration/javascript.md",
+              "sourceDirName": "development-infrastructure/continuous-integration",
+              "slug": "/development-infrastructure/continuous-integration/javascript",
+              "permalink": "/docs/development-infrastructure/continuous-integration/javascript",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/javascript.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "javascript",
+                "title": "Javascript"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Java",
+                "permalink": "/docs/development-infrastructure/continuous-integration/java"
+              },
+              "next": {
+                "title": "Python",
+                "permalink": "/docs/development-infrastructure/continuous-integration/python"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/continuous-integration/python",
+              "id": "development-infrastructure/continuous-integration/python",
+              "isDocsHomePage": false,
+              "title": "Python",
+              "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.  Packages are published on the Python Package Index (pypi), however the FINOS account is still empty, see pypi.org/user/finos .",
+              "source": "@site/../docs/development-infrastructure/continuous-integration/python.md",
+              "sourceDirName": "development-infrastructure/continuous-integration",
+              "slug": "/development-infrastructure/continuous-integration/python",
+              "permalink": "/docs/development-infrastructure/continuous-integration/python",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/python.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "python",
+                "title": "Python"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Javascript",
+                "permalink": "/docs/development-infrastructure/continuous-integration/javascript"
+              },
+              "next": {
+                "title": "Code Validation",
+                "permalink": "/docs/development-infrastructure/code-validation/intro"
+              }
+            },
+            {
+              "unversionedId": "development-infrastructure/project-documentation",
+              "id": "development-infrastructure/project-documentation",
+              "isDocsHomePage": false,
+              "title": "Project Documentation",
+              "description": "FINOS collaboration services include several ways to write, collaborate and publish project documentation.",
+              "source": "@site/../docs/development-infrastructure/project-documentation.mdx",
+              "sourceDirName": "development-infrastructure",
+              "slug": "/development-infrastructure/project-documentation",
+              "permalink": "/docs/development-infrastructure/project-documentation",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/project-documentation.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "project-documentation",
+                "title": "Project Documentation"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Whitesource",
+                "permalink": "/docs/development-infrastructure/code-validation/whitesource"
+              },
+              "next": {
+                "title": "Continuous Delivery",
+                "permalink": "/docs/development-infrastructure/continuous-delivery"
+              }
+            },
+            {
+              "unversionedId": "finos-maintainers-cheatsheet",
+              "id": "finos-maintainers-cheatsheet",
+              "isDocsHomePage": false,
+              "title": "FINOS Maintainers Cheatsheet",
+              "description": "The following table guides FINOS Maintainers on key responsibilities and where to find helpful resources. For everything else, refer to odp.finos.org or open an issue on ODP.",
+              "source": "@site/../docs/finos-maintainer-cheatsheet.mdx",
+              "sourceDirName": ".",
+              "slug": "/finos-maintainers-cheatsheet",
+              "permalink": "/docs/finos-maintainers-cheatsheet",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/finos-maintainer-cheatsheet.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "finos-maintainers-cheatsheet",
+                "title": "FINOS Maintainers Cheatsheet"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Project Collaboration",
+                "permalink": "/docs/project-collaboration"
+              },
+              "next": {
+                "title": "Continuous Integration",
+                "permalink": "/docs/development-infrastructure/continuous-integration/intro"
+              }
+            },
+            {
+              "unversionedId": "project-collaboration",
+              "id": "project-collaboration",
+              "isDocsHomePage": false,
+              "title": "Project Collaboration",
+              "description": "FINOS leverages many services offered by GitHub.com, which are documented in the Collaboration Use Cases on GitHub and other collaboration use cases sections below.",
+              "source": "@site/../docs/project-collaboration.mdx",
+              "sourceDirName": ".",
+              "slug": "/project-collaboration",
+              "permalink": "/docs/project-collaboration",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/project-collaboration.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "project-collaboration",
+                "title": "Project Collaboration"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "What is ODP",
+                "permalink": "/docs/what-is-odp"
+              },
+              "next": {
+                "title": "FINOS Maintainers Cheatsheet",
+                "permalink": "/docs/finos-maintainers-cheatsheet"
+              }
+            },
+            {
+              "unversionedId": "roadmap",
+              "id": "roadmap",
+              "isDocsHomePage": false,
+              "title": "Roadmap",
+              "description": "This is the ODP Roadmap for 2020.",
+              "source": "@site/../docs/roadmap.mdx",
+              "sourceDirName": ".",
+              "slug": "/roadmap",
+              "permalink": "/docs/roadmap",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/roadmap.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "roadmap",
+                "title": "Roadmap"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Project Team",
+                "permalink": "/docs/team"
+              }
+            },
+            {
+              "unversionedId": "team",
+              "id": "team",
+              "isDocsHomePage": false,
+              "title": "Project Team",
+              "description": "The ODP Project team is tasked with supporting the community on how to access and use FINOS infrastructure, providing feedback to the FINOS team as a way to improve tools, processes and automation; tasks are managed using a prioritized backlog.",
+              "source": "@site/../docs/team.md",
+              "sourceDirName": ".",
+              "slug": "/team",
+              "permalink": "/docs/team",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/team.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "team",
+                "title": "Project Team"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Contributing",
+                "permalink": "/docs/contributing"
+              },
+              "next": {
+                "title": "Roadmap",
+                "permalink": "/docs/roadmap"
+              }
+            },
+            {
+              "unversionedId": "what-is-odp",
+              "id": "what-is-odp",
+              "isDocsHomePage": false,
+              "title": "What is ODP",
+              "description": "The Open Developer Platform (ODP) is a collection of services, tools and best practices that deliver a secure and compliant collaboration across all FINOS hosted projects.",
+              "source": "@site/../docs/what-is-odp.mdx",
+              "sourceDirName": ".",
+              "slug": "/what-is-odp",
+              "permalink": "/docs/what-is-odp",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/what-is-odp.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "what-is-odp",
+                "title": "What is ODP"
+              },
+              "sidebar": "mainSidebar",
+              "next": {
+                "title": "Project Collaboration",
+                "permalink": "/docs/project-collaboration"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": null
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

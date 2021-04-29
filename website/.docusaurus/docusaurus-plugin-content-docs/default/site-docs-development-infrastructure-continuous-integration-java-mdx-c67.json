@@ -1,0 +1,26 @@
+{
+  "unversionedId": "development-infrastructure/continuous-integration/java",
+  "id": "development-infrastructure/continuous-integration/java",
+  "isDocsHomePage": false,
+  "title": "Java",
+  "description": "The Foundation hosts several Java projects and provides a good level of support for building, testing and releasing Java code.",
+  "source": "@site/../docs/development-infrastructure/continuous-integration/java.mdx",
+  "sourceDirName": "development-infrastructure/continuous-integration",
+  "slug": "/development-infrastructure/continuous-integration/java",
+  "permalink": "/docs/development-infrastructure/continuous-integration/java",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/java.mdx",
+  "version": "current",
+  "frontMatter": {
+    "id": "java",
+    "title": "Java"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "C#",
+    "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
+  },
+  "next": {
+    "title": "Javascript",
+    "permalink": "/docs/development-infrastructure/continuous-integration/javascript"
+  }
+}

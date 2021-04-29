@@ -1,0 +1,18 @@
+{
+  "id": "development-infrastructure/continuous-integration/python",
+  "isDocsHomePage": false,
+  "title": "Python",
+  "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.  Packages are published on the Python Package Index (pypi), however the FINOS account is still empty, see pypi.org/user/finos .",
+  "source": "@site/../docs/development-infrastructure/continuous-integration/python.md",
+  "permalink": "/docs/development-infrastructure/continuous-integration/python",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/python.md",
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Javascript",
+    "permalink": "/docs/development-infrastructure/continuous-integration/javascript"
+  },
+  "next": {
+    "title": "Code Validation",
+    "permalink": "/docs/development-infrastructure/code-validation/intro"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "development-infrastructure/project-documentation",
+  "id": "development-infrastructure/project-documentation",
+  "isDocsHomePage": false,
+  "title": "Project Documentation",
+  "description": "FINOS collaboration services include several ways to write, collaborate and publish project documentation.",
+  "source": "@site/../docs/development-infrastructure/project-documentation.mdx",
+  "sourceDirName": "development-infrastructure",
+  "slug": "/development-infrastructure/project-documentation",
+  "permalink": "/docs/development-infrastructure/project-documentation",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/project-documentation.mdx",
+  "version": "current",
+  "frontMatter": {
+    "id": "project-documentation",
+    "title": "Project Documentation"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Whitesource",
+    "permalink": "/docs/development-infrastructure/code-validation/whitesource"
+  },
+  "next": {
+    "title": "Continuous Delivery",
+    "permalink": "/docs/development-infrastructure/continuous-delivery"
+  }
+}

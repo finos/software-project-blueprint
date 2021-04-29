@@ -1,0 +1,18 @@
+{
+  "id": "development-infrastructure/continuous-delivery",
+  "isDocsHomePage": false,
+  "title": "Continuous Delivery",
+  "description": "Continuous Delivery (CD - read the definition given by Martin Fowler) allows project leads and committers to configure automated processes to build and deploy their software. FINOS provides a dedicated OpenShift Online instance that can be used for this purpose.",
+  "source": "@site/../docs/development-infrastructure/continuous-delivery.mdx",
+  "permalink": "/docs/development-infrastructure/continuous-delivery",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-delivery.mdx",
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Project Documentation",
+    "permalink": "/docs/development-infrastructure/project-documentation"
+  },
+  "next": {
+    "title": "Contributing",
+    "permalink": "/docs/contributing"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "development-infrastructure/code-validation/codeclimate",
+  "isDocsHomePage": false,
+  "title": "Code Climate",
+  "description": "| | |",
+  "source": "@site/../docs/development-infrastructure/code-validation/codeclimate.mdx",
+  "permalink": "/docs/development-infrastructure/code-validation/codeclimate",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/codeclimate.mdx",
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Bithound",
+    "permalink": "/docs/development-infrastructure/code-validation/bithound"
+  },
+  "next": {
+    "title": "Coverity Scan",
+    "permalink": "/docs/development-infrastructure/code-validation/coverityscan"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "archive/docusaurus-build-action",
+  "isDocsHomePage": false,
+  "title": "Docusaurus Build (GitHub) Action",
+  "description": "The docusaurus workflow defines a GitHub Action that automatically builds the Docusaurus website after any commit.",
+  "source": "@site/../docs/archive/docusaurus-build-action.md",
+  "permalink": "/docs/archive/docusaurus-build-action",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/archive/docusaurus-build-action.md"
+}

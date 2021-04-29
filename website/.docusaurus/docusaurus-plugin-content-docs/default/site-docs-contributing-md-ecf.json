@@ -1,0 +1,26 @@
+{
+  "unversionedId": "contributing",
+  "id": "contributing",
+  "isDocsHomePage": false,
+  "title": "Contributing",
+  "description": "THIS IS A DEV / TEST PAGE ONLY",
+  "source": "@site/../docs/contributing.md",
+  "sourceDirName": ".",
+  "slug": "/contributing",
+  "permalink": "/docs/contributing",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/contributing.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "contributing",
+    "title": "Contributing"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Continuous Delivery",
+    "permalink": "/docs/development-infrastructure/continuous-delivery"
+  },
+  "next": {
+    "title": "Project Team",
+    "permalink": "/docs/team"
+  }
+}

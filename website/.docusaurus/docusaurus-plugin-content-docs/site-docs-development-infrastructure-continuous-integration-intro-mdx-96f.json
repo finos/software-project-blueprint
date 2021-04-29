@@ -1,0 +1,18 @@
+{
+  "id": "development-infrastructure/continuous-integration/intro",
+  "isDocsHomePage": false,
+  "title": "Continuous Integration",
+  "description": "Release and deployment",
+  "source": "@site/../docs/development-infrastructure/continuous-integration/intro.mdx",
+  "permalink": "/docs/development-infrastructure/continuous-integration/intro",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/intro.mdx",
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Project Collaboration",
+    "permalink": "/docs/project-collaboration"
+  },
+  "next": {
+    "title": "Clojure",
+    "permalink": "/docs/development-infrastructure/continuous-integration/clojure"
+  }
+}

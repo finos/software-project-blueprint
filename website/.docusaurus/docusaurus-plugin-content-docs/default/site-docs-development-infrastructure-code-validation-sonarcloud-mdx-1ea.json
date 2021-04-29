@@ -1,0 +1,26 @@
+{
+  "unversionedId": "development-infrastructure/code-validation/sonarcloud",
+  "id": "development-infrastructure/code-validation/sonarcloud",
+  "isDocsHomePage": false,
+  "title": "Sonar Cloud",
+  "description": "| | |",
+  "source": "@site/../docs/development-infrastructure/code-validation/sonarcloud.mdx",
+  "sourceDirName": "development-infrastructure/code-validation",
+  "slug": "/development-infrastructure/code-validation/sonarcloud",
+  "permalink": "/docs/development-infrastructure/code-validation/sonarcloud",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/sonarcloud.mdx",
+  "version": "current",
+  "frontMatter": {
+    "id": "sonarcloud",
+    "title": "Sonar Cloud"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Node Security",
+    "permalink": "/docs/development-infrastructure/code-validation/nodesecurity"
+  },
+  "next": {
+    "title": "Whitesource",
+    "permalink": "/docs/development-infrastructure/code-validation/whitesource"
+  }
+}

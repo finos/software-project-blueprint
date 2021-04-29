@@ -1,0 +1,18 @@
+{
+  "id": "finos-maintainers-cheatsheet",
+  "isDocsHomePage": false,
+  "title": "FINOS Maintainers Cheatsheet",
+  "description": "The following table guides FINOS Maintainers on key responsibilities and where to find helpful resources. For everything else, refer to odp.finos.org or open an issue on ODP.",
+  "source": "@site/../docs/finos-maintainer-cheatsheet.mdx",
+  "permalink": "/docs/finos-maintainers-cheatsheet",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/finos-maintainer-cheatsheet.mdx",
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Project Collaboration",
+    "permalink": "/docs/project-collaboration"
+  },
+  "next": {
+    "title": "Continuous Integration",
+    "permalink": "/docs/development-infrastructure/continuous-integration/intro"
+  }
+}

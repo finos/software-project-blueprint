@@ -1,0 +1,123 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "what-is-odp",
+          "docs": [
+            {
+              "id": "contributing",
+              "path": "/docs/contributing",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/code-validation/bithound",
+              "path": "/docs/development-infrastructure/code-validation/bithound",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/code-validation/codeclimate",
+              "path": "/docs/development-infrastructure/code-validation/codeclimate",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/code-validation/coverityscan",
+              "path": "/docs/development-infrastructure/code-validation/coverityscan",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/code-validation/intro",
+              "path": "/docs/development-infrastructure/code-validation/intro",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/code-validation/nodesecurity",
+              "path": "/docs/development-infrastructure/code-validation/nodesecurity",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/code-validation/sonarcloud",
+              "path": "/docs/development-infrastructure/code-validation/sonarcloud",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/code-validation/whitesource",
+              "path": "/docs/development-infrastructure/code-validation/whitesource",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/continuous-delivery",
+              "path": "/docs/development-infrastructure/continuous-delivery",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/continuous-integration/clojure",
+              "path": "/docs/development-infrastructure/continuous-integration/clojure",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/continuous-integration/csharp",
+              "path": "/docs/development-infrastructure/continuous-integration/csharp",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/continuous-integration/intro",
+              "path": "/docs/development-infrastructure/continuous-integration/intro",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/continuous-integration/java",
+              "path": "/docs/development-infrastructure/continuous-integration/java",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/continuous-integration/javascript",
+              "path": "/docs/development-infrastructure/continuous-integration/javascript",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/continuous-integration/python",
+              "path": "/docs/development-infrastructure/continuous-integration/python",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "development-infrastructure/project-documentation",
+              "path": "/docs/development-infrastructure/project-documentation",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "finos-maintainers-cheatsheet",
+              "path": "/docs/finos-maintainers-cheatsheet",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "project-collaboration",
+              "path": "/docs/project-collaboration",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "roadmap",
+              "path": "/docs/roadmap",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "team",
+              "path": "/docs/team",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "what-is-odp",
+              "path": "/docs/what-is-odp",
+              "sidebar": "mainSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
