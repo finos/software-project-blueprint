@@ -1,11 +1,11 @@
 // Docs at https://v2.docusaurus.io/docs/configuration
 module.exports = {
-  title: 'Open Developer Platform',
-  tagline: 'Delivering open source software development best practices whilst enforcing security and legal compliance for the financial services industry',
-  url: 'https://odp.finos.org',
+  title: 'Software Project Blueprint',
+  tagline: 'Delivering Docusaurus microsites for the Fintech Open Source Foundation',
+  url: 'https://blueprint.finos.org',
   baseUrl: '/',
   favicon: 'img/favicon/favicon-odp.ico',
-  projectName: 'open-developer-platform',
+  projectName: 'software-project-blueprint',
   organizationName: 'finos',
   scripts: ['https://buttons.github.io/buttons.js'],
 
@@ -16,24 +16,24 @@ module.exports = {
 
   themeConfig: {
     navbar: {
-      title: 'Open Developer Platform',
+      title: 'Software Project Blueprint',
       logo: {
-        alt: 'ODP Logo',
-        src: 'img/favicon/favicon-odp.ico',
+        alt: 'FINOS Logo',
+        src: 'img/favicon/favicon-finos.ico',
       },
       items: [
         {to: 'docs/what-is-odp', label: 'Docs', position: 'right'},
         {to: 'docs/roadmap', label: 'Roadmap', position: 'right'},
         {to: 'docs/team', label: 'Team', position: 'right'},
         {
-          href: 'https://github.com/finos/open-developer-platform',
+          href: 'https://github.com/finos/software-project-blueprint',
           label: 'GitHub',
           position: 'right',
         }
       ],
     },
     footer: {
-      copyright: `Copyright © 2020 - Open Developer Platform - FINOS - The Fintech Open Source Foundation`,
+      copyright: `Copyright © 2020 - Software Project Blueprint - FINOS - The Fintech Open Source Foundation`,
       logo: {
         alt: 'FINOS Logo',
         src: 'img/favicon/favicon-finos.ico',
@@ -61,15 +61,15 @@ module.exports = {
             title: 'Quick links',
             items: [
             {
-              label: 'Join an ODP Project Meeting',
+              label: 'Join a Project Meeting',
               to: 'https://github.com/finos/open-developer-platform/issues?q=label%3Ameeting+',
             },
             {
-            label: 'Browse ODP Good First Issues',
+            label: 'Browse Good First Issues',
             to: 'https://github.com/finos/open-developer-platform/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22',
             },
             {
-              label: 'Ask an ODP Question',
+              label: 'Ask a Question',
               to: 'https://github.com/finos/open-developer-platform/issues/new?assignees=&labels=&template=Support_question.md&title=',
             }]
           },
@@ -82,7 +82,7 @@ module.exports = {
             },
             {
             label: 'FINOS Community Governance',
-            to: 'https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530783/Community+Governance',
+            to: 'https://github.com/finos/community/tree/master/governance',
             },
             {
               label: 'FINOS on LinkedIn',
