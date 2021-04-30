@@ -33,8 +33,10 @@ jobs:
       uses: actions/checkout@v1
     - name: Install Node
       uses: actions/setup-node@v1
+      with:
+        node-version: '12'
     - name: Install Website deps
-      run: npm install --prefix website
+      run: yarn --cwd website install
     - name: Patch forked version
       run: |
         # Extract GitHub org/user and patch siteConfig.js only if not "finos"
@@ -44,10 +46,8 @@ jobs:
         then echo "Repo organization is '$REPO_ORG', patching docusaurus configuration to work on a forked repo" ; curl ${{ env.PATCH_SCRIPT_URL }} |  bash -s -- ${{ env.REPO_NAME }} $REPO_ORG
         else echo "Skipping patching, as this is the FINOS Organization"
         fi
-    - name: Build Website
-      run: |
-        curl ${{ env.CONTRIBUTE_SCRIPT_URL }} |  bash -s
-        npm run build --prefix website
+    - name: Install Website deps
+      run: yarn --cwd website build
     - name: Publish Website
       run: |
         # Extract GitHub org/user
@@ -60,16 +60,11 @@ jobs:
         then echo "Skipping publish, as this is a PR, not a Push event" ; exit 0
         fi
         # Configure git client
-        echo "Publishing website for repo '${REPO}', using GitHub username '${GIT_USERNAME}' as author. Triggered by '${{github.event_name }}' event"
+        echo "Git repo - $REPO"
+        echo "Git user - $GIT_USERNAME"
+        echo "Event name - ${{github.event_name }}"
         git config --global user.email "$GIT_USERNAME@users.noreply.github.com"
         git config --global user.name "$GIT_USERNAME"
         echo "machine github.com login $GIT_USERNAME password $GITHUB_TOKEN" > ~/.netrc
         # Run docusaurus-publish
-        GIT_USER="finos-admin" npm run publish-gh-pages --prefix website
-    - name: Create comment
-      if: github.event_name == 'pull_request' && !contains(github.repository, 'finos/')
-      uses: peter-evans/create-or-update-comment@v1
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        issue-number: ${{ github.event.number }}
-        body: Website [preview is available](https://${{ github.actor }}.github.io/${{ env.REPO_NAME }})
+        GIT_USER=$GIT_USERNAME yarn --cwd website publish-gh-pages
