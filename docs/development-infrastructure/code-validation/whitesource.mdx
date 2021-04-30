@@ -3,10 +3,6 @@ id: whitesource
 title: Whitesource
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-<img height="150px" alt="whitesource-logo" src={useBaseUrl('img/vendors/whitesource-logo.png')} />
-
 | | |
 |--- | :---|
 | **Name** | Whitesource |
@@ -44,8 +40,6 @@ To avoid confusion, below are listed some WhiteSource concepts that differ with 
 
 ## Features
 
-<img height="150px" alt="whitesource-dashboard" src={useBaseUrl('img/vendors/whitesource-dashboard.png')} />
-
 WhiteSource provides the following features to Foundation project leads/committers that have been granted access:
 
 1. Access the WhiteSource dashboard for one or more projects
@@ -80,8 +74,6 @@ FINOS have rolled out the [WhiteSource integration for Github.com](https://white
 3. Support for most of languages and build tools currently used in FINOS projects
 4. Creation of GitHub issues with CVE description and meta; please find the issue details on the [WhiteSource docs page](https://whitesource.atlassian.net/wiki/spaces/WD/pages/697696422/WhiteSource+for+GitHub.com#WhiteSourceforGitHub.com-ViewingDetailsofanIssue)
 
-<img alt="whitesource-issue" src={useBaseUrl('img/vendors/whitesource-issue.png')} />
-
 ### FINOS default configurations
 There are 2 configuration files to define at repository level, in order to enable the WhiteSource integration with GitHub.com: .whitesource file configures the bot and whitesource.config configures the WhiteSource agent.
 
@@ -115,8 +107,6 @@ Specifies build-time configurations, including language-specific settings, file 
 
 ### Testing WhiteSource scanning
 The easiest and less invasive way to test is to create a new branch, add a dependency with security vulnerabilities and commit the change; few minutes later (time depends on build complexity), the app will have created one GitHub Issue for each CVE found.
-
-<img alt="whitesource-pr-check" src={useBaseUrl('img/vendors/whitesource-pr-check.png')} />
 
 If no issues are created, and want to know if the scan was performed, email [help@finos.org](mailto:help@finos.org) and FINOS team will help you debugging bot's execution.
 
