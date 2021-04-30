@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const features = [
     {
         title: <>Open Source Project Collaboration</>,
