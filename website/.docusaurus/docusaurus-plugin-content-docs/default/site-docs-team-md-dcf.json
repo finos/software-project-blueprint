@@ -16,8 +16,8 @@
   },
   "sidebar": "mainSidebar",
   "previous": {
-    "title": "Contributing",
-    "permalink": "/docs/contributing"
+    "title": "Whitesource",
+    "permalink": "/docs/development-infrastructure/code-validation/whitesource"
   },
   "next": {
     "title": "Roadmap",

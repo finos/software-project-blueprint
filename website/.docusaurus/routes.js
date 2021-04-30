@@ -44,14 +44,9 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','dc7'),
+  component: ComponentCreator('/docs','2d8'),
   
   routes: [
-{
-  path: '/docs/contributing',
-  component: ComponentCreator('/docs/contributing','68b'),
-  exact: true,
-},
 {
   path: '/docs/development-infrastructure/code-validation/bithound',
   component: ComponentCreator('/docs/development-infrastructure/code-validation/bithound','9b3'),

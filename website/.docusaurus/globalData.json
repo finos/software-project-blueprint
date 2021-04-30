@@ -11,11 +11,6 @@
           "mainDocId": "what-is-odp",
           "docs": [
             {
-              "id": "contributing",
-              "path": "/docs/contributing",
-              "sidebar": "mainSidebar"
-            },
-            {
               "id": "development-infrastructure/code-validation/bithound",
               "path": "/docs/development-infrastructure/code-validation/bithound",
               "sidebar": "mainSidebar"

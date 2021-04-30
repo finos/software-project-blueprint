@@ -95,10 +95,6 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "contributing"
-                  },
-                  {
-                    "type": "doc",
                     "id": "team"
                   },
                   {
@@ -110,7 +106,6 @@
             ]
           },
           "permalinkToSidebar": {
-            "/docs/contributing": "mainSidebar",
             "/docs/development-infrastructure/code-validation/bithound": "mainSidebar",
             "/docs/development-infrastructure/code-validation/codeclimate": "mainSidebar",
             "/docs/development-infrastructure/code-validation/coverityscan": "mainSidebar",
@@ -126,32 +121,6 @@
             "/docs/what-is-odp": "mainSidebar"
           },
           "docs": [
-            {
-              "unversionedId": "contributing",
-              "id": "contributing",
-              "isDocsHomePage": false,
-              "title": "Contributing",
-              "description": "THIS IS A DEV / TEST PAGE ONLY",
-              "source": "@site/../docs/contributing.md",
-              "sourceDirName": ".",
-              "slug": "/contributing",
-              "permalink": "/docs/contributing",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/contributing.md",
-              "version": "current",
-              "frontMatter": {
-                "id": "contributing",
-                "title": "Contributing"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Whitesource",
-                "permalink": "/docs/development-infrastructure/code-validation/whitesource"
-              },
-              "next": {
-                "title": "Project Team",
-                "permalink": "/docs/team"
-              }
-            },
             {
               "unversionedId": "development-infrastructure/code-validation/bithound",
               "id": "development-infrastructure/code-validation/bithound",
@@ -330,8 +299,8 @@
                 "permalink": "/docs/development-infrastructure/code-validation/sonarcloud"
               },
               "next": {
-                "title": "Contributing",
-                "permalink": "/docs/contributing"
+                "title": "Project Team",
+                "permalink": "/docs/team"
               }
             },
             {
@@ -452,8 +421,8 @@
               },
               "sidebar": "mainSidebar",
               "previous": {
-                "title": "Contributing",
-                "permalink": "/docs/contributing"
+                "title": "Whitesource",
+                "permalink": "/docs/development-infrastructure/code-validation/whitesource"
               },
               "next": {
                 "title": "Roadmap",
