@@ -23,6 +23,6 @@ module.exports = {
         ]
       }
     ],
-    'About ODP': ["team","roadmap"],
+    'About ODP': ["team"],
   },
 }

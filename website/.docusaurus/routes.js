@@ -44,7 +44,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','2d8'),
+  component: ComponentCreator('/docs','974'),
   
   routes: [
 {
@@ -95,11 +95,6 @@ export default [
 {
   path: '/docs/project-collaboration',
   component: ComponentCreator('/docs/project-collaboration','442'),
-  exact: true,
-},
-{
-  path: '/docs/roadmap',
-  component: ComponentCreator('/docs/roadmap','a1a'),
   exact: true,
 },
 {

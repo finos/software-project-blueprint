@@ -61,11 +61,6 @@
               "sidebar": "mainSidebar"
             },
             {
-              "id": "roadmap",
-              "path": "/docs/roadmap",
-              "sidebar": "mainSidebar"
-            },
-            {
               "id": "team",
               "path": "/docs/team",
               "sidebar": "mainSidebar"

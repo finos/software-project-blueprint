@@ -97,11 +97,6 @@
             "type": "link",
             "label": "Project Team",
             "href": "/docs/team"
-          },
-          {
-            "type": "link",
-            "label": "Roadmap",
-            "href": "/docs/roadmap"
           }
         ]
       }
@@ -118,7 +113,6 @@
     "/docs/development-infrastructure/continuous-integration/csharp": "mainSidebar",
     "/docs/finos-maintainers-cheatsheet": "mainSidebar",
     "/docs/project-collaboration": "mainSidebar",
-    "/docs/roadmap": "mainSidebar",
     "/docs/team": "mainSidebar",
     "/docs/what-is-odp": "mainSidebar"
   }

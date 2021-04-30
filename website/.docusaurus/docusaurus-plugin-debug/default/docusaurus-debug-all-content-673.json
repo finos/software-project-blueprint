@@ -96,10 +96,6 @@
                   {
                     "type": "doc",
                     "id": "team"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "roadmap"
                   }
                 ]
               }
@@ -116,7 +112,6 @@
             "/docs/development-infrastructure/continuous-integration/csharp": "mainSidebar",
             "/docs/finos-maintainers-cheatsheet": "mainSidebar",
             "/docs/project-collaboration": "mainSidebar",
-            "/docs/roadmap": "mainSidebar",
             "/docs/team": "mainSidebar",
             "/docs/what-is-odp": "mainSidebar"
           },
@@ -382,28 +377,6 @@
               }
             },
             {
-              "unversionedId": "roadmap",
-              "id": "roadmap",
-              "isDocsHomePage": false,
-              "title": "Roadmap",
-              "description": "This is the ODP Roadmap for 2020.",
-              "source": "@site/../docs/roadmap.mdx",
-              "sourceDirName": ".",
-              "slug": "/roadmap",
-              "permalink": "/docs/roadmap",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/roadmap.mdx",
-              "version": "current",
-              "frontMatter": {
-                "id": "roadmap",
-                "title": "Roadmap"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Project Team",
-                "permalink": "/docs/team"
-              }
-            },
-            {
               "unversionedId": "team",
               "id": "team",
               "isDocsHomePage": false,
@@ -423,10 +396,6 @@
               "previous": {
                 "title": "Whitesource",
                 "permalink": "/docs/development-infrastructure/code-validation/whitesource"
-              },
-              "next": {
-                "title": "Roadmap",
-                "permalink": "/docs/roadmap"
               }
             },
             {
