@@ -23,8 +23,8 @@ module.exports = {
       },
       items: [
         {to: 'docs/what-is-odp', label: 'Docs', position: 'right'},
-        {to: 'docs/roadmap', label: 'Roadmap', position: 'right'},
-        {to: 'docs/team', label: 'Team', position: 'right'},
+        {to: 'docs/what-is-odp', label: 'Roadmap', position: 'right'},
+        {to: 'docs/what-is-odp', label: 'Team', position: 'right'},
         {
           href: 'https://github.com/finos/software-project-blueprint',
           label: 'GitHub',

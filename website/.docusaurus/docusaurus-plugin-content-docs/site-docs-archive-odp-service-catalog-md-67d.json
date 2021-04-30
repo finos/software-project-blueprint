@@ -1,9 +1,0 @@
-{
-  "id": "archive/odp-service-catalog",
-  "isDocsHomePage": false,
-  "title": "ODP Service Catalog",
-  "description": "Background and requirements",
-  "source": "@site/../docs/archive/odp-service-catalog.md",
-  "permalink": "/docs/archive/odp-service-catalog",
-  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/archive/odp-service-catalog.md"
-}
