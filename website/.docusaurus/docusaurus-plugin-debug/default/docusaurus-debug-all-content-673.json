@@ -47,27 +47,7 @@
                     "items": [
                       {
                         "type": "doc",
-                        "id": "development-infrastructure/continuous-integration/intro"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "development-infrastructure/continuous-integration/clojure"
-                      },
-                      {
-                        "type": "doc",
                         "id": "development-infrastructure/continuous-integration/csharp"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "development-infrastructure/continuous-integration/java"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "development-infrastructure/continuous-integration/javascript"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "development-infrastructure/continuous-integration/python"
                       }
                     ]
                   },
@@ -138,12 +118,7 @@
             "/docs/development-infrastructure/code-validation/nodesecurity": "mainSidebar",
             "/docs/development-infrastructure/code-validation/sonarcloud": "mainSidebar",
             "/docs/development-infrastructure/code-validation/whitesource": "mainSidebar",
-            "/docs/development-infrastructure/continuous-integration/clojure": "mainSidebar",
             "/docs/development-infrastructure/continuous-integration/csharp": "mainSidebar",
-            "/docs/development-infrastructure/continuous-integration/intro": "mainSidebar",
-            "/docs/development-infrastructure/continuous-integration/java": "mainSidebar",
-            "/docs/development-infrastructure/continuous-integration/javascript": "mainSidebar",
-            "/docs/development-infrastructure/continuous-integration/python": "mainSidebar",
             "/docs/finos-maintainers-cheatsheet": "mainSidebar",
             "/docs/project-collaboration": "mainSidebar",
             "/docs/roadmap": "mainSidebar",
@@ -273,8 +248,8 @@
               },
               "sidebar": "mainSidebar",
               "previous": {
-                "title": "Python",
-                "permalink": "/docs/development-infrastructure/continuous-integration/python"
+                "title": "C#",
+                "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
               },
               "next": {
                 "title": "Bithound",
@@ -360,32 +335,6 @@
               }
             },
             {
-              "unversionedId": "development-infrastructure/continuous-integration/clojure",
-              "id": "development-infrastructure/continuous-integration/clojure",
-              "isDocsHomePage": false,
-              "title": "Clojure",
-              "description": "Clojure is a dialect of the Lisp programming language that runs on the Java virtual machine, Common Language Runtime, and JavaScript engines; the Foundation hosts some Clojure projects that can be browsed as examples.",
-              "source": "@site/../docs/development-infrastructure/continuous-integration/clojure.md",
-              "sourceDirName": "development-infrastructure/continuous-integration",
-              "slug": "/development-infrastructure/continuous-integration/clojure",
-              "permalink": "/docs/development-infrastructure/continuous-integration/clojure",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/clojure.md",
-              "version": "current",
-              "frontMatter": {
-                "id": "clojure",
-                "title": "Clojure"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Continuous Integration",
-                "permalink": "/docs/development-infrastructure/continuous-integration/intro"
-              },
-              "next": {
-                "title": "C#",
-                "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
-              }
-            },
-            {
               "unversionedId": "development-infrastructure/continuous-integration/csharp",
               "id": "development-infrastructure/continuous-integration/csharp",
               "isDocsHomePage": false,
@@ -403,112 +352,8 @@
               },
               "sidebar": "mainSidebar",
               "previous": {
-                "title": "Clojure",
-                "permalink": "/docs/development-infrastructure/continuous-integration/clojure"
-              },
-              "next": {
-                "title": "Java",
-                "permalink": "/docs/development-infrastructure/continuous-integration/java"
-              }
-            },
-            {
-              "unversionedId": "development-infrastructure/continuous-integration/intro",
-              "id": "development-infrastructure/continuous-integration/intro",
-              "isDocsHomePage": false,
-              "title": "Continuous Integration",
-              "description": "Continuous Integration (CI) allows developers to run different type of validation processes automatically at commit / merge time, in order to identify problems earlier.  As a result, configuring CI is inherently language and eco-system specific (see the Release and deployment section below).",
-              "source": "@site/../docs/development-infrastructure/continuous-integration/intro.mdx",
-              "sourceDirName": "development-infrastructure/continuous-integration",
-              "slug": "/development-infrastructure/continuous-integration/intro",
-              "permalink": "/docs/development-infrastructure/continuous-integration/intro",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/intro.mdx",
-              "version": "current",
-              "frontMatter": {
-                "id": "intro",
-                "title": "Continuous Integration"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
                 "title": "FINOS Maintainers Cheatsheet",
                 "permalink": "/docs/finos-maintainers-cheatsheet"
-              },
-              "next": {
-                "title": "Clojure",
-                "permalink": "/docs/development-infrastructure/continuous-integration/clojure"
-              }
-            },
-            {
-              "unversionedId": "development-infrastructure/continuous-integration/java",
-              "id": "development-infrastructure/continuous-integration/java",
-              "isDocsHomePage": false,
-              "title": "Java",
-              "description": "The Foundation hosts several Java projects and provides a good level of support for building, testing and releasing Java code.",
-              "source": "@site/../docs/development-infrastructure/continuous-integration/java.mdx",
-              "sourceDirName": "development-infrastructure/continuous-integration",
-              "slug": "/development-infrastructure/continuous-integration/java",
-              "permalink": "/docs/development-infrastructure/continuous-integration/java",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/java.mdx",
-              "version": "current",
-              "frontMatter": {
-                "id": "java",
-                "title": "Java"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "C#",
-                "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
-              },
-              "next": {
-                "title": "Javascript",
-                "permalink": "/docs/development-infrastructure/continuous-integration/javascript"
-              }
-            },
-            {
-              "unversionedId": "development-infrastructure/continuous-integration/javascript",
-              "id": "development-infrastructure/continuous-integration/javascript",
-              "isDocsHomePage": false,
-              "title": "Javascript",
-              "description": "In the last decade, Javascript (JS) has been increasingly used for backend software development, especially since the first appearance of Node.js.  Listed below are some of the most common processes that are involved in a Javascript project lifecycle in several JS ecosystems/platforms, and how they interact with the project infrastructure provided by the Foundation.",
-              "source": "@site/../docs/development-infrastructure/continuous-integration/javascript.md",
-              "sourceDirName": "development-infrastructure/continuous-integration",
-              "slug": "/development-infrastructure/continuous-integration/javascript",
-              "permalink": "/docs/development-infrastructure/continuous-integration/javascript",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/javascript.md",
-              "version": "current",
-              "frontMatter": {
-                "id": "javascript",
-                "title": "Javascript"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Java",
-                "permalink": "/docs/development-infrastructure/continuous-integration/java"
-              },
-              "next": {
-                "title": "Python",
-                "permalink": "/docs/development-infrastructure/continuous-integration/python"
-              }
-            },
-            {
-              "unversionedId": "development-infrastructure/continuous-integration/python",
-              "id": "development-infrastructure/continuous-integration/python",
-              "isDocsHomePage": false,
-              "title": "Python",
-              "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.  Packages are published on the Python Package Index (pypi), however the FINOS account is still empty, see pypi.org/user/finos .",
-              "source": "@site/../docs/development-infrastructure/continuous-integration/python.md",
-              "sourceDirName": "development-infrastructure/continuous-integration",
-              "slug": "/development-infrastructure/continuous-integration/python",
-              "permalink": "/docs/development-infrastructure/continuous-integration/python",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/continuous-integration/python.md",
-              "version": "current",
-              "frontMatter": {
-                "id": "python",
-                "title": "Python"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Javascript",
-                "permalink": "/docs/development-infrastructure/continuous-integration/javascript"
               },
               "next": {
                 "title": "Code Validation",
@@ -537,8 +382,8 @@
                 "permalink": "/docs/project-collaboration"
               },
               "next": {
-                "title": "Continuous Integration",
-                "permalink": "/docs/development-infrastructure/continuous-integration/intro"
+                "title": "C#",
+                "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
               }
             },
             {

@@ -6,12 +6,7 @@ module.exports = {
         type: 'category',
         label: 'Continuous Integration',
         items: [
-          "development-infrastructure/continuous-integration/intro",
-          "development-infrastructure/continuous-integration/clojure",
-          "development-infrastructure/continuous-integration/csharp",
-          "development-infrastructure/continuous-integration/java",
-          "development-infrastructure/continuous-integration/javascript",
-          "development-infrastructure/continuous-integration/python"
+          "development-infrastructure/continuous-integration/csharp"
         ]
       },
       {

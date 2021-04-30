@@ -16,11 +16,11 @@
   },
   "sidebar": "mainSidebar",
   "previous": {
-    "title": "Clojure",
-    "permalink": "/docs/development-infrastructure/continuous-integration/clojure"
+    "title": "FINOS Maintainers Cheatsheet",
+    "permalink": "/docs/finos-maintainers-cheatsheet"
   },
   "next": {
-    "title": "Java",
-    "permalink": "/docs/development-infrastructure/continuous-integration/java"
+    "title": "Code Validation",
+    "permalink": "/docs/development-infrastructure/code-validation/intro"
   }
 }

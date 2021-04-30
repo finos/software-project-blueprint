@@ -16,8 +16,8 @@
   },
   "sidebar": "mainSidebar",
   "previous": {
-    "title": "Python",
-    "permalink": "/docs/development-infrastructure/continuous-integration/python"
+    "title": "C#",
+    "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
   },
   "next": {
     "title": "Bithound",

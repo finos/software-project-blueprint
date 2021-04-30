@@ -25,7 +25,7 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/docs-044": {
+  "/docs-dc7": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -61,29 +61,9 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-development-infrastructure-code-validation-whitesourcead-2-0cb"
   },
-  "/docs/development-infrastructure/continuous-integration/clojure-c04": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-development-infrastructure-continuous-integration-clojure-84-d-1e1"
-  },
   "/docs/development-infrastructure/continuous-integration/csharp-84c": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-development-infrastructure-continuous-integration-csharp-393-688"
-  },
-  "/docs/development-infrastructure/continuous-integration/intro-b73": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-development-infrastructure-continuous-integration-intro-96-f-980"
-  },
-  "/docs/development-infrastructure/continuous-integration/java-894": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-development-infrastructure-continuous-integration-javac-67-b8a"
-  },
-  "/docs/development-infrastructure/continuous-integration/javascript-e7c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-development-infrastructure-continuous-integration-javascriptc-7-f-ff9"
-  },
-  "/docs/development-infrastructure/continuous-integration/python-a16": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-development-infrastructure-continuous-integration-python-98-b-a3a"
   },
   "/docs/finos-maintainers-cheatsheet-6e5": {
     "component": "component---theme-doc-item-178-a40",

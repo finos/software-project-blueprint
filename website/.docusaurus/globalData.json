@@ -51,33 +51,8 @@
               "sidebar": "mainSidebar"
             },
             {
-              "id": "development-infrastructure/continuous-integration/clojure",
-              "path": "/docs/development-infrastructure/continuous-integration/clojure",
-              "sidebar": "mainSidebar"
-            },
-            {
               "id": "development-infrastructure/continuous-integration/csharp",
               "path": "/docs/development-infrastructure/continuous-integration/csharp",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "development-infrastructure/continuous-integration/intro",
-              "path": "/docs/development-infrastructure/continuous-integration/intro",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "development-infrastructure/continuous-integration/java",
-              "path": "/docs/development-infrastructure/continuous-integration/java",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "development-infrastructure/continuous-integration/javascript",
-              "path": "/docs/development-infrastructure/continuous-integration/javascript",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "development-infrastructure/continuous-integration/python",
-              "path": "/docs/development-infrastructure/continuous-integration/python",
               "sidebar": "mainSidebar"
             },
             {

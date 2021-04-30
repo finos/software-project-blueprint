@@ -39,33 +39,8 @@
             "items": [
               {
                 "type": "link",
-                "label": "Continuous Integration",
-                "href": "/docs/development-infrastructure/continuous-integration/intro"
-              },
-              {
-                "type": "link",
-                "label": "Clojure",
-                "href": "/docs/development-infrastructure/continuous-integration/clojure"
-              },
-              {
-                "type": "link",
                 "label": "C#",
                 "href": "/docs/development-infrastructure/continuous-integration/csharp"
-              },
-              {
-                "type": "link",
-                "label": "Java",
-                "href": "/docs/development-infrastructure/continuous-integration/java"
-              },
-              {
-                "type": "link",
-                "label": "Javascript",
-                "href": "/docs/development-infrastructure/continuous-integration/javascript"
-              },
-              {
-                "type": "link",
-                "label": "Python",
-                "href": "/docs/development-infrastructure/continuous-integration/python"
               }
             ]
           },
@@ -146,12 +121,7 @@
     "/docs/development-infrastructure/code-validation/nodesecurity": "mainSidebar",
     "/docs/development-infrastructure/code-validation/sonarcloud": "mainSidebar",
     "/docs/development-infrastructure/code-validation/whitesource": "mainSidebar",
-    "/docs/development-infrastructure/continuous-integration/clojure": "mainSidebar",
     "/docs/development-infrastructure/continuous-integration/csharp": "mainSidebar",
-    "/docs/development-infrastructure/continuous-integration/intro": "mainSidebar",
-    "/docs/development-infrastructure/continuous-integration/java": "mainSidebar",
-    "/docs/development-infrastructure/continuous-integration/javascript": "mainSidebar",
-    "/docs/development-infrastructure/continuous-integration/python": "mainSidebar",
     "/docs/finos-maintainers-cheatsheet": "mainSidebar",
     "/docs/project-collaboration": "mainSidebar",
     "/docs/roadmap": "mainSidebar",

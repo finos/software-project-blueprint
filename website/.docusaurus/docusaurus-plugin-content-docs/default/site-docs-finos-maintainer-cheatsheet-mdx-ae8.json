@@ -20,7 +20,7 @@
     "permalink": "/docs/project-collaboration"
   },
   "next": {
-    "title": "Continuous Integration",
-    "permalink": "/docs/development-infrastructure/continuous-integration/intro"
+    "title": "C#",
+    "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
   }
 }
