@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import Project from '../components/project';
 
 const projects = [
   {
@@ -100,20 +101,6 @@ function Vendor({imageUrl, name}) {
       {imgUrl && (
         <div className="text--center">
           <img className={styles.memberImage} src={imgUrl} alt={name} />
-        </div>
-      )}
-     
-    </div>
-  );
-}
-
-function Project({imageUrl, name}) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={classnames('text--center col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.projectImage} src={imgUrl} alt={name} />
         </div>
       )}
      
