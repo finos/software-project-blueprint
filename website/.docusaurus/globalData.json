@@ -51,16 +51,6 @@
               "sidebar": "mainSidebar"
             },
             {
-              "id": "finos-maintainers-cheatsheet",
-              "path": "/docs/finos-maintainers-cheatsheet",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "project-collaboration",
-              "path": "/docs/project-collaboration",
-              "sidebar": "mainSidebar"
-            },
-            {
               "id": "team",
               "path": "/docs/team",
               "sidebar": "mainSidebar"

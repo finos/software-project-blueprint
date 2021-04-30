@@ -16,8 +16,8 @@
   },
   "sidebar": "mainSidebar",
   "previous": {
-    "title": "FINOS Maintainers Cheatsheet",
-    "permalink": "/docs/finos-maintainers-cheatsheet"
+    "title": "What is ODP",
+    "permalink": "/docs/what-is-odp"
   },
   "next": {
     "title": "Code Validation",

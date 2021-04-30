@@ -16,7 +16,7 @@
   },
   "sidebar": "mainSidebar",
   "next": {
-    "title": "Project Collaboration",
-    "permalink": "/docs/project-collaboration"
+    "title": "C#",
+    "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
   }
 }

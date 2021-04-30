@@ -44,7 +44,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','974'),
+  component: ComponentCreator('/docs','3c6'),
   
   routes: [
 {
@@ -85,16 +85,6 @@ export default [
 {
   path: '/docs/development-infrastructure/continuous-integration/csharp',
   component: ComponentCreator('/docs/development-infrastructure/continuous-integration/csharp','84c'),
-  exact: true,
-},
-{
-  path: '/docs/finos-maintainers-cheatsheet',
-  component: ComponentCreator('/docs/finos-maintainers-cheatsheet','6e5'),
-  exact: true,
-},
-{
-  path: '/docs/project-collaboration',
-  component: ComponentCreator('/docs/project-collaboration','442'),
   exact: true,
 },
 {

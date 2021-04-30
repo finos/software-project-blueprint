@@ -24,14 +24,6 @@
                   {
                     "type": "doc",
                     "id": "what-is-odp"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "project-collaboration"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "finos-maintainers-cheatsheet"
                   }
                 ]
               },
@@ -110,8 +102,6 @@
             "/docs/development-infrastructure/code-validation/sonarcloud": "mainSidebar",
             "/docs/development-infrastructure/code-validation/whitesource": "mainSidebar",
             "/docs/development-infrastructure/continuous-integration/csharp": "mainSidebar",
-            "/docs/finos-maintainers-cheatsheet": "mainSidebar",
-            "/docs/project-collaboration": "mainSidebar",
             "/docs/team": "mainSidebar",
             "/docs/what-is-odp": "mainSidebar"
           },
@@ -316,64 +306,12 @@
               },
               "sidebar": "mainSidebar",
               "previous": {
-                "title": "FINOS Maintainers Cheatsheet",
-                "permalink": "/docs/finos-maintainers-cheatsheet"
-              },
-              "next": {
-                "title": "Code Validation",
-                "permalink": "/docs/development-infrastructure/code-validation/intro"
-              }
-            },
-            {
-              "unversionedId": "finos-maintainers-cheatsheet",
-              "id": "finos-maintainers-cheatsheet",
-              "isDocsHomePage": false,
-              "title": "FINOS Maintainers Cheatsheet",
-              "description": "The following table guides FINOS Maintainers on key responsibilities and where to find helpful resources. For everything else, refer to odp.finos.org or open an issue on ODP.",
-              "source": "@site/../docs/finos-maintainer-cheatsheet.mdx",
-              "sourceDirName": ".",
-              "slug": "/finos-maintainers-cheatsheet",
-              "permalink": "/docs/finos-maintainers-cheatsheet",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/finos-maintainer-cheatsheet.mdx",
-              "version": "current",
-              "frontMatter": {
-                "id": "finos-maintainers-cheatsheet",
-                "title": "FINOS Maintainers Cheatsheet"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Project Collaboration",
-                "permalink": "/docs/project-collaboration"
-              },
-              "next": {
-                "title": "C#",
-                "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
-              }
-            },
-            {
-              "unversionedId": "project-collaboration",
-              "id": "project-collaboration",
-              "isDocsHomePage": false,
-              "title": "Project Collaboration",
-              "description": "FINOS leverages many services offered by GitHub.com, which are documented in the Collaboration Use Cases on GitHub and other collaboration use cases sections below.",
-              "source": "@site/../docs/project-collaboration.mdx",
-              "sourceDirName": ".",
-              "slug": "/project-collaboration",
-              "permalink": "/docs/project-collaboration",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/project-collaboration.mdx",
-              "version": "current",
-              "frontMatter": {
-                "id": "project-collaboration",
-                "title": "Project Collaboration"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
                 "title": "What is ODP",
                 "permalink": "/docs/what-is-odp"
               },
               "next": {
-                "title": "FINOS Maintainers Cheatsheet",
-                "permalink": "/docs/finos-maintainers-cheatsheet"
+                "title": "Code Validation",
+                "permalink": "/docs/development-infrastructure/code-validation/intro"
               }
             },
             {
@@ -416,8 +354,8 @@
               },
               "sidebar": "mainSidebar",
               "next": {
-                "title": "Project Collaboration",
-                "permalink": "/docs/project-collaboration"
+                "title": "C#",
+                "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
               }
             }
           ]
