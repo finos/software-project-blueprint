@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Project from '../components/project';
+import Feature from '../components/feature';
 
 const projects = [
   {
@@ -78,21 +79,6 @@ const features = [
     )
   }
 ];
-
-function Feature({imageUrl, title, description}) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={classnames('text--center col col--3', styles.feature)}>
-      {imgUrl && (
-        <div>
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
-  );
-}
 
 function Vendor({imageUrl, name}) {
   const imgUrl = useBaseUrl(imageUrl);
