@@ -72,7 +72,7 @@ My new content here..
 // Add newly-created-doc to the Getting Started category of docs
 module.exports = {
   mainSidebar: {
-    'Getting Started': ["what-is-odp", "project-collaboration", "newly-created-doc"]
+    'Getting Started': ["what-is-odp"]
     ...
   }
   ...
