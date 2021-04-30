@@ -50,30 +50,6 @@
                     "items": [
                       {
                         "type": "doc",
-                        "id": "development-infrastructure/code-validation/intro"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "development-infrastructure/code-validation/bithound"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "development-infrastructure/code-validation/codeclimate"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "development-infrastructure/code-validation/coverityscan"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "development-infrastructure/code-validation/nodesecurity"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "development-infrastructure/code-validation/sonarcloud"
-                      },
-                      {
-                        "type": "doc",
                         "id": "development-infrastructure/code-validation/whitesource"
                       }
                     ]
@@ -94,174 +70,12 @@
             ]
           },
           "permalinkToSidebar": {
-            "/docs/development-infrastructure/code-validation/bithound": "mainSidebar",
-            "/docs/development-infrastructure/code-validation/codeclimate": "mainSidebar",
-            "/docs/development-infrastructure/code-validation/coverityscan": "mainSidebar",
-            "/docs/development-infrastructure/code-validation/intro": "mainSidebar",
-            "/docs/development-infrastructure/code-validation/nodesecurity": "mainSidebar",
-            "/docs/development-infrastructure/code-validation/sonarcloud": "mainSidebar",
             "/docs/development-infrastructure/code-validation/whitesource": "mainSidebar",
             "/docs/development-infrastructure/continuous-integration/csharp": "mainSidebar",
             "/docs/team": "mainSidebar",
             "/docs/what-is-odp": "mainSidebar"
           },
           "docs": [
-            {
-              "unversionedId": "development-infrastructure/code-validation/bithound",
-              "id": "development-infrastructure/code-validation/bithound",
-              "isDocsHomePage": false,
-              "title": "Bithound",
-              "description": "| | |",
-              "source": "@site/../docs/development-infrastructure/code-validation/bithound.mdx",
-              "sourceDirName": "development-infrastructure/code-validation",
-              "slug": "/development-infrastructure/code-validation/bithound",
-              "permalink": "/docs/development-infrastructure/code-validation/bithound",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/bithound.mdx",
-              "version": "current",
-              "frontMatter": {
-                "id": "bithound",
-                "title": "Bithound"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Code Validation",
-                "permalink": "/docs/development-infrastructure/code-validation/intro"
-              },
-              "next": {
-                "title": "Code Climate",
-                "permalink": "/docs/development-infrastructure/code-validation/codeclimate"
-              }
-            },
-            {
-              "unversionedId": "development-infrastructure/code-validation/codeclimate",
-              "id": "development-infrastructure/code-validation/codeclimate",
-              "isDocsHomePage": false,
-              "title": "Code Climate",
-              "description": "| | |",
-              "source": "@site/../docs/development-infrastructure/code-validation/codeclimate.mdx",
-              "sourceDirName": "development-infrastructure/code-validation",
-              "slug": "/development-infrastructure/code-validation/codeclimate",
-              "permalink": "/docs/development-infrastructure/code-validation/codeclimate",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/codeclimate.mdx",
-              "version": "current",
-              "frontMatter": {
-                "id": "codeclimate",
-                "title": "Code Climate"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Bithound",
-                "permalink": "/docs/development-infrastructure/code-validation/bithound"
-              },
-              "next": {
-                "title": "Coverity Scan",
-                "permalink": "/docs/development-infrastructure/code-validation/coverityscan"
-              }
-            },
-            {
-              "unversionedId": "development-infrastructure/code-validation/coverityscan",
-              "id": "development-infrastructure/code-validation/coverityscan",
-              "isDocsHomePage": false,
-              "title": "Coverity Scan",
-              "description": "| | |",
-              "source": "@site/../docs/development-infrastructure/code-validation/coverityscan.mdx",
-              "sourceDirName": "development-infrastructure/code-validation",
-              "slug": "/development-infrastructure/code-validation/coverityscan",
-              "permalink": "/docs/development-infrastructure/code-validation/coverityscan",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/coverityscan.mdx",
-              "version": "current",
-              "frontMatter": {
-                "id": "coverityscan",
-                "title": "Coverity Scan"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Code Climate",
-                "permalink": "/docs/development-infrastructure/code-validation/codeclimate"
-              },
-              "next": {
-                "title": "Node Security",
-                "permalink": "/docs/development-infrastructure/code-validation/nodesecurity"
-              }
-            },
-            {
-              "unversionedId": "development-infrastructure/code-validation/intro",
-              "id": "development-infrastructure/code-validation/intro",
-              "isDocsHomePage": false,
-              "title": "Code Validation",
-              "description": "In order to assess Security, Quality and Legal compliance of software hosted by the Foundation, project leads and committers can configure integrations with third-party systems that are provided by the Foundation; the result of these processes can be published in the project's documentation to improve the final consumer experience and when requesting activation.",
-              "source": "@site/../docs/development-infrastructure/code-validation/intro.md",
-              "sourceDirName": "development-infrastructure/code-validation",
-              "slug": "/development-infrastructure/code-validation/intro",
-              "permalink": "/docs/development-infrastructure/code-validation/intro",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/intro.md",
-              "version": "current",
-              "frontMatter": {
-                "id": "intro",
-                "title": "Code Validation"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "C#",
-                "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
-              },
-              "next": {
-                "title": "Bithound",
-                "permalink": "/docs/development-infrastructure/code-validation/bithound"
-              }
-            },
-            {
-              "unversionedId": "development-infrastructure/code-validation/nodesecurity",
-              "id": "development-infrastructure/code-validation/nodesecurity",
-              "isDocsHomePage": false,
-              "title": "Node Security",
-              "description": "| | |",
-              "source": "@site/../docs/development-infrastructure/code-validation/nodesecurity.mdx",
-              "sourceDirName": "development-infrastructure/code-validation",
-              "slug": "/development-infrastructure/code-validation/nodesecurity",
-              "permalink": "/docs/development-infrastructure/code-validation/nodesecurity",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/nodesecurity.mdx",
-              "version": "current",
-              "frontMatter": {
-                "id": "nodesecurity",
-                "title": "Node Security"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Coverity Scan",
-                "permalink": "/docs/development-infrastructure/code-validation/coverityscan"
-              },
-              "next": {
-                "title": "Sonar Cloud",
-                "permalink": "/docs/development-infrastructure/code-validation/sonarcloud"
-              }
-            },
-            {
-              "unversionedId": "development-infrastructure/code-validation/sonarcloud",
-              "id": "development-infrastructure/code-validation/sonarcloud",
-              "isDocsHomePage": false,
-              "title": "Sonar Cloud",
-              "description": "| | |",
-              "source": "@site/../docs/development-infrastructure/code-validation/sonarcloud.mdx",
-              "sourceDirName": "development-infrastructure/code-validation",
-              "slug": "/development-infrastructure/code-validation/sonarcloud",
-              "permalink": "/docs/development-infrastructure/code-validation/sonarcloud",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/development-infrastructure/code-validation/sonarcloud.mdx",
-              "version": "current",
-              "frontMatter": {
-                "id": "sonarcloud",
-                "title": "Sonar Cloud"
-              },
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Node Security",
-                "permalink": "/docs/development-infrastructure/code-validation/nodesecurity"
-              },
-              "next": {
-                "title": "Whitesource",
-                "permalink": "/docs/development-infrastructure/code-validation/whitesource"
-              }
-            },
             {
               "unversionedId": "development-infrastructure/code-validation/whitesource",
               "id": "development-infrastructure/code-validation/whitesource",
@@ -280,8 +94,8 @@
               },
               "sidebar": "mainSidebar",
               "previous": {
-                "title": "Sonar Cloud",
-                "permalink": "/docs/development-infrastructure/code-validation/sonarcloud"
+                "title": "C#",
+                "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
               },
               "next": {
                 "title": "Project Team",
@@ -310,8 +124,8 @@
                 "permalink": "/docs/what-is-odp"
               },
               "next": {
-                "title": "Code Validation",
-                "permalink": "/docs/development-infrastructure/code-validation/intro"
+                "title": "Whitesource",
+                "permalink": "/docs/development-infrastructure/code-validation/whitesource"
               }
             },
             {

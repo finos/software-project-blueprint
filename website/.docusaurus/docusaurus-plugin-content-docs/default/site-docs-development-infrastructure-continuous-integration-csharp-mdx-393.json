@@ -20,7 +20,7 @@
     "permalink": "/docs/what-is-odp"
   },
   "next": {
-    "title": "Code Validation",
-    "permalink": "/docs/development-infrastructure/code-validation/intro"
+    "title": "Whitesource",
+    "permalink": "/docs/development-infrastructure/code-validation/whitesource"
   }
 }

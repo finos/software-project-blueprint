@@ -41,36 +41,6 @@
             "items": [
               {
                 "type": "link",
-                "label": "Code Validation",
-                "href": "/docs/development-infrastructure/code-validation/intro"
-              },
-              {
-                "type": "link",
-                "label": "Bithound",
-                "href": "/docs/development-infrastructure/code-validation/bithound"
-              },
-              {
-                "type": "link",
-                "label": "Code Climate",
-                "href": "/docs/development-infrastructure/code-validation/codeclimate"
-              },
-              {
-                "type": "link",
-                "label": "Coverity Scan",
-                "href": "/docs/development-infrastructure/code-validation/coverityscan"
-              },
-              {
-                "type": "link",
-                "label": "Node Security",
-                "href": "/docs/development-infrastructure/code-validation/nodesecurity"
-              },
-              {
-                "type": "link",
-                "label": "Sonar Cloud",
-                "href": "/docs/development-infrastructure/code-validation/sonarcloud"
-              },
-              {
-                "type": "link",
                 "label": "Whitesource",
                 "href": "/docs/development-infrastructure/code-validation/whitesource"
               }
@@ -93,12 +63,6 @@
     ]
   },
   "permalinkToSidebar": {
-    "/docs/development-infrastructure/code-validation/bithound": "mainSidebar",
-    "/docs/development-infrastructure/code-validation/codeclimate": "mainSidebar",
-    "/docs/development-infrastructure/code-validation/coverityscan": "mainSidebar",
-    "/docs/development-infrastructure/code-validation/intro": "mainSidebar",
-    "/docs/development-infrastructure/code-validation/nodesecurity": "mainSidebar",
-    "/docs/development-infrastructure/code-validation/sonarcloud": "mainSidebar",
     "/docs/development-infrastructure/code-validation/whitesource": "mainSidebar",
     "/docs/development-infrastructure/continuous-integration/csharp": "mainSidebar",
     "/docs/team": "mainSidebar",

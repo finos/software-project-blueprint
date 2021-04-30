@@ -16,8 +16,8 @@
   },
   "sidebar": "mainSidebar",
   "previous": {
-    "title": "Sonar Cloud",
-    "permalink": "/docs/development-infrastructure/code-validation/sonarcloud"
+    "title": "C#",
+    "permalink": "/docs/development-infrastructure/continuous-integration/csharp"
   },
   "next": {
     "title": "Project Team",

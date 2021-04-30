@@ -44,39 +44,9 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','3c6'),
+  component: ComponentCreator('/docs','870'),
   
   routes: [
-{
-  path: '/docs/development-infrastructure/code-validation/bithound',
-  component: ComponentCreator('/docs/development-infrastructure/code-validation/bithound','9b3'),
-  exact: true,
-},
-{
-  path: '/docs/development-infrastructure/code-validation/codeclimate',
-  component: ComponentCreator('/docs/development-infrastructure/code-validation/codeclimate','baf'),
-  exact: true,
-},
-{
-  path: '/docs/development-infrastructure/code-validation/coverityscan',
-  component: ComponentCreator('/docs/development-infrastructure/code-validation/coverityscan','61b'),
-  exact: true,
-},
-{
-  path: '/docs/development-infrastructure/code-validation/intro',
-  component: ComponentCreator('/docs/development-infrastructure/code-validation/intro','53e'),
-  exact: true,
-},
-{
-  path: '/docs/development-infrastructure/code-validation/nodesecurity',
-  component: ComponentCreator('/docs/development-infrastructure/code-validation/nodesecurity','310'),
-  exact: true,
-},
-{
-  path: '/docs/development-infrastructure/code-validation/sonarcloud',
-  component: ComponentCreator('/docs/development-infrastructure/code-validation/sonarcloud','556'),
-  exact: true,
-},
 {
   path: '/docs/development-infrastructure/code-validation/whitesource',
   component: ComponentCreator('/docs/development-infrastructure/code-validation/whitesource','88f'),

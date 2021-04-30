@@ -11,36 +11,6 @@
           "mainDocId": "what-is-odp",
           "docs": [
             {
-              "id": "development-infrastructure/code-validation/bithound",
-              "path": "/docs/development-infrastructure/code-validation/bithound",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "development-infrastructure/code-validation/codeclimate",
-              "path": "/docs/development-infrastructure/code-validation/codeclimate",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "development-infrastructure/code-validation/coverityscan",
-              "path": "/docs/development-infrastructure/code-validation/coverityscan",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "development-infrastructure/code-validation/intro",
-              "path": "/docs/development-infrastructure/code-validation/intro",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "development-infrastructure/code-validation/nodesecurity",
-              "path": "/docs/development-infrastructure/code-validation/nodesecurity",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "development-infrastructure/code-validation/sonarcloud",
-              "path": "/docs/development-infrastructure/code-validation/sonarcloud",
-              "sidebar": "mainSidebar"
-            },
-            {
               "id": "development-infrastructure/code-validation/whitesource",
               "path": "/docs/development-infrastructure/code-validation/whitesource",
               "sidebar": "mainSidebar"
