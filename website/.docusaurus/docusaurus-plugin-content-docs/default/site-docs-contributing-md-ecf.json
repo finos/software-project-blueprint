@@ -16,8 +16,8 @@
   },
   "sidebar": "mainSidebar",
   "previous": {
-    "title": "Continuous Delivery",
-    "permalink": "/docs/development-infrastructure/continuous-delivery"
+    "title": "Whitesource",
+    "permalink": "/docs/development-infrastructure/code-validation/whitesource"
   },
   "next": {
     "title": "Project Team",

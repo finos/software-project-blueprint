@@ -26,9 +26,7 @@ module.exports = {
         "development-infrastructure/code-validation/sonarcloud",
         "development-infrastructure/code-validation/whitesource"
         ]
-      },
-      'development-infrastructure/project-documentation',
-      'development-infrastructure/continuous-delivery'
+      }
     ],
     'About ODP': ["contributing","team","roadmap"],
   },

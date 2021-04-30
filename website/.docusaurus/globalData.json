@@ -51,11 +51,6 @@
               "sidebar": "mainSidebar"
             },
             {
-              "id": "development-infrastructure/continuous-delivery",
-              "path": "/docs/development-infrastructure/continuous-delivery",
-              "sidebar": "mainSidebar"
-            },
-            {
               "id": "development-infrastructure/continuous-integration/clojure",
               "path": "/docs/development-infrastructure/continuous-integration/clojure",
               "sidebar": "mainSidebar"
@@ -83,11 +78,6 @@
             {
               "id": "development-infrastructure/continuous-integration/python",
               "path": "/docs/development-infrastructure/continuous-integration/python",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "development-infrastructure/project-documentation",
-              "path": "/docs/development-infrastructure/project-documentation",
               "sidebar": "mainSidebar"
             },
             {

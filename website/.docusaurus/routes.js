@@ -44,7 +44,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','d34'),
+  component: ComponentCreator('/docs','044'),
   
   routes: [
 {
@@ -88,11 +88,6 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/development-infrastructure/continuous-delivery',
-  component: ComponentCreator('/docs/development-infrastructure/continuous-delivery','705'),
-  exact: true,
-},
-{
   path: '/docs/development-infrastructure/continuous-integration/clojure',
   component: ComponentCreator('/docs/development-infrastructure/continuous-integration/clojure','c04'),
   exact: true,
@@ -120,11 +115,6 @@ export default [
 {
   path: '/docs/development-infrastructure/continuous-integration/python',
   component: ComponentCreator('/docs/development-infrastructure/continuous-integration/python','a16'),
-  exact: true,
-},
-{
-  path: '/docs/development-infrastructure/project-documentation',
-  component: ComponentCreator('/docs/development-infrastructure/project-documentation','8f6'),
   exact: true,
 },
 {

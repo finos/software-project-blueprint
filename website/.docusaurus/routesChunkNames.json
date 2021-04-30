@@ -25,7 +25,7 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/docs-d34": {
+  "/docs-044": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -61,10 +61,6 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-development-infrastructure-code-validation-whitesourcead-2-0cb"
   },
-  "/docs/development-infrastructure/continuous-delivery-705": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-development-infrastructure-continuous-delivery-20-f-9b2"
-  },
   "/docs/development-infrastructure/continuous-integration/clojure-c04": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-development-infrastructure-continuous-integration-clojure-84-d-1e1"
@@ -88,10 +84,6 @@
   "/docs/development-infrastructure/continuous-integration/python-a16": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-development-infrastructure-continuous-integration-python-98-b-a3a"
-  },
-  "/docs/development-infrastructure/project-documentation-8f6": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-development-infrastructure-project-documentation-7-e-6-46c"
   },
   "/docs/finos-maintainers-cheatsheet-6e5": {
     "component": "component---theme-doc-item-178-a40",
