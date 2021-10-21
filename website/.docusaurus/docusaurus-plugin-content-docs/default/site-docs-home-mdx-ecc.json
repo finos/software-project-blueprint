@@ -1,0 +1,20 @@
+{
+  "unversionedId": "home",
+  "id": "home",
+  "isDocsHomePage": false,
+  "title": "home",
+  "description": "",
+  "source": "@site/../docs/home.mdx",
+  "sourceDirName": ".",
+  "slug": "/home",
+  "permalink": "/docs/home",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/home.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "mainSidebar",
+  "next": {
+    "title": "team",
+    "permalink": "/docs/team"
+  }
+}

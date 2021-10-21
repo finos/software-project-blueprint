@@ -1,0 +1,23 @@
+{
+  "unversionedId": "crypto-and-child-protection",
+  "id": "crypto-and-child-protection",
+  "isDocsHomePage": false,
+  "title": "Crypto and Child Protection",
+  "description": "alt text",
+  "source": "@site/../docs/crypto-and-child-protection.mdx",
+  "sourceDirName": ".",
+  "slug": "/crypto-and-child-protection",
+  "permalink": "/docs/crypto-and-child-protection",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/crypto-and-child-protection.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "crypto-and-child-protection",
+    "title": "Crypto and Child Protection"
+  },
+  "sidebar": "mainSidebar",
+  "next": {
+    "title": "Bill Pay It Forward",
+    "permalink": "/docs/bill-pay-it-forward"
+  }
+}

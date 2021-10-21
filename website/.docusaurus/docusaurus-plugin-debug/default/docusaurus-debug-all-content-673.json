@@ -1,0 +1,167 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionEditUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs",
+          "versionEditUrlLocalized": "https://github.com/finos/open-developer-platform/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/juani/Desktop/Software Project Blueprint/My Fork/software-project-blueprint/website/sidebars.js",
+          "contentPath": "/Users/juani/Desktop/Software Project Blueprint/My Fork/software-project-blueprint/docs",
+          "contentPathLocalized": "/Users/juani/Desktop/Software Project Blueprint/My Fork/software-project-blueprint/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "home",
+          "sidebars": {
+            "mainSidebar": [
+              {
+                "type": "category",
+                "collapsed": true,
+                "collapsible": true,
+                "label": "Main Menu",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "home"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "team"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "roadmap"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "contributing"
+                  }
+                ]
+              }
+            ]
+          },
+          "docs": [
+            {
+              "unversionedId": "contributing",
+              "id": "contributing",
+              "isDocsHomePage": false,
+              "title": "contributing",
+              "description": "",
+              "source": "@site/../docs/contributing.mdx",
+              "sourceDirName": ".",
+              "slug": "/contributing",
+              "permalink": "/docs/contributing",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/contributing.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "roadmap",
+                "permalink": "/docs/roadmap"
+              }
+            },
+            {
+              "unversionedId": "home",
+              "id": "home",
+              "isDocsHomePage": false,
+              "title": "home",
+              "description": "",
+              "source": "@site/../docs/home.mdx",
+              "sourceDirName": ".",
+              "slug": "/home",
+              "permalink": "/docs/home",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/home.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "mainSidebar",
+              "next": {
+                "title": "team",
+                "permalink": "/docs/team"
+              }
+            },
+            {
+              "unversionedId": "roadmap",
+              "id": "roadmap",
+              "isDocsHomePage": false,
+              "title": "roadmap",
+              "description": "",
+              "source": "@site/../docs/roadmap.mdx",
+              "sourceDirName": ".",
+              "slug": "/roadmap",
+              "permalink": "/docs/roadmap",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/roadmap.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "team",
+                "permalink": "/docs/team"
+              },
+              "next": {
+                "title": "contributing",
+                "permalink": "/docs/contributing"
+              }
+            },
+            {
+              "unversionedId": "team",
+              "id": "team",
+              "isDocsHomePage": false,
+              "title": "team",
+              "description": "",
+              "source": "@site/../docs/team.mdx",
+              "sourceDirName": ".",
+              "slug": "/team",
+              "permalink": "/docs/team",
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/team.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "home",
+                "permalink": "/docs/home"
+              },
+              "next": {
+                "title": "roadmap",
+                "permalink": "/docs/roadmap"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": null
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

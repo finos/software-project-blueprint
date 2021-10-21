@@ -1,0 +1,27 @@
+{
+  "unversionedId": "bill-pay-it-forward",
+  "id": "bill-pay-it-forward",
+  "isDocsHomePage": false,
+  "title": "Bill Pay It Forward",
+  "description": "alt text",
+  "source": "@site/../docs/bill-pay-it-forward.mdx",
+  "sourceDirName": ".",
+  "slug": "/bill-pay-it-forward",
+  "permalink": "/docs/bill-pay-it-forward",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/bill-pay-it-forward.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "bill-pay-it-forward",
+    "title": "Bill Pay It Forward"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Crypto and Child Protection",
+    "permalink": "/docs/crypto-and-child-protection"
+  },
+  "next": {
+    "title": "NY-DFS Cryptocurrency Digital Regulatory Reporting",
+    "permalink": "/docs/ny-dfs-cryptocurrency-digital-regulatory-reporting"
+  }
+}

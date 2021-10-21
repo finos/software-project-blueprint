@@ -1,0 +1,52 @@
+{
+  "/__docusaurus/debug-3d6": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/config-914": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/content-c28": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-3cf": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/__docusaurus/debug/metadata-31b": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/__docusaurus/debug/registry-0da": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/__docusaurus/debug/routes-244": {
+    "component": "component---theme-debug-routes-946-699"
+  },
+  "/blog/archive-f4c": {
+    "component": "component---theme-blog-archive-page-9-e-4-1d8",
+    "archive": "archive---blog-archiveb-2-f-393"
+  },
+  "/docs-d02": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/contributing-65f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-contributing-85-b-cb7"
+  },
+  "/docs/home-0dd": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-homeecc-d7a"
+  },
+  "/docs/roadmap-b44": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-roadmapf-87-806"
+  },
+  "/docs/team-335": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-teamea-8-d87"
+  },
+  "/-deb": {
+    "component": "component---site-src-pages-index-jsc-4-f-f99",
+    "config": "config---5-e-9-4f3"
+  }
+}

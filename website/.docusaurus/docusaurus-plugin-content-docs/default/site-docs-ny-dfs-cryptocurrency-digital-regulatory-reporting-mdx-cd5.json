@@ -1,0 +1,23 @@
+{
+  "unversionedId": "ny-dfs-cryptocurrency-digital-regulatory-reporting",
+  "id": "ny-dfs-cryptocurrency-digital-regulatory-reporting",
+  "isDocsHomePage": false,
+  "title": "NY-DFS Cryptocurrency Digital Regulatory Reporting",
+  "description": "alt text",
+  "source": "@site/../docs/ny-dfs-cryptocurrency-digital-regulatory-reporting.mdx",
+  "sourceDirName": ".",
+  "slug": "/ny-dfs-cryptocurrency-digital-regulatory-reporting",
+  "permalink": "/docs/ny-dfs-cryptocurrency-digital-regulatory-reporting",
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/ny-dfs-cryptocurrency-digital-regulatory-reporting.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ny-dfs-cryptocurrency-digital-regulatory-reporting",
+    "title": "NY-DFS Cryptocurrency Digital Regulatory Reporting"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Bill Pay It Forward",
+    "permalink": "/docs/bill-pay-it-forward"
+  }
+}
