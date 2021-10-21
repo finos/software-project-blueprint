@@ -27,7 +27,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to={'https://regulationinnovation.org/'}>
+              to={'https://finos.org/'}>
               GET STARTED
             </Link>
             <Link
@@ -35,7 +35,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to={'https://regulationinnovation.org/'}>
+              to={'https://github.com/finos'}>
               GITHUB
             </Link>
           </div>
