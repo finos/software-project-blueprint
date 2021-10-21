@@ -11,11 +11,6 @@
           "mainDocId": "home",
           "docs": [
             {
-              "id": "contributing",
-              "path": "/docs/contributing",
-              "sidebar": "mainSidebar"
-            },
-            {
               "id": "home",
               "path": "/docs/home",
               "sidebar": "mainSidebar"

@@ -37,36 +37,12 @@
                   {
                     "type": "doc",
                     "id": "roadmap"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "contributing"
                   }
                 ]
               }
             ]
           },
           "docs": [
-            {
-              "unversionedId": "contributing",
-              "id": "contributing",
-              "isDocsHomePage": false,
-              "title": "contributing",
-              "description": "",
-              "source": "@site/../docs/contributing.mdx",
-              "sourceDirName": ".",
-              "slug": "/contributing",
-              "permalink": "/docs/contributing",
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/contributing.mdx",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "roadmap",
-                "permalink": "/docs/roadmap"
-              }
-            },
             {
               "unversionedId": "home",
               "id": "home",
@@ -105,10 +81,6 @@
               "previous": {
                 "title": "team",
                 "permalink": "/docs/team"
-              },
-              "next": {
-                "title": "contributing",
-                "permalink": "/docs/contributing"
               }
             },
             {

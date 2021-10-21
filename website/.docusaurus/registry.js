@@ -12,7 +12,6 @@ export default {
   'component---theme-doc-item-178-a40': [() => import(/* webpackChunkName: 'component---theme-doc-item-178-a40' */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
   'component---theme-doc-page-1-be-9be': [() => import(/* webpackChunkName: 'component---theme-doc-page-1-be-9be' */ "@theme/DocPage"), "@theme/DocPage", require.resolveWeak("@theme/DocPage")],
   'config---5-e-9-4f3': [() => import(/* webpackChunkName: 'config---5-e-9-4f3' */ "@generated/docusaurus.config"), "@generated/docusaurus.config", require.resolveWeak("@generated/docusaurus.config")],
-  'content---docs-contributing-85-b-cb7': [() => import(/* webpackChunkName: 'content---docs-contributing-85-b-cb7' */ "@site/../docs/contributing.mdx"), "@site/../docs/contributing.mdx", require.resolveWeak("@site/../docs/contributing.mdx")],
   'content---docs-homeecc-d7a': [() => import(/* webpackChunkName: 'content---docs-homeecc-d7a' */ "@site/../docs/home.mdx"), "@site/../docs/home.mdx", require.resolveWeak("@site/../docs/home.mdx")],
   'content---docs-roadmapf-87-806': [() => import(/* webpackChunkName: 'content---docs-roadmapf-87-806' */ "@site/../docs/roadmap.mdx"), "@site/../docs/roadmap.mdx", require.resolveWeak("@site/../docs/roadmap.mdx")],
   'content---docs-teamea-8-d87': [() => import(/* webpackChunkName: 'content---docs-teamea-8-d87' */ "@site/../docs/team.mdx"), "@site/../docs/team.mdx", require.resolveWeak("@site/../docs/team.mdx")],

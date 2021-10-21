@@ -45,14 +45,8 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','d02'),
+    component: ComponentCreator('/docs','1cb'),
     routes: [
-      {
-        path: '/docs/contributing',
-        component: ComponentCreator('/docs/contributing','65f'),
-        exact: true,
-        'sidebar': "mainSidebar"
-      },
       {
         path: '/docs/home',
         component: ComponentCreator('/docs/home','0dd'),

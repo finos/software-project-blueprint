@@ -28,11 +28,6 @@
             "type": "link",
             "label": "roadmap",
             "href": "/docs/roadmap"
-          },
-          {
-            "type": "link",
-            "label": "contributing",
-            "href": "/docs/contributing"
           }
         ]
       }
