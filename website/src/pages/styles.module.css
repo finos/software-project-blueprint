@@ -36,18 +36,18 @@
   width: 100%;
 }
 
-.techsprintCTA{
+.featuresCTA{
   text-align: center;
 }
 
-.techsprintCTA ul{
+.featuresCTA ul{
   display: inline-block;
   padding: 0 20% 0 20%;
   list-style: none;
   margin-bottom: 5px;
 }
 
-.techsprintCTA li::before{
+.featuresCTA li::before{
   content: "\2022";
   display: inline-block;
   width: 2em;
