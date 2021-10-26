@@ -100,6 +100,10 @@ For more information about adding new docs, click [here](https://v2.docusaurus.i
 }
 ```
 
+## Deploying
+
+[Netlify] (https://www.netlify.com/) is the default way to serve FINOS websites publicly. Find docs [here] (https://docs.netlify.com/configure-builds/get-started/).
+
 # Full Documentation
 
 Full documentation can be found on the [Docusaurus v2 website](https://v2.docusaurus.io/).
