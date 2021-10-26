@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const projects = [
+export const featuresThree = [
     {
         title: <></>,
         imageUrl: '',

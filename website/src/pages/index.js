@@ -3,12 +3,11 @@ import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Feature from '../components/feature';
-import TechSprint from '../components/techsprints';
 import { features } from '../components/feature-config';
-import { techsprints } from '../components/techsprints-config';
+import FeaturesTwo from '../components/featuresTwo';
+import { featuresTwo } from '../components/featuresTwo-config';
 
 function Home() {
   const context = useDocusaurusContext();
@@ -53,15 +52,15 @@ function Home() {
             </div>
           </section>
         )}
-        {techsprints && techsprints.length && (
+        {featuresTwo && featuresTwo.length && (
           <section className={styles.members}>
             <div className="container">
               <div className="row row--center">
-                <h2>Featured TechSprints</h2>
+                <h2></h2>
               </div>
               <div className="row">
-                {techsprints.map((props, idx) => (
-                  <TechSprint key={idx} {...props} />
+                {featuresTwo.map((props, idx) => (
+                  <FeaturesTwo key={idx} {...props} />
                 ))}
               </div>
             </div>

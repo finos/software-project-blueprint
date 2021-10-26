@@ -21,12 +21,6 @@ module.exports = {
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   stylesheets: ['https://fonts.googleapis.com/css?family=Overpass:400,400i,700'],
-
-  // TODO - find a place for these
-  // ogImage: 'img/undraw_online.svg',
-  // twitterImage: 'img/undraw_tweetstorm.svg',
-  // twitterUsername: 'FinosFoundation',
-
   themeConfig: {
     navbar: {
       title: `FINOS ${projectName}`,

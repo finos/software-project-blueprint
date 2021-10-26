@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from '../pages/styles.module.css';
 
-export default function Project({imageUrl, title, description}) {
+export default function FeaturesThree({imageUrl, title, description}) {
     const imgUrl = useBaseUrl(imageUrl);
     return (
         <div className={classnames('text--center col col--4 padding', styles.feature)}>
