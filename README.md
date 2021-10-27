@@ -8,6 +8,10 @@ Project blueprint is a GitHub repository template for all [Fintech Open Source F
 
 Please follow https://odp.finos.org/docs/project-collaboration/#how-to-use-this-blueprint
 
+## Blueprint preview
+
+A preview of the blueprint can be found [here](https://amazing-joliot-c42cde.netlify.app/). 
+
 ## Governance
 This blueprint implements https://github.com/finos/community/tree/master/governance#open-source-software-projects
 
