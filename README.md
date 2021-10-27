@@ -6,7 +6,7 @@ Project blueprint is a GitHub repository template for all [Fintech Open Source F
 
 ## How to use this blueprint
 
-Please follow https://odp.finos.org/docs/project-collaboration/#finos-project-blueprint
+Please follow https://odp.finos.org/docs/project-collaboration/#how-to-use-this-blueprint
 
 ## Governance
 This blueprint implements https://github.com/finos/community/tree/master/governance#open-source-software-projects
