@@ -1,7 +1,7 @@
 ---
-name: "\U0001F91D [PROJECT NAME] Meeting Minutes"
-about: To track [PROJECT NAME] meeting agenda and attendance
-title: DD MMM YYYY - [PROJECT NAME] Meeting Minutes
+name: "\U0001F91D {project name} Meeting Minutes"
+about: To track {project name} meeting agenda and attendance
+title: DD MMM YYYY - {project name} Meeting Minutes
 labels: meeting
 assignees: 
 
