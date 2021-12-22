@@ -1,109 +1,26 @@
 This website was created with [Docusaurus v2](https://v2.docusaurus.io/).
 
-# What's In This Document
+In order to start working with Docusaurus, please read the [Getting Started guide](https://docusaurus.io/docs/configuration) and browse through the following folders and files:
+- `website` - contains the Node/React code to build the website
+- `website/docusaurus.config.js` - contains the Docusaurus configuration; you'll need to edit this file.
+- `website/static` - contains images, PDF and other static assets used in the website; if you add a `file.pdf` in this folder, it will be served as `https://<your_host>/file.pdf`.
+- `docs` - contains the `.md` and `.mdx` files that are served as `https://<your_host>/<file_id>` ; the `file_id` is defined at the top of the file.
 
-- [Get Started in 5 Minutes](#get-started-in-5-minutes)
-- [Directory Structure](#directory-structure)
-- [Editing Content](#editing-content)
-- [Adding Content](#adding-content)
-- [Full Documentation](#full-documentation)
+## Local run
 
-# Get Started in 5 Minutes
+Running Docusaurus locally is very simple, just follow these steps:
+- Make sure `node` version is 14 or higher, using `node -v` ; you can use [nvm](https://github.com/nvm-sh/nvm) to install different node versions in your system.
+- `cd website ; npm install ; npm run start`
 
-1. Ensure NodeJS is installed
-```sh
-$ node -v
-$ npm -v
-```
+The command should open your browser and point to `http://localhost:3000`.
 
-2. Install and run Docusaurus locally
-
-```sh
-$ git clone git@github.com:<your fork>/open-developer-platform.git
-$ cd open-developer-platform
-
-# Download dependencies
-$ yarn --cwd website install
-
-# Generate contributing.md page
-./scripts/build-contribute-page.sh
-
-$ yarn --cwd website start
-```
-This will open a browser on http://localhost:3300
-
-# Editing Content
-
-## Editing an existing docs page
-
-Edit docs by navigating to `docs/` and editing the corresponding document:
-
-`docs/doc-to-be-edited.md`
-
-```markdown
----
-id: page-needs-edit
-title: This Doc Needs To Be Edited
----
-
-Edit me...
-```
-
-For more information about docs, click [here](https://v2.docusaurus.io/docs/installation#project-structure)
-
-# Adding Content
-
-## Adding a new docs page to an existing sidebar
-
-1. Create the doc as a new markdown file in `/docs`, example `docs/newly-created-doc.md`:
-
-```md
----
-id: newly-created-doc
-title: This Doc Needs To Be Edited
----
-
-My new content here..
-```
-
-2. Refer to that doc's ID in an existing sidebar in `website/sidebars.js`:
-
-```javascript
-// Add newly-created-doc to the Getting Started category of docs
-module.exports = {
-  mainSidebar: {
-    'Getting Started': ["what-is-odp"]
-    ...
-  }
-  ...
-}
-```
-
-For more information about adding new docs, click [here](https://v2.docusaurus.io/docs/docs#sidebar)
-
-## Adding items to your site's top navigation bar
-
-1. Add links to docs, custom pages or external links by editing the headerLinks field of `website/docusaurus.config.js`:
-
-```javascript
-{
-  links: [
-    {to: 'docs/what-is-odp', label: 'Docs', position: 'right'},
-    {to: 'docs/roadmap', label: 'Roadmap', position: 'right'},
-    {to: 'docs/team', label: 'Team', position: 'right'},
-    {
-      href: 'https://github.com/finos/open-developer-platform',
-      label: 'GitHub',
-      position: 'right',
-    }
-  ]
-}
-```
-
-## Deploying
+## Deployment
 
 [Netlify] (https://www.netlify.com/) is the default way to serve FINOS websites publicly. Find docs [here] (https://docs.netlify.com/configure-builds/get-started/).
 
-# Full Documentation
+You can configure Netlify using your own GitHub account, pointing to a personal repository (or fork); when adding a new site, please use the following configuration:
+- Woeking directory: `website`
+- Build command: `yarn build`
+- Build directory: `website/build`
 
-Full documentation can be found on the [Docusaurus v2 website](https://v2.docusaurus.io/).
+If you want to serve your website through `https://<project_name>.finos.org`, please email [help@finos.org](mailto:help@finos.org). To check a preview, visit https://project-blueprint.finos.org .
