@@ -43,7 +43,7 @@ List the roadmap steps; alternatively link the Confluence Wiki page where the pr
 
 ## Contributing
 For any questions, bugs or feature requests please open an [issue](https://github.com/finos/{project slug}/issues)
-For anything else please send an email to {project mailing list}
+For anything else please send an email to {project mailing list}.
 
 To submit a contribution:
 1. Fork it (<https://github.com/finos/{project slug}/fork>)
