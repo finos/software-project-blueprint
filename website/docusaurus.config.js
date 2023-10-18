@@ -13,6 +13,7 @@ module.exports = {
   tagline: `FINOS ${projectName}`, 
   url: 'https://finos.org',
   baseUrl: '/',
+  trailingSlash: false,
   favicon: 'img/favicon/favicon-finos.ico',
   projectName: `FINOS ${projectName}`,
   organizationName: 'FINOS',
