@@ -77,8 +77,8 @@ module.exports = {
               to: 'https://community.finos.org/',
             },
             {
-              label: 'Community Governance',
-              to: 'https://community.finos.org/docs/governance/#community-governance',
+              label: 'FINOS Projects',
+              to: 'https://landscape.finos.org',
             }
           ]
         },
