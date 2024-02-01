@@ -62,10 +62,6 @@ module.exports = {
             {
               label: 'Team',
               to: 'docs/team',
-            },
-            {
-              label: 'About FINOS',
-              to: 'docs/about-finos',
             }
           ]
         },
@@ -81,8 +77,8 @@ module.exports = {
               to: 'https://community.finos.org/',
             },
             {
-              label: 'Community Governance',
-              to: 'https://community.finos.org/docs/governance/#community-governance',
+              label: 'FINOS Projects',
+              to: 'https://landscape.finos.org',
             }
           ]
         },
