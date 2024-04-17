@@ -1,4 +1,4 @@
-This website was created with [Docusaurus v2](https://v2.docusaurus.io/).
+This website was created with [Docusaurus v3](https://docusaurus.io/blog/releases/3.1).
 
 In order to start working with Docusaurus, please read the [Getting Started guide](https://docusaurus.io/docs/configuration) and browse through the following folders and files:
 - `website` - contains the Node/React code to build the website

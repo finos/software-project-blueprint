@@ -1,4 +1,4 @@
-// Docs at https://v2.docusaurus.io/docs/configuration
+// Docs at https://docusaurus.io/blog/releases/3.1
 
 
 // Replace 'project-blueprint' with {project name}
