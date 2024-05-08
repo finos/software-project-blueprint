@@ -2,15 +2,15 @@
 
 # FINOS Software Project Blueprint
 
-Project blueprint is a GitHub repository template for all [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) hosted GitHub repositories, contributed and maintained by FINOS as part of the [Open Developer Platform (ODP)](https://odp.finos.org) initiative.
+Project blueprint is a GitHub repository template for all [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) hosted GitHub repositories, contributed and maintained by FINOS.
 
 ## How to use this blueprint
 
-Please follow https://odp.finos.org/docs/project-collaboration/#how-to-use-this-blueprint
+Please follow instructions on [community.finos.org/docs/collaboration-infrastructure#finos-project-blueprint](https://community.finos.org/docs/collaboration-infrastructure#finos-project-blueprint)
 
 ## Blueprint preview
 
-A preview of the blueprint can be found [here](https://amazing-joliot-c42cde.netlify.app/). 
+A preview of the blueprint can be found on [project-blueprint.finos.org](https://project-blueprint.finos.org)
 
 ## Governance
 This blueprint implements https://community.finos.org/docs/governance/#open-source-software-projects
