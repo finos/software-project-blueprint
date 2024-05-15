@@ -44,12 +44,20 @@ module.exports = {
       {name: 'description', content: 'FINOS project documentation site blueprint.'},
       {property: 'og:title', content: 'FINOS Project Blueprint'},
       {property: 'og:description', content: 'FINOS project documentation site blueprint.'},
+<<<<<<< HEAD
       {property: 'og:image', content: 'https://raw.githubusercontent.com/finos/software-project-blueprint/028d518275a03dd33c934e3344d1a6c583dae721/website/static/img/feature/feature-image.png'},
+=======
+      {property: 'og:image', content: './static/img/feature/feature-image.png'},
+>>>>>>> 028d518275a03dd33c934e3344d1a6c583dae721
       {property: 'og:url', content: 'https://project-blueprint.finos.org/'},
       {name: 'twitter:card', content: 'summary_large_image'},
       {name: 'twitter:title', content: 'FINOS Project Blueprint'},
       {name: 'twitter:description', content: 'FINOS project documentation site blueprint.'},
+<<<<<<< HEAD
       {name: 'twitter:image', content: 'https://raw.githubusercontent.com/finos/software-project-blueprint/028d518275a03dd33c934e3344d1a6c583dae721/website/static/img/feature/feature-image.png'},
+=======
+      {name: 'twitter:image', content: './static/img/feature/feature-image.png'},
+>>>>>>> 028d518275a03dd33c934e3344d1a6c583dae721
     ],
     footer: {
       copyright: `Copyright © ${new Date().getFullYear()} ${projectName} - ${copyrightOwner}`,
