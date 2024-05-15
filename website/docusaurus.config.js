@@ -40,6 +40,17 @@ module.exports = {
         }
       ],
     },
+    metadata: [
+      {name: 'description', content: 'FINOS blueprint for project documentation sites.'},
+      {property: 'og:title', content: 'FINOS Project Blueprint'},
+      {property: 'og:description', content: 'FINOS blueprint for project documentation sites.'},
+      {property: 'og:image', content: '/static/img/feature/feature-image.png'},
+      {property: 'og:url', content: 'https://project-blueprint.finos.org/'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:title', content: 'FINOS Project Blueprint'},
+      {name: 'twitter:description', content: 'FINOS blueprint for project documentation sites.'},
+      {name: 'twitter:image', content: '/static/img/feature/feature-image.png'},
+    ],
     footer: {
       copyright: `Copyright © ${new Date().getFullYear()} ${projectName} - ${copyrightOwner}`,
       logo: {
