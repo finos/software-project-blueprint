@@ -1471,9 +1471,7 @@
     tslib "^2.6.0"
 
 "@docusaurus/preset-classic@^3.1.0":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@docusaurus/preset-classic/-/preset-classic-3.1.1.tgz#15fd80012529dafd7e01cc0bce59d39ee6ad6bf5"
-  integrity sha512-jG4ys/hWYf69iaN/xOmF+3kjs4Nnz1Ay3CjFLDtYa8KdxbmUhArA9HmP26ru5N0wbVWhY+6kmpYhTJpez5wTyg==
+  version "3.5.2"
   dependencies:
     "@docusaurus/core" "3.1.1"
     "@docusaurus/plugin-content-blog" "3.1.1"
