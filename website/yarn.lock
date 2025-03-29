@@ -8189,9 +8189,7 @@ react-dev-utils@^12.0.1:
     text-table "^0.2.0"
 
 react-dom@^19.0.0:
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.0.0.tgz#43446f1f01c65a4cd7f7588083e686a6726cfb57"
-  integrity sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==
+  version "19.1.0"
   dependencies:
     scheduler "^0.25.0"
 
@@ -8276,9 +8274,7 @@ react-router@5.3.4, react-router@^5.3.4:
     tiny-warning "^1.0.0"
 
 react@^19.0.0:
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-19.0.0.tgz#6e1969251b9f108870aa4bff37a0ce9ddfaaabdd"
-  integrity sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==
+  version "19.1.0"
 
 readable-stream@^2.0.1:
   version "2.3.8"
