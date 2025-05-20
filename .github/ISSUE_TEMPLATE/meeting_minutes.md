@@ -7,9 +7,12 @@ assignees:
 
 ---
 
-
- ## Date
+## Date
 YYYYMMDD - time
+
+## Meeting Details
+- Meeting link :
+- Register for future meetings:
 
 ## Untracked attendees
 - Fullname, Affiliation, (optional) GitHub username
@@ -43,9 +46,3 @@ YYYYMMDD - time
 - [ ] Action 1
 - [ ] Action 2
 - [ ] ...
-
-### WebEx info
-- Meeting link: 
-- Meeting number: 
-- Password:
-- Call-in:
