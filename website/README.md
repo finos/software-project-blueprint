@@ -1,4 +1,4 @@
-This website was created with [Docusaurus v3](https://docusaurus.io/docs/3.1.1).
+This website was created with [Docusaurus v3](https://docusaurus.io/docs/3.7.0).
 
 In order to start working with Docusaurus, please read the [Getting Started guide](https://docusaurus.io/docs/configuration) and browse through the following folders and files:
 - `website` - contains the Node/React code to build the website
@@ -9,7 +9,7 @@ In order to start working with Docusaurus, please read the [Getting Started guid
 ## Local run
 
 Running Docusaurus locally is very simple, just follow these steps:
-- Make sure `node` version is 14 or higher, using `node -v` ; you can use [nvm](https://github.com/nvm-sh/nvm) to install different node versions in your system.
+- Make sure `node` version is 18 or higher, using `node -v` ; you can use [nvm](https://github.com/nvm-sh/nvm) to install different node versions in your system.
 - `cd website ; npm install ; npm run start`
 
 The command should open your browser and point to `http://localhost:3000`.
@@ -19,7 +19,7 @@ The command should open your browser and point to `http://localhost:3000`.
 [Netlify] (https://www.netlify.com/) is the default way to serve FINOS websites publicly. Find docs [here] (https://docs.netlify.com/configure-builds/get-started/).
 
 You can configure Netlify using your own GitHub account, pointing to a personal repository (or fork); when adding a new site, please use the following configuration:
-- Woeking directory: `website`
+- Working directory: `website`
 - Build command: `yarn build`
 - Build directory: `website/build`
 
