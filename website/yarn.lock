@@ -1688,9 +1688,7 @@
     webpack "^5.88.1"
 
 "@docusaurus/preset-classic@^3.7.0":
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/@docusaurus/preset-classic/-/preset-classic-3.7.0.tgz#f6656a04ae6a4877523dbd04f7c491632e4003b9"
-  integrity sha512-nPHj8AxDLAaQXs+O6+BwILFuhiWbjfQWrdw2tifOClQoNfuXDjfjogee6zfx6NGHWqshR23LrcN115DmkHC91Q==
+  version "3.8.1"
   dependencies:
     "@docusaurus/core" "3.7.0"
     "@docusaurus/plugin-content-blog" "3.7.0"
