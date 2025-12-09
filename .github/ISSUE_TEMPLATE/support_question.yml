@@ -1,0 +1,18 @@
+name: 🤗 Support Question
+description: If you have a question about configuration, usage, etc. 💬
+title: "[Support] "
+labels: ["question", "support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing issues since someone might have already asked something similar.
+  - type: textarea
+    id: question
+    attributes:
+      label: Support Question
+      description: Ask your question here. Be as specific as possible.
+      placeholder: What would you like to know?
+    validations:
+      required: true
+

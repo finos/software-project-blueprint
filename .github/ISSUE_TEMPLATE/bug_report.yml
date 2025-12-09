@@ -1,0 +1,55 @@
+name: 🐛 Bug Report
+description: If something isn't working as expected 🤔
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the form below.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Please provide clear steps to reproduce the issue
+      placeholder: |
+        1. Step 1 description
+        2. Step 2 description
+        3. Step 3 description
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Result
+      description: What did you expect to happen?
+      placeholder: Description of what you expected to see...
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Result
+      description: What actually happened? Include full exceptions (entire stack trace, including "caused by" entries), log entries, screenshots, etc.
+      placeholder: What actually happened...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Version and build of the project, OS and runtime versions, virtualised environment (if any), etc.
+      placeholder: |
+        - Project version:
+        - OS:
+        - Runtime version:
+        - Other relevant details:
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here. If applicable, add screenshots to help explain.
+      placeholder: Any additional information that might be helpful...
+

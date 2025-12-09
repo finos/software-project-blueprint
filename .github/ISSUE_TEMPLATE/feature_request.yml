@@ -1,0 +1,37 @@
+name: 🚀 Feature Request
+description: I have a suggestion (and may want to implement it 🙂)!
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please resist the temptation to describe your request in terms of a solution. Job Story form ("When [triggering condition], I want to [motivation/goal], so I can [outcome].") can help ensure you're expressing a problem statement.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Description of Problem
+      description: What *problem* are you trying to solve that the project doesn't currently solve?
+      placeholder: |
+        When [triggering condition], I want to [motivation/goal], so I can [outcome].
+        
+        Describe the problem clearly...
+    validations:
+      required: true
+  - type: textarea
+    id: solutions
+    attributes:
+      label: Potential Solutions
+      description: Clearly and concisely describe what you want to happen. Add any considered drawbacks. If you've considered alternatives, clearly and concisely describe those too.
+      placeholder: |
+        Proposed solution:
+        - Description
+        - Benefits
+        - Drawbacks
+        
+        Alternatives considered:
+        - Alternative 1
+        - Alternative 2
+    validations:
+      required: true
+
