@@ -1,4 +1,4 @@
-This website was created with [Docusaurus v3](https://docusaurus.io/docs/3.7.0).
+[This website](https://project-blueprint.finos.org/) was created with [Docusaurus v3](https://docusaurus.io/docs/3.7.0).
 
 In order to start working with Docusaurus, please read the [Getting Started guide](https://docusaurus.io/docs/configuration) and browse through the following folders and files:
 - `website` - contains the Node/React code to build the website
@@ -16,7 +16,7 @@ The command should open your browser and point to `http://localhost:3000`.
 
 ## Deployment
 
-[Netlify] (https://www.netlify.com/) is the default way to serve FINOS websites publicly. Find docs [here] (https://docs.netlify.com/configure-builds/get-started/).
+[Netlify](https://www.netlify.com/) is the default way to serve FINOS websites publicly. Find docs [here](https://docs.netlify.com/configure-builds/get-started/).
 
 You can configure Netlify using your own GitHub account, pointing to a personal repository (or fork); when adding a new site, please use the following configuration:
 - Working directory: `website`
