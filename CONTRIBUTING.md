@@ -1,6 +1,12 @@
 # {project name} Contribution and Governance Policies
 
-This document describes the contribution process and governance policies of the FINOS {project name} project. The project is also governed by the [Linux Foundation Antitrust Policy](https://www.linuxfoundation.org/antitrust-policy/), and the FINOS [IP Policy]( https://community.finos.org/governance-docs/IP-policy.pdf), [Code of Conduct](https://community.finos.org/docs/governance/code-of-conduct), [Collaborative Principles](https://community.finos.org/docs/governance/collaborative-principles/), and [Meeting Procedures](https://community.finos.org/docs/governance/meeting-procedures/).
+This document describes the contribution process and governance policies of the FINOS {project name} project. The project is also governed by the [Linux Foundation Antitrust Policy](https://www.linuxfoundation.org/antitrust-policy/), and the FINOS [IP Policy](https://community.finos.org/governance-docs/IP-policy.pdf), [Code of Conduct](https://community.finos.org/docs/governance/code-of-conduct), [Collaborative Principles](https://community.finos.org/docs/governance/collaborative-principles/), and [Meeting Procedures](https://community.finos.org/docs/governance/meeting-procedures/).
+
+## Technical Charter
+
+After onboarding, FINOS publishes a **Technical Charter** for the project as a **PDF at the root of this repository** (exact filename is agreed at contribution time). That charter defines mission, scope, TSC structure, IP and licensing, and related governance—**do not duplicate that material here.**
+
+For structure and wording, see this **[example Technical Charter (finos/5-spot)](https://github.com/finos/5-spot/blob/main/technical-charter.pdf)** until your own charter PDF is in the repo.
 
 ## Contribution Process
 
@@ -11,16 +17,20 @@ Before making a contribution, please take the following steps:
 4. Fork the project repository and prepare your proposed contribution.
 5. Submit a pull request.
 
-NOTE: All contributors must have a contributor license agreement (CLA) on file with FINOS before their pull requests will be merged. Please review the FINOS [contribution requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements) and submit (or have your employer submit) the required CLA before submitting a pull request.
+NOTE: Contributors must meet FINOS **contribution requirements** (DCO, CLA, or other coverage as applicable to this repository). Please read [FINOS Contribution Requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements) before opening pull requests.
 
 ## Governance
 
-### Roles
+### Roles and charter-level governance
+
+Definitions of **Contributor**, **Maintainer**, **Lead Maintainer**, TSC responsibilities, and charter-level voting are in the **Technical Charter** (root-level PDF for this project—see the **[finos/5-spot example charter](https://github.com/finos/5-spot/blob/main/technical-charter.pdf)** for reference). The current Maintainer roster is listed in **[MAINTAINERS.md](./MAINTAINERS.md)**.
 
 The project community consists of Contributors and Maintainers:
 * A **Contributor** is anyone who submits a contribution to the project. (Contributions may include code, issues, comments, documentation, media, or any combination of the above.)
 * A **Maintainer** is a Contributor who, by virtue of their contribution history, has been given write access to project repositories and may merge approved contributions.
 * The **Lead Maintainer** is the project's interface with the FINOS team and Board. They are responsible for approving [quarterly project reports](https://community.finos.org/docs/governance/#project-governing-board-reporting) and communicating on behalf of the project. The Lead Maintainer is elected by a vote of the Maintainers. 
+
+The **Lead Maintainer** is the project's interface with the FINOS team and Board, including [quarterly project reports](https://community.finos.org/docs/governance/#project-governing-board-reporting), unless your charter specifies otherwise.
 
 ### Contribution Rules
 
