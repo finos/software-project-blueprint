@@ -23,14 +23,12 @@ NOTE: Contributors must meet FINOS **contribution requirements** (DCO, CLA, or o
 
 ### Roles and charter-level governance
 
-Definitions of **Contributor**, **Maintainer**, **Lead Maintainer**, TSC responsibilities, and charter-level voting are in the **Technical Charter** (root-level PDF for this project—see the **[finos/5-spot example charter](https://github.com/finos/5-spot/blob/main/technical-charter.pdf)** for reference). The current Maintainer roster is listed in **[MAINTAINERS.md](./MAINTAINERS.md)**.
+Definitions of **Contributor**, **Maintainer**, **Lead Maintainer**, TSC responsibilities, and charter-level voting are in the **[Technical Charter](./technical_charter.pdf)**. The current Maintainer roster is listed in **[MAINTAINERS.md](./MAINTAINERS.md)**.
 
 The project community consists of Contributors and Maintainers:
 * A **Contributor** is anyone who submits a contribution to the project. (Contributions may include code, issues, comments, documentation, media, or any combination of the above.)
 * A **Maintainer** is a Contributor who, by virtue of their contribution history, has been given write access to project repositories and may merge approved contributions.
 * The **Lead Maintainer** is the project's interface with the FINOS team and Board. They are responsible for approving [quarterly project reports](https://community.finos.org/docs/governance/#project-governing-board-reporting) and communicating on behalf of the project. The Lead Maintainer is elected by a vote of the Maintainers. 
-
-The **Lead Maintainer** is the project's interface with the FINOS team and Board, including [quarterly project reports](https://community.finos.org/docs/governance/#project-governing-board-reporting), unless your charter specifies otherwise.
 
 ### Contribution Rules
 
