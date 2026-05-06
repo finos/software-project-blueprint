@@ -13,7 +13,8 @@ Please follow instructions on [community.finos.org/docs/collaboration-infrastruc
 A preview of the blueprint can be found on [project-blueprint.finos.org](https://project-blueprint.finos.org)
 
 ## Governance
-This blueprint implements https://community.finos.org/docs/governance/#open-source-software-projects
+
+This blueprint implements [FINOS open source software project governance](https://community.finos.org/docs/governance/#open-source-software-projects) on community.finos.org.
 
 ## License
 
