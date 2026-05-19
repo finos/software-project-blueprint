@@ -6,7 +6,8 @@ For information about maintainer responsibilities and resources, see the [FINOS 
 
 ## Current maintainers
 
-_No maintainers detected. Please add maintainers to this list._
+| GitHub Username | Name | Organization | Email |
+|----------------|------|--------------|-------|
 
 ## Updating this file
 
