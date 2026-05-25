@@ -1,13 +1,13 @@
 # Maintainers
 
-This file lists the maintainers of this repository, kept up to date by the project maintainers and visible to the entire community.
-
-For information about maintainer responsibilities and resources, see the [FINOS Maintainers Cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet).
+This file lists the maintainers of this repository.
 
 ## Current maintainers
 
 | GitHub Username | Name | Organization | Email |
 |----------------|------|--------------|-------|
+
+For information about maintainer responsibilities and resources, see the [FINOS Maintainers Cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet).
 
 ## Updating this file
 
