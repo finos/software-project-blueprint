@@ -58,6 +58,15 @@ All Maintainer votes MUST be carried out transparently, with all discussion and 
 
 Any Contributor who has made a substantial contribution to the project MAY apply (or be nominated) to become a Maintainer. The existing Maintainers SHALL decide whether to approve the nomination according to the Maintainer Voting process above.
 
+### Maintainer List
+
+The current Maintainer roster is recorded in **[MAINTAINERS.md](./MAINTAINERS.md)**. All changes to the maintainer list are managed publicly:
+
+* Any addition, removal, or update MUST be submitted as a **pull request** to `MAINTAINERS.md`.
+* If the change requires a Maintainer vote (e.g. election or removal of a Maintainer or the Lead Maintainer), the vote outcome MUST be documented in, or linked from, the pull request description or comments.
+* This process creates a public audit trail of project leadership over time.
+* Whenever `MAINTAINERS.md` is updated with a change to maintainership, please email **help@finos.org**.
+
 ### Changes to this Document
 
 This document MAY be amended by a vote of the Maintainers according to the Maintainer Voting process above.
