@@ -4,7 +4,7 @@ This document describes the contribution process and governance policies of the 
 
 ## Technical Charter
 
-After onboarding, FINOS publishes a **Technical Charter** for the project as a **PDF at the root of this repository** (exact filename is agreed at contribution time). That charter defines mission, scope, TSC structure, IP and licensing, and related governance—**do not duplicate that material here.**
+After onboarding, FINOS publishes a **Technical Charter** for the project as a **PDF at the root of this repository**. That charter defines mission, scope, TSC structure, IP and licensing, and related governance—**do not duplicate that material here.**
 
 For structure and wording, see this **[example Technical Charter (finos/5-spot)](https://github.com/finos/5-spot/blob/main/technical-charter.pdf)** until your own charter PDF is in the repo.
 
