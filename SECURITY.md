@@ -5,7 +5,7 @@ This project supports responsible disclosure of security vulnerabilities and adh
 ## Reporting a Vulnerability
 
 - **GitHub private vulnerability reporting (preferred):** Use the ["Report a vulnerability"](../../security/advisories/new) button under this repository's **Security** tab. This opens a private advisory and communication channel with the maintainers.
-- **Email:** If you're unable to use GitHub's private reporting, email the maintainers listed in [MAINTAINERS.md](MAINTAINERS.md) and cc [security@finos.org](mailto:security@finos.org) with a description of the issue.
+- **Email:** If you're unable to use GitHub's private reporting, email [security@finos.org](mailto:security@finos.org) with a description of the issue. If maintainers are listed in [MAINTAINERS.md](MAINTAINERS.md), you may also email them and cc [security@finos.org](mailto:security@finos.org).
 
 ## Vulnerability Process
 
