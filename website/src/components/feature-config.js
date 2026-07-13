@@ -5,7 +5,7 @@ export const features = [
         title: <>Feature 1</>,
         imageUrl: '/img/finos/finos-blue.png',
         description: (
-            <>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</>
+            <>bal bla bla</>
         ),
         about: {
             title: <>Placeholder Link</>,
