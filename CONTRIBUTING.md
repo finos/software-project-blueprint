@@ -18,8 +18,6 @@ A **Technical Charter** for the {project name} project is published as a [**PDF 
 
 **Do not duplicate that material here.**
 
-For structure and wording, see this [**example Technical Charter (finos/5-spot)**](https://github.com/finos/5-spot/blob/main/technical-charter.pdf) until the project's own charter PDF is added to the repository.
-
 ## Developer Certificate of Origin (DCO)
 
 All contributions to this project must be accompanied by a **Developer Certificate of Origin (DCO) sign-off**. This is a FINOS requirement that certifies you have the right to submit the contribution under the project's license.
