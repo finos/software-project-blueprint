@@ -23,4 +23,4 @@ You can configure Netlify using your own GitHub account, pointing to a personal 
 - Build command: `yarn build`
 - Build directory: `website/build`
 
-If you want to serve your website through `https://<project_name>.finos.org`, please email [help@finos.org](mailto:help@finos.org). To check a preview, visit https://project-blueprint.finos.org .
+If you want to serve your website through `https://{PROJECT_SLUG}.finos.org`, please email [help@finos.org](mailto:help@finos.org). To check a preview, visit https://project-blueprint.finos.org .

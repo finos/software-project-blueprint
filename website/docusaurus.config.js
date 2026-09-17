@@ -1,11 +1,11 @@
 // Docs at https://docusaurus.io/blog/releases/3.1
 
 
-// Replace 'project-blueprint' with {project name}
+// Replace 'Project Blueprint' with {PROJECT_NAME}
 const projectName = 'Project Blueprint'
-// Replace 'project-blueprint' with {project name}
+// Replace 'project-blueprint' with {PROJECT_SLUG}
 const projectSlug = 'project-blueprint'
-// Replace 'FINOS' with {name of copyright owner}
+// Replace 'FINOS' with {NAME_OF_COPYRIGHT_OWNER}
 const copyrightOwner = 'FINOS'
 
 module.exports = {
