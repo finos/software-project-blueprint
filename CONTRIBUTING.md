@@ -1,6 +1,6 @@
-# {project name} Contribution and Governance Policies
+# {PROJECT_NAME} Contribution and Governance Policies
 
-This document describes the contribution process and governance policies of the FINOS {project name} project.
+This document describes the contribution process and governance policies of the FINOS {PROJECT_NAME} project.
 
 The project is also governed by:
 
@@ -10,11 +10,11 @@ The project is also governed by:
 * FINOS [Collaborative Principles](https://community.finos.org/docs/governance/collaborative-principles/)
 * FINOS [Meeting Procedures](https://community.finos.org/docs/governance/meeting-procedures/)
 
-{project name} is [Apache 2.0 licensed](https://www.apache.org/licenses/LICENSE-2.0) and accepts contributions via Git pull requests.
+{PROJECT_NAME} is [Apache 2.0 licensed](https://www.apache.org/licenses/LICENSE-2.0) and accepts contributions via Git pull requests.
 
 ## Technical Charter
 
-A **Technical Charter** for the {project name} project is published as a [**PDF at the root of this repository**](./technical-charter.pdf). That charter defines the project's mission, scope, TSC structure, IP and licensing, and related governance.
+A **Technical Charter** for the {PROJECT_NAME} project is published as a [**PDF at the root of this repository**](./technical-charter.pdf). That charter defines the project's mission, scope, TSC structure, IP and licensing, and related governance.
 
 **Do not duplicate that material here.**
 

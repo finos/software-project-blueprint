@@ -1,6 +1,6 @@
 [![FINOS - Incubating](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-incubating.svg)](https://community.finos.org/docs/governance/lifecycle-stages/incubating)
 
-# {project name}
+# {PROJECT_NAME}
 
 Short blurb about what your project does.
 
@@ -42,11 +42,11 @@ List the roadmap steps; alternatively link the Confluence Wiki page where the pr
 3. ....
 
 ## Contributing
-For any questions, bugs or feature requests please open an [issue](https://github.com/finos/{project slug}/issues)
-For anything else please send an email to {project mailing list}.
+For any questions, bugs or feature requests please open an [issue](https://github.com/finos/{PROJECT_SLUG}/issues)
+For anything else please send an email to {PROJECT_MAILING_LIST}.
 
 To submit a contribution:
-1. Fork it (<https://github.com/finos/{project slug}/fork>)
+1. Fork it (<https://github.com/finos/{PROJECT_SLUG}/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Read our [contribution guidelines](CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
 4. Commit your changes (`git commit -am 'Add some fooBar'`)
@@ -59,7 +59,7 @@ _NOTE:_ Pull requests must follow this repository’s contribution policy. FINOS
 
 ## License
 
-Copyright {yyyy} {name of copyright owner}
+Copyright {YYYY} {NAME_OF_COPYRIGHT_OWNER}
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
