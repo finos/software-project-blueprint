@@ -162,11 +162,22 @@ Votes **SHALL** take the form of:
 * `-1` — disagree
 * `+0` — abstain
 
-Quorum for TSC meetings requires at least **fifty percent of all voting members of the TSC** to be present. The TSC **MAY** continue to meet if quorum is not met, but **MUST NOT** make decisions at that meeting.
+A majority means **more than half**.
 
-Decisions by vote at a meeting require a majority vote of those in attendance, provided quorum is met.
+**Quorum.** Quorum for TSC meetings requires at least **50% of all voting members of the TSC** to be present. Quorum is based on presence, not on how a member votes. A voting member who is present and votes `+0` (abstain) **does** count toward quorum.
 
-Decisions made by electronic vote without a meeting require a majority vote of all voting members of the TSC.
+**Meeting votes.** Decisions by vote at a meeting require a majority of the `+1` and `-1` votes cast by voting members in attendance, provided quorum is met. Abstentions are not counted as agree or disagree and are **not** included in the result denominator. Treating abstain as part of that denominator would make it equivalent to disagree, which is not the rule.
+
+Examples (quorum met):
+
+* `1` agree + `1` abstain: `1 / 1` (100%), a majority of the votes counted toward the result.
+* `3` agree + `2` disagree + `1` abstain: `3 / 5` (60%), a majority. This is **not** counted as `3 / 6` (50%).
+
+**Electronic votes.** Decisions made by electronic vote without a meeting require a majority of **all voting members of the TSC**, as required by the Technical Charter. That is an affirmative-support test against the full roster, not a majority of opinions expressed. Only `+1` votes count toward the threshold. A `+0` is still an abstention in the record; it is not converted into a `-1`. It simply is not a `+1`, so it cannot help the motion pass.
+
+Example (TSC of six voting members): four `+1` votes are required. `3` agree + `2` disagree + `1` abstain is `3 / 6` and fails, because fewer than four members actively agreed.
+
+**Votes of the entire TSC.** Where the Technical Charter requires a two-thirds vote of the entire TSC, the same affirmative-support rule applies: two-thirds of the full roster must vote `+1`. Abstaining is not the same as voting no. It is a recorded decision not to agree, and because the bar is “this many members must agree,” anything other than `+1` leaves the motion short of that bar.
 
 If there is only one Maintainer, they **SHALL** decide any issue otherwise requiring a vote.
 
