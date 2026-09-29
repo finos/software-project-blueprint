@@ -14,7 +14,9 @@ The project is also governed by:
 
 ## Technical Charter
 
-The project's **Technical Charter** is published as a [**PDF at the root of this repository**](./technical-charter.pdf). It is the governing document for the project's mission, scope, Technical Steering Committee (TSC), intellectual property, licensing, and related governance.
+A **Technical Charter** for the {PROJECT_NAME} project is published as a [**PDF at the root of this repository**](./technical-charter.pdf). That charter defines the project's mission, scope, TSC structure, IP and licensing, and related governance.
+
+**Do not duplicate that material here.**
 
 ## Developer Certificate of Origin (DCO)
 
@@ -115,36 +117,23 @@ To make review of PRs easier, please:
 
 ## Governance
 
-The key words **MUST**, **SHALL**, **SHOULD**, **MAY**, etc. in this document are to be interpreted as described in [IETF RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
+### Roles and Charter-Level Governance
 
-### Technical Steering Committee (TSC)
+Definitions of **Contributor**, **Maintainer**, **TSC Chair**, TSC responsibilities, and charter-level voting are defined in the [**Technical Charter**](./technical-charter.pdf).
 
-The Technical Steering Committee is responsible for all technical oversight of the project, including technical direction, contribution policies, releases, and related community norms. TSC meetings are open to the public and may be conducted electronically, by teleconference, or in person.
+The current Maintainer roster is listed in [**MAINTAINERS.md**](./MAINTAINERS.md).
 
-**Every Maintainer is a voting member of the TSC.** The current TSC roster is the Maintainer list in [**MAINTAINERS.md**](./MAINTAINERS.md).
+The project community consists of Contributors and Maintainers:
 
-### TSC Chair
-
-The TSC **MAY** elect a **TSC Chair**. The TSC Chair:
-
-* Presides over meetings of the TSC
-* Serves until their resignation or replacement by the TSC
-* Is the primary communication contact between the project and FINOS, unless the TSC designates another TSC member for that role
-* Approves [quarterly project reports](https://community.finos.org/docs/governance/#project-governing-board-reporting) and communicates on behalf of the project
-
-If there is a  current TSC Chair they **SHOULD** identified in [**MAINTAINERS.md**](./MAINTAINERS.md). Election or replacement of the TSC Chair **MUST** follow the voting and pull request process described below.
-
-### Roles
-
-Participation in the project is open to anyone who abides by the Technical Charter.
-
-* A **Contributor** is anyone in the technical community who contributes code, documentation, or other technical artifacts to the project. Contributions may also include issues, comments, media, or any combination of the above.
-* A **Maintainer** is a Contributor who has earned the ability to modify ("commit") source code, documentation, or other technical artifacts in the project's repositories, and who may merge approved contributions. **Every Maintainer is a voting member of the TSC.**
-* The **TSC Chair** is a Maintainer elected by the TSC as described above.
+* A **Contributor** is anyone who submits a contribution to the project. Contributions may include code, issues, comments, documentation, media, or any combination of the above.
+* A **Maintainer** is a Contributor who, by virtue of their contribution history, has been given write access to project repositories and may merge approved contributions. Maintainers initially serve as the voting members of the Technical Steering Committee (TSC).
+* The **TSC Chair** is the project's interface with the FINOS team and Board. They are responsible for approving [quarterly project reports](https://community.finos.org/docs/governance/#project-governing-board-reporting) and communicating on behalf of the project. The TSC Chair can be elected by a vote of the TSC.
 
 ### Contribution Rules
 
 Anyone is welcome to submit a contribution to the project. The rules below apply to all contributions.
+
+The key words **MUST**, **SHALL**, **SHOULD**, **MAY**, etc. in this document are to be interpreted as described in [IETF RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
 * All contributions **MUST** be submitted as pull requests, including contributions by Maintainers.
 * All pull requests **SHOULD** be reviewed by a Maintainer other than the Contributor before being merged.
@@ -154,7 +143,7 @@ Anyone is welcome to submit a contribution to the project. The rules below apply
 
 ### TSC Voting
 
-The project aims to operate as a consensus-based community. If a TSC decision requires a vote to move the project forward, the voting members of the TSC vote on a one-vote-per-member basis.
+The TSC **MAY** hold votes only when it is unable to reach consensus on an issue.
 
 Votes **SHALL** take the form of:
 
@@ -162,20 +151,30 @@ Votes **SHALL** take the form of:
 * `-1` — disagree
 * `+0` — abstain
 
-Quorum for TSC meetings requires at least **fifty percent of all voting members of the TSC** to be present. The TSC **MAY** continue to meet if quorum is not met, but **MUST NOT** make decisions at that meeting.
+A majority means **more than half**.
 
-Decisions by vote at a meeting require a majority vote of those in attendance, provided quorum is met.
+**Quorum.** Quorum for TSC meetings requires at least **50% of all voting members of the TSC** to be present. Quorum is based on presence, not on how a member votes. A voting member who is present and votes `+0` (abstain) **does** count toward quorum.
 
-Decisions made by electronic vote without a meeting require a majority vote of all voting members of the TSC.
+**Meeting votes.** Decisions by vote at a meeting require a majority of the `+1` and `-1` votes cast by voting members in attendance, provided quorum is met. Abstentions are not counted as agree or disagree and are **not** included in the result denominator. Treating abstain as part of that denominator would make it equivalent to disagree, which is not the rule.
+
+Examples (quorum met):
+
+* `1` agree + `1` abstain: `1 / 1` (100%), a majority of the votes counted toward the result.
+* `3` agree + `2` disagree + `1` abstain: `3 / 5` (60%), a majority. This is **not** counted as `3 / 6` (50%).
+
+**Electronic votes.** Decisions made by electronic vote without a meeting require a majority of **all voting members of the TSC**, as required by the Technical Charter. That is an affirmative-support test against the full roster, not a majority of opinions expressed. Only `+1` votes count toward the threshold. A `+0` is still an abstention in the record; it is not converted into a `-1`. It simply is not a `+1`, so it cannot help the motion pass.
+
+Example (TSC of six voting members): four `+1` votes are required. `3` agree + `2` disagree + `1` abstain is `3 / 6` and fails, because fewer than four members actively agreed.
+
+**Votes of the entire TSC.** Where the Technical Charter requires a two-thirds vote of the entire TSC, the same affirmative-support rule applies: two-thirds of the full roster must vote `+1`. Abstaining is not the same as voting no. It is a recorded decision not to agree, and because the bar is “this many members must agree,” anything other than `+1` leaves the motion short of that bar.
 
 If there is only one Maintainer, they **SHALL** decide any issue otherwise requiring a vote.
 
-The TSC **SHALL** decide contested pull requests by consensus or, if necessary, a vote.
+The TSC **SHALL** decide the following matters by consensus or, if necessary, a vote:
 
-The following matters **MUST** be decided by a TSC vote:
-
-* Election and replacement of the TSC Chair
-* Election and removal of Maintainers, who are the voting members of the TSC 
+* Contested pull requests
+* Election and removal of the TSC Chair
+* Election and removal of Maintainers
 
 All TSC votes **MUST** be carried out transparently, with all discussion and voting occurring in public using one of the following methods:
 
@@ -183,22 +182,23 @@ All TSC votes **MUST** be carried out transparently, with all discussion and vot
 * The project mailing list or another official public communication channel
 * A regular, minuted project meeting
 
-If a vote cannot be resolved by the TSC, any voting member of the TSC **MAY** refer the matter to the Series Manager for assistance in reaching a resolution, as described in the Technical Charter.
-
-### Maintainer and TSC Chair Changes
+### Maintainer Qualifications
 
 Any Contributor who has made a substantial contribution to the project **MAY** apply or be nominated to become a Maintainer.
 
-A Contributor **MAY** become a Maintainer only by **majority approval of the TSC**. A Maintainer **MAY** be removed only by **majority approval of the TSC**. The TSC Chair is elected and replaced by the TSC using the same voting rules.
+The existing Maintainers, acting as the TSC, **SHALL** decide whether to approve the nomination according to the TSC Voting process described above.
 
-All such changes **MUST** be made by pull request and **MUST** be voted on:
+### Maintainer List
 
-* Any addition, removal, or update of a Maintainer or the TSC Chair **MUST** be submitted as a **pull request** to [**MAINTAINERS.md**](./MAINTAINERS.md).
-* The change **MUST** be approved by a TSC vote, as described above, before the pull request is merged.
-* The vote outcome **MUST** be documented in or linked from the pull request description or comments.
+The current Maintainer roster is recorded in [**MAINTAINERS.md**](./MAINTAINERS.md).
+
+All changes to the Maintainer list are managed publicly:
+
+* Any addition, removal, or update **MUST** be submitted as a **pull request** to `MAINTAINERS.md`.
+* If the change requires a vote, such as the election or removal of a Maintainer or the TSC Chair, the vote outcome **MUST** be documented in or linked from the pull request description or comments.
 * This process creates a public audit trail of project leadership over time.
-* Whenever `MAINTAINERS.md` is updated with a change to maintainership or the TSC Chair, please email **[help@finos.org](mailto:help@finos.org)**.
+* Whenever `MAINTAINERS.md` is updated with a change to maintainership, please email **[help@finos.org](mailto:help@finos.org)**.
 
 ### Changes to This Document
 
-This document **MAY** be amended by a majority vote of the TSC. Amendments to the [Technical Charter](./technical-charter.pdf) itself require a two-thirds vote of the entire TSC and are subject to approval by LF Projects.
+This document **MAY** be amended by a **two-thirds vote of the entire TSC** and is subject to approval by LF Projects.
