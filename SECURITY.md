@@ -17,7 +17,7 @@ If you find something you believe to be a security issue, we encourage and appre
 
 ## CRA Escalation (For Maintainers)
 
-This project is supported under the Linux Foundation CRA stewardship framework, as described at [https://www.linuxfoundation.org/security](https://www.linuxfoundation.org/security). Security vulnerabilities should be reported through the mechanisms described below, which we will coordinate with our CRA steward. For actively exploited vulnerabilities and severe incidents that may require CRA escalation, please use the project’s emergency security reporting mechanisms as appropriate.
+CRA stewardship: This project is supported under the Linux Foundation CRA stewardship framework. Security vulnerabilities should be reported through the mechanisms described in this file, which we will coordinate with our CRA steward. For actively exploited vulnerabilities and severe incidents that may require CRA escalation, please use the project's emergency security reporting mechanisms as appropriate. Read more at https://www.linuxfoundation.org/security .
 
 **Project maintainers MUST escalate** the issue to the LF steward at [steward@linuxfoundation.org](mailto:steward@linuxfoundation.org) if the project experiences either of the following:
 
@@ -25,5 +25,3 @@ This project is supported under the Linux Foundation CRA stewardship framework, 
 * **Severe incident:** a security compromise of the project’s own IT infrastructure.
 
 Ordinary vulnerabilities with no evidence of exploitation are not CRA escalation events. Escalate those that are actively exploited.
-
-
