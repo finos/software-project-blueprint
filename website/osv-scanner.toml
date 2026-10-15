@@ -1,0 +1,6 @@
+# This file skips website deps in OSV scans since it isn't shipped to users
+# Remove this if you'd rather keep website dependencies up-to-date
+[[PackageOverrides]]
+ecosystem = "npm"
+ignore = true
+reason = "Docusaurus documentation site only, not part of the distributed package(s)"
