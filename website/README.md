@@ -24,3 +24,11 @@ You can configure Netlify using your own GitHub account, pointing to a personal 
 - Build directory: `website/build`
 
 If you want to serve your website through `https://{PROJECT_SLUG}.finos.org`, please email [help@finos.org](mailto:help@finos.org). To check a preview, visit https://project-blueprint.finos.org .
+
+## Website dependency updates
+
+Website dependencies are excluded from OSV scans by default. If not, vulnerabilities negatively impact the health of the project as shown in [LFX Insights](https://insights.linuxfoundation.org) and [OSSF Scorecard](https://scorecard.dev/) even though the website is never actually shipped to the users.
+
+Note that [Docusaurus](https://github.com/facebook/docusaurus) patches often get published weeks or months after the vulnerable dependencies are detected. This means that automated dependency management tools like Dependabot are unable to quickly fix them and improve the project health score.
+
+Although not recommended, if you prefer to include website vulnerabilities in third-party scans, you can do this by deleting the [`osv-scanner.toml`](./osv-scanner.toml) file in the website root directory.
