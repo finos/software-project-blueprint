@@ -1,5 +1,5 @@
 # This file skips website deps in OSV scans since it isn't shipped to users
-# Remove this if you'd rather keep website dependencies up-to-date
+# Remove this to include website dependencies in OSV scans.
 [[PackageOverrides]]
 ecosystem = "npm"
 ignore = true
