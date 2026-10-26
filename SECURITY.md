@@ -1,8 +1,8 @@
 # Security Policy
 
-FINOS projects support responsible disclosure of security vulnerabilities and adheres to the [FINOS Security Vulnerabilities Responsible Disclosure Policy](https://community.finos.org/docs/governance/Software-Projects/cve-responsible-disclosure). 
+FINOS projects support responsible disclosure of security vulnerabilities and adhere to the [FINOS Security Vulnerabilities Responsible Disclosure Policy](https://community.finos.org/docs/governance/Software-Projects/cve-responsible-disclosure). 
 
-If you find something you believe to be a security issue, we encourage and appreciate your report. Please report the issue privately to the [project maintainers]({PROJECT_URL}/blob/main/MAINTAINERS.md) using one of the following methods:
+If you find something you believe to be a security issue, we encourage and appreciate your report. Please report the issue privately to the [project maintainers](./MAINTAINERS.md) using one of the following methods:
 
 ## Reporting a Vulnerability
 
