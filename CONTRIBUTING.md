@@ -132,7 +132,7 @@ The TSC **MAY** elect a **TSC Chair**. The TSC Chair:
 * Is the primary communication contact between the project and FINOS, unless the TSC designates another TSC member for that role
 * Approves [quarterly project reports](https://community.finos.org/docs/governance/#project-governing-board-reporting) and communicates on behalf of the project
 
-If there is a  current TSC Chair they **SHOULD** identified in [**MAINTAINERS.md**](./MAINTAINERS.md). Election or replacement of the TSC Chair **MUST** follow the voting and pull request process described below.
+If there is a  current TSC Chair they **SHOULD** be identified in [**MAINTAINERS.md**](./MAINTAINERS.md). Election or replacement of the TSC Chair **MUST** follow the voting and pull request process described below.
 
 ### Roles
 
