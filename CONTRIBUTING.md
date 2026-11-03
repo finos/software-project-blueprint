@@ -18,77 +18,72 @@ The project's **Technical Charter** is published as a [**PDF at the root of this
 
 ## Developer Certificate of Origin (DCO)
 
-All contributions to this project must be accompanied by a **Developer Certificate of Origin (DCO) sign-off**. This is a FINOS requirement that certifies you have the right to submit the contribution under the project's license.
+All contributions to this project must be accompanied by a **Developer Certificate of Origin** sign-off. This is a FINOS requirement that certifies you have the right to submit the contribution under the project's license.
 
 > [!IMPORTANT]
-> **All commits must be signed with a DCO signature to avoid being flagged by the DCO Bot.** The DCO check will fail if even a single commit in your branch is missing the `Signed-off-by` line.
+> Every commit in the pull request must contain a `Signed-off-by` line. The DCO check fails if any commit is missing it.
 
-This sign-off means you agree that the commit satisfies the [Developer Certificate of Origin (DCO)](https://developercertificate.org/).
+This sign-off means you agree the commit satisfies the [Developer Certificate of Origin (DCO)](https://developercertificate.org/).
 
-> [!WARNING]
-> Pull requests that contain unsigned commits will not be merged.
+> Pull requests that contain a commit without a `Signed-off-by` line will not be merged.
 
-Your commit log message must contain a line that looks like the following, using your actual name and email address:
+The commit message must contain a line like this, with your name and email:
 
-```text
+```
 Signed-off-by: John Doe <john.doe@example.com>
 ```
 
-### Configuring Git to Sign Off
+The name and email must match the commit author. Use an email address that is on your GitHub account. To keep your address private, set Git to the `noreply` address shown at [github.com/settings/emails](https://github.com/settings/emails). It looks like `ID+username@users.noreply.github.com`. Use that same address in the sign-off. See [Setting your commit email address](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address).
 
-Configure your Git identity:
+### Configuring Git to sign off
 
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
-Then create commits using the `-s` flag:
+Add the trailer on each commit:
 
 ```bash
 git commit -s -m "your message"
 ```
 
-> [!NOTE]
-> The email must match the email linked to your GitHub profile and must be set to public. See [GitHub email settings](https://github.com/settings/emails) to configure your email or review special configurations for keeping your email private.
+`git commit -s` inserts the line from `user.name` and `user.email`. You can also type it into the message yourself, or add it to the latest commit with `git commit --amend -s`.
 
-Adding the `-s` flag to `git commit` adds the `Signed-off-by` line automatically. You can also add it manually as part of your commit message or add it afterward with:
-
-```bash
-git commit --amend -s
-```
-
-To avoid having to remember the `-s` flag every time, configure Git to sign every commit automatically on your workstation:
+Git has no setting that adds this line to every `git commit`. `format.signoff` only affects `git format-patch`. An alias keeps the sign-off explicit:
 
 ```bash
-git config --global format.signoff true
+git config --global alias.ci "commit -s"
+git ci -m "your message"
 ```
 
-### How to Fix a Failing DCO Check
+### How to fix a failing DCO check
 
-If the DCO bot flags your PR, you don't need to start over or reopen the PR. It is likely that one or more commits in your PR were not properly signed.
+Leave the pull request open. Add the missing sign-off, then update the branch.
 
-You can bulk-sign previous commits using an interactive rebase:
+For the latest commit only:
 
-1. Start the rebase, replacing `X` with the number of commits in your PR:
+```bash
+git commit --amend -s --no-edit
+git push --force-with-lease
+```
 
-   ```bash
-   git rebase -i HEAD~X --signoff
-   ```
+For every commit on the branch that is not in the pull request's base:
 
-2. An editor will open listing your commits. Save and close it without making changes.
+```bash
+git fetch origin
+git rebase --signoff origin/main
+git push --force-with-lease
+```
 
-3. Force-push the corrected commits to your branch:
+Replace `origin` with the remote that has the base branch, and replace `main` if the base branch has another name. `--signoff` writes your current `user.name` and `user.email`, so those values must match the author of the commits you are rewriting. This rewrites the commits. Run it on your own pull-request branch.
 
-   ```bash
-   git push --force
-   ```
+### Helpful DCO resources
 
-### Helpful DCO Resources
-
-* [Git Tools - Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
-* [GitHub - Signing commits](https://docs.github.com/en/github/authenticating-to-github/signing-commits)
-* [Linux Foundation - DCO Best Practices](https://bestpractices.linuxfoundation.org/ip/contribution-mechanisms-dco.html)
+- [Developer Certificate of Origin](https://developercertificate.org/)
+- [`git commit --signoff`](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---signoff)
+- [DCO GitHub App](https://github.com/apps/dco)
+- [Setting your commit email address](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address)
 
 ## Contribution Process
 
