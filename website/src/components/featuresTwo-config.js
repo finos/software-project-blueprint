@@ -2,24 +2,24 @@ import React from 'react';
 
 export const featuresTwo = [
     {
-        title: <>Feature 1</>,
+        title: 'Docs',
         imageUrl: '/img/finos/finos-blue.png',
         description: (
-            <><span>...</span></>
+            <a href="/docs/home">Replace this link with a starting point</a>
         ),
     },
     {
-        title: <>Feature 2</>,
+        title: 'Roadmap',
         imageUrl: '/img/finos/finos-blue.png',
         description: (
-            <><a href='docs'>...</a></>
+            <a href="/docs/roadmap">Replace this link with the current plan</a>
         ),
     },
     {
-        title: <>Feature 3</>,
+        title: 'Team',
         imageUrl: '/img/finos/finos-blue.png',
         description: (
-            <><span>...</span></>
+            <a href="/docs/team">Replace this link with who maintains the project</a>
         ),
     }
 ];
