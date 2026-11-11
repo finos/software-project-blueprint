@@ -26,6 +26,11 @@
   --ifm-code-font-size: 95%;
 }
 
+/* Infima leaves the page background transparent. Paint the surface color so docs stay readable. */
+html {
+  background-color: var(--ifm-background-surface-color);
+}
+
 .navbar__items {
   color: #ffffff;
 }
@@ -77,10 +82,6 @@
   margin-left: 0;
   margin-right: 0;
   width:100%;
-}
-
-span {
-  color: var(#ffffff);
 }
 
 body{

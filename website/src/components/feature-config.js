@@ -1,61 +1,53 @@
-import React from 'react';
-
 export const features = [
     {
-        title: <>Feature 1</>,
+        title: 'What the project does',
         imageUrl: '/img/finos/finos-blue.png',
-        description: (
-            <>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</>
-        ),
+        description: 'Replace this card with a short description of a capability or outcome.',
         about: {
-            title: <>Placeholder Link</>,
-            link: 'docs'
-        },        
+            title: 'Read the docs',
+            link: '/docs/home'
+        },
         project: {
             title: '',
             link: ''
-        },        
+        },
         involved: {
             title: '',
             link: ''
-        }  
+        }
     },
     {
-        title: <>Feature 2</>,
+        title: 'Who it is for',
         imageUrl: '/img/finos/finos-blue.png',
-        description: (
-            <>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</>
-        ),
+        description: 'Replace this card with the audience: teams, roles, or member firms.',
         about: {
-            title: <>Placeholder Link</>,
-            link: 'docs'
-        },                
+            title: 'Meet the team',
+            link: '/docs/team'
+        },
         project: {
             title: '',
             link: ''
-        },        
+        },
         involved: {
             title: '',
             link: ''
-        }  
+        }
     },
     {
-        title: <>Feature 3</>,
+        title: 'How to start',
         imageUrl: '/img/finos/finos-blue.png',
-        description: (
-            <>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</>
-        ),
+        description: 'Replace this card with the first step a new user or contributor should take.',
         about: {
-            title: <>Placeholder Link</>,
-            link: 'docs'
-        },                
+            title: 'See the roadmap',
+            link: '/docs/roadmap'
+        },
         project: {
             title: '',
             link: ''
-        },        
+        },
         involved: {
             title: '',
             link: ''
-        }  
+        }
     }
 ];

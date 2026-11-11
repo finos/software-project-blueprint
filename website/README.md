@@ -1,27 +1,30 @@
-[This website](https://project-blueprint.finos.org/) was created with [Docusaurus v3](https://docusaurus.io/docs/3.7.0).
+[This website](https://project-blueprint.finos.org/) was created with [Docusaurus 3.10](https://docusaurus.io/docs).
 
 In order to start working with Docusaurus, please read the [Getting Started guide](https://docusaurus.io/docs/configuration) and browse through the following folders and files:
 - `website` - contains the Node/React code to build the website
-- `website/docusaurus.config.js` - contains the Docusaurus configuration; you'll need to edit this file.
+- `website/docusaurus.config.js` - contains the Docusaurus configuration. Project name, slug, and copyright owner are `{TOKEN}` constants at the top of that file. `projectSiteUrl` is a real `https://` URL so this blueprint can build; replace it with `{PROJECT_SITE_URL}`.
 - `website/static` - contains images, PDF and other static assets used in the website; if you add a `file.pdf` in this folder, it will be served as `https://<your_host>/file.pdf`.
-- `docs` - contains the `.md` and `.mdx` files that are served as `https://<your_host>/<file_id>` ; the `file_id` is defined at the top of the file.
+- `docs` - contains the `.md` files that are served as `https://<your_host>/<file_id>` ; the `file_id` is defined at the top of the file. Docusaurus compiles these pages as MDX. In the page body a token is written `{"{PROJECT_NAME}"}` so the site builds before search-and-replace. Searching for `{PROJECT_NAME}` still updates that sentence. Front matter can use `{PROJECT_NAME}` directly.
 
 ## Local run
 
-Running Docusaurus locally is very simple, just follow these steps:
-- Make sure `node` version is 18 or higher, using `node -v` ; you can use [nvm](https://github.com/nvm-sh/nvm) to install different node versions in your system.
-- `cd website ; npm install ; npm run start`
+The Node.js version for this site is recorded in `.node-version`. `package.json` requires that major version or newer.
+
+```sh
+cd website
+npm ci
+npm run start
+```
 
 The command should open your browser and point to `http://localhost:3000`.
+
+Install and build with npm. `website/package-lock.json` is the lockfile. There is no `yarn.lock`.
 
 ## Deployment
 
 [Netlify](https://www.netlify.com/) is the default way to serve FINOS websites publicly. Find docs [here](https://docs.netlify.com/configure-builds/get-started/).
 
-You can configure Netlify using your own GitHub account, pointing to a personal repository (or fork); when adding a new site, please use the following configuration:
-- Working directory: `website`
-- Build command: `yarn build`
-- Build directory: `website/build`
+`netlify.toml` at the repository root sets the base directory, build command, publish directory, and Node.js version. You do not need to re-enter those in the Netlify UI.
 
 If you want to serve your website through `https://{PROJECT_SLUG}.finos.org`, please email [help@finos.org](mailto:help@finos.org). To check a preview, visit https://project-blueprint.finos.org .
 

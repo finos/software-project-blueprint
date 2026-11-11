@@ -1,2 +1,5 @@
+# Documentation site. Node.js comes from website/.node-version.
 [build]
-   ignore = "/bin/false"
+  base = "website"
+  command = "npm ci && npm run build"
+  publish = "build"
