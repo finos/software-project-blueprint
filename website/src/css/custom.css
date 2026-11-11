@@ -14,24 +14,58 @@
   --ifm-color-primary-light: #0093d2;
   --ifm-color-primary-lighter: #009adc;
   --ifm-color-primary-lightest: #00aef8;
-  --ifm-font-color-base: #1C1E21;
-  --ifm-heading-color: #19B6CC;
   --ifm-navbar-background-color: #0086BF;
-  --ifm-navbar-link-color: #FFFFFF;
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-link-hover-color: #ffffff;
   --ifm-navbar-shadow: 0;
   --ifm-footer-background-color: #0086BF;
   --ifm-footer-title-color: #ffffff;
   --ifm-footer-color: #ffffff;
   --ifm-footer-link-color: #ffffff;
+  --ifm-footer-link-hover-color: #ffffff;
   --ifm-code-font-size: 95%;
+}
+
+html[data-theme='light'] {
+  --ifm-font-color-base: #1c1e21;
+  --ifm-heading-color: #19b6cc;
+  --ifm-background-surface-color: #ffffff;
+}
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #5fd4f5;
+  --ifm-color-primary-dark: #33c6ef;
+  --ifm-color-primary-darker: #1abfe8;
+  --ifm-color-primary-darkest: #0e96c0;
+  --ifm-color-primary-light: #7eddf7;
+  --ifm-color-primary-lighter: #9ce5f9;
+  --ifm-color-primary-lightest: #c7f1fc;
+  --ifm-font-color-base: #e6e8eb;
+  --ifm-heading-color: #8fe3ef;
+  --ifm-background-color: #121416;
+  --ifm-background-surface-color: #1c2024;
+  --ifm-navbar-background-color: #064058;
+  --ifm-footer-background-color: #064058;
+  --ifm-toc-border-color: #2c333a;
+  --ifm-hr-background-color: #2c333a;
+}
+
+/* Infima leaves the page background transparent. Paint the surface color so docs stay readable. */
+html {
+  background-color: var(--ifm-background-surface-color);
 }
 
 .navbar__items {
   color: #ffffff;
 }
 
+.navbar-sidebar {
+  --ifm-navbar-link-color: var(--ifm-font-color-base);
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary);
+}
+
 .docusaurus-highlight-code-line {
-  background-color: #0033A0;
+  background-color: rgba(0, 181, 226, 0.18);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
@@ -55,32 +89,30 @@
 .hero--subtitle {
   margin-bottom: 50px;
   font-size: 1.5rem;
+  color: #ffffff;
 }
 
 .row h2 {
   margin-bottom: 30px;
 }
 
-.button.button--secondary {
-  color: white;
+.hero .button.button--secondary {
+  color: #ffffff;
 }
 
-.button.button--secondary.button--outline:not(.button--active):not(:hover) {
-  color: white;
+.hero .button.button--secondary.button--outline:not(.button--active):not(:hover) {
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .row--center h2{
-  color: #29327A;
+  color: var(--ifm-heading-color);
   font-size: 35px;
   font-weight: bolder;
   text-align: center;
   margin-left: 0;
   margin-right: 0;
   width:100%;
-}
-
-span {
-  color: var(#ffffff);
 }
 
 body{

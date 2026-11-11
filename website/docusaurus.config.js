@@ -1,26 +1,30 @@
-// Docs at https://docusaurus.io/blog/releases/3.1
+// Docs at https://docusaurus.io/docs
 
-
-// Replace 'Project Blueprint' with {PROJECT_NAME}
-const projectName = 'Project Blueprint'
-// Replace 'project-blueprint' with {PROJECT_SLUG}
-const projectSlug = 'project-blueprint'
-// Replace 'FINOS' with {NAME_OF_COPYRIGHT_OWNER}
-const copyrightOwner = 'FINOS'
+// Search-and-replace tokens. {PROJECT_SITE_URL} is the real preview URL below
+// because `url` must stay a valid absolute https URL for this blueprint to build.
+// Adopters: replace that value with the project's site URL. See README.md.
+const projectName = '{PROJECT_NAME}'
+const projectSlug = '{PROJECT_SLUG}'
+const copyrightOwner = '{NAME_OF_COPYRIGHT_OWNER}'
+const projectSiteUrl = 'https://project-blueprint.finos.org'
 
 module.exports = {
   title: `FINOS ${projectName}`,
-  tagline: `FINOS ${projectName}`, 
-  url: 'https://finos.org',
+  tagline: `FINOS ${projectName}`,
+  url: projectSiteUrl,
   baseUrl: '/',
   trailingSlash: false,
+  // https://docusaurus.io/docs/api/docusaurus-config#future
+  future: {
+    v4: true,
+  },
+  onBrokenLinks: 'throw',
   favicon: 'img/favicon/favicon-finos.ico',
   projectName: `FINOS ${projectName}`,
   organizationName: 'FINOS',
   customFields: {
     repoUrl: `https://github.com/finos/${projectSlug}`,
   },
-  scripts: ['https://buttons.github.io/buttons.js'],
   stylesheets: ['https://fonts.googleapis.com/css?family=Overpass:400,400i,700'],
   themeConfig: {
     navbar: {
@@ -34,7 +38,7 @@ module.exports = {
         {to: 'docs/roadmap', label: 'Roadmap', position: 'right'},
         {to: 'docs/team', label: 'Team', position: 'right'},
         {
-          href: 'https://github.com/finos/',
+          href: `https://github.com/finos/${projectSlug}`,
           label: 'GitHub',
           position: 'right',
         }
@@ -42,14 +46,14 @@ module.exports = {
     },
     metadata: [
       {name: 'description', content: 'FINOS project documentation website blueprint.'},
-      {property: 'og:title', content: 'FINOS Project Blueprint'},
+      {property: 'og:title', content: `FINOS ${projectName}`},
       {property: 'og:description', content: 'FINOS project documentation website blueprint.'},
-      {property: 'og:image', content: 'https://raw.githubusercontent.com/finos/software-project-blueprint/main/website/static/img/feature/feature-img.png'},
-      {property: 'og:url', content: 'https://project-blueprint.finos.org/'},
+      {property: 'og:image', content: `https://raw.githubusercontent.com/finos/${projectSlug}/main/website/static/img/feature/feature-img.png`},
+      {property: 'og:url', content: `${projectSiteUrl}/`},
       {name: 'twitter:card', content: 'summary_large_image'},
-      {name: 'twitter:title', content: 'FINOS Project Blueprint'},
+      {name: 'twitter:title', content: `FINOS ${projectName}`},
       {name: 'twitter:description', content: 'FINOS project documentation website blueprint.'},
-      {name: 'twitter:image', content: 'https://raw.githubusercontent.com/finos/software-project-blueprint/main/website/static/img/feature/feature-img.png'},
+      {name: 'twitter:image', content: `https://raw.githubusercontent.com/finos/${projectSlug}/main/website/static/img/feature/feature-img.png`},
     ],
     footer: {
       copyright: `Copyright © ${new Date().getFullYear()} ${projectName} - ${copyrightOwner}`,
@@ -81,15 +85,15 @@ module.exports = {
           items: [
             {
               label: 'FINOS Website',
-              to: 'https://www.finos.org/',
+              href: 'https://www.finos.org/',
             },
             {
               label: 'Community Handbook',
-              to: 'https://community.finos.org/',
+              href: 'https://community.finos.org/',
             },
             {
               label: 'FINOS Projects',
-              to: 'https://landscape.finos.org',
+              href: 'https://landscape.finos.org',
             }
           ]
         },
@@ -98,15 +102,15 @@ module.exports = {
           items: [
             {
               label: 'FINOS Projects on GitHub',
-              to: 'https://github.com/finos',
+              href: 'https://github.com/finos',
             },
             {
               label: 'Engage the FINOS Community',
-              to: 'https://www.finos.org/engage-with-our-community',
+              href: 'https://www.finos.org/engage-with-our-community',
             },
             {
               label: 'FINOS News and Events',
-              to: 'https://www.finos.org/news-and-events',
+              href: 'https://www.finos.org/news-and-events',
             }
           ]
         },
@@ -119,10 +123,16 @@ module.exports = {
       {
         docs: {
           path: '../docs',
-          editUrl:
-            'https://github.com/finos/${projectSlug}/edit/master/website/',
+          editUrl: ({versionDocsDirPath, docPath}) => {
+            // versionDocsDirPath is relative to website/ (../docs). Drop the
+            // leading ../ so the GitHub path is docs/<file> on the main branch.
+            const repoDir = versionDocsDirPath.replace(/^\.\.\//, '');
+            return `https://github.com/finos/${projectSlug}/edit/main/${repoDir}/${docPath}`;
+          },
           sidebarPath: require.resolve('./sidebars.js')
         },
+        // This blueprint has no blog. Remove this line and add a blog/ directory to enable one.
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         }

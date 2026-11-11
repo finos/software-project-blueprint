@@ -12,6 +12,7 @@ import { featuresTwo } from '../components/featuresTwo-config';
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
+  const repoUrl = siteConfig.customFields.repoUrl;
   return (
     <Layout
       title={`${siteConfig.title}`}
@@ -26,7 +27,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to={'https://finos.org/'}>
+              to={'/docs/home'}>
               GET STARTED
             </Link>
             <Link
@@ -34,7 +35,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to={'https://github.com/finos'}>
+              href={repoUrl}>
               GITHUB
             </Link>
           </div>
@@ -56,7 +57,7 @@ function Home() {
           <section className={styles.members}>
             <div className="container">
               <div className="row row--center">
-                <h2></h2>
+                <h2>Start here</h2>
               </div>
               <div className="row">
                 {featuresTwo.map((props, idx) => (

@@ -1,61 +1,60 @@
-[![FINOS - Incubating](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-incubating.svg)](https://community.finos.org/docs/governance/lifecycle-stages/incubating)
+<!--
+Lifecycle badge: this example is Incubating. Change "incubating" in the image
+file name and in the link to the project's current stage. Images are pinned to
+finos/contrib-toolbox commit 8ba70da9a3103e791391156355096721089c751a:
+badge-labs, badge-incubating, badge-active, badge-archived, badge-forming,
+badge-graduated, badge-operating, badge-paused, badge-released.
+-->
+
+[![FINOS - Incubating](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@8ba70da9a3103e791391156355096721089c751a/images/badge-incubating.svg)](https://community.finos.org/docs/governance/lifecycle-stages/incubating)
 
 # {PROJECT_NAME}
 
-Short blurb about what your project does.
+One or two sentences on what {PROJECT_NAME} does and who it is for.
 
 ## Installation
 
-OS X & Linux:
+Describe how to install the project. Replace this section with the commands you actually support.
 
 ```sh
-npm install my-crazy-module --save
+npm install {PROJECT_SLUG}
 ```
 
-Windows:
+## Usage
 
-```sh
-edit autoexec.bat
-```
-
-## Usage example
-
-A few motivating and useful examples of how your project can be used. Spice this up with code blocks and potentially screenshots / videos ([LiceCap](https://www.cockos.com/licecap/) is great for this kind of thing).
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
+Show the smallest useful example. Link to the docs for anything longer.
 
 ## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+Describe how to install development dependencies and run the tests.
 
 ```sh
-make install
+npm install
 npm test
 ```
 
 ## Roadmap
 
-List the roadmap steps; alternatively link the Confluence Wiki page where the project roadmap is published.
-
-1. Item 1
-2. Item 2
-3. ....
+Summarize the near-term plan, or link to the roadmap in the project docs.
 
 ## Contributing
-For any questions, bugs or feature requests please open an [issue](https://github.com/finos/{PROJECT_SLUG}/issues)
-For anything else please send an email to {PROJECT_MAILING_LIST}.
+
+Questions, bugs, and feature requests: open an [issue](https://github.com/finos/{PROJECT_SLUG}/issues).
+
+Other questions: email {PROJECT_MAILING_LIST}.
 
 To submit a contribution:
-1. Fork it (<https://github.com/finos/{PROJECT_SLUG}/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Read our [contribution guidelines](CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
-4. Commit your changes (`git commit -am 'Add some fooBar'`)
-5. Push to the branch (`git push origin feature/fooBar`)
-6. Create a new Pull Request
 
-_NOTE:_ Pull requests must follow this repository’s contribution policy. FINOS projects typically use **DCO** (signed commits) and/or **CLA** via [EasyCLA](https://community.finos.org/docs/governance/Software-Projects/easycla), depending on configuration. Read [FINOS Contribution Requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements) and the [Technical Charter](technical-charter.pdf) example referenced from [CONTRIBUTING.md](CONTRIBUTING.md) before contributing.
+1. Fork the repository (<https://github.com/finos/{PROJECT_SLUG}/fork>).
+2. Create a branch (`git checkout -b feature/my-change`).
+3. Read the [contribution guidelines](CONTRIBUTING.md) and the [Community Code of Conduct](https://community.finos.org/docs/governance/code-of-conduct).
+4. Commit with a DCO sign-off (`git commit -s -m "Add my change"`).
+5. Push the branch (`git push origin feature/my-change`).
+6. Open a pull request.
 
-*Questions about CLA, DCO, or EasyCLA? Email [help@finos.org](mailto:help@finos.org)*
+Pull requests must follow this repository’s contribution policy. FINOS projects use **DCO** sign-off (`Signed-off-by`) and may also use a **CLA** via [EasyCLA](https://community.finos.org/docs/governance/Software-Projects/easycla). Read [FINOS Contribution Requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements) and the [Technical Charter](technical-charter.pdf) linked from [CONTRIBUTING.md](CONTRIBUTING.md) before contributing.
+
+Questions about CLA, DCO, or EasyCLA: email [help@finos.org](mailto:help@finos.org).
 
 ## License
 
